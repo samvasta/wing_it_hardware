@@ -1,0 +1,9 @@
+[submodule "pcb/kicad_resources"]
+	path = pcb/kicad_resources
+	url = https://github.com/samvasta/kicad_resources
+[submodule "pcb/kicad_lib_tmk"]
+	path = pcb/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "pcb/keebio"]
+	path = pcb/keebio
+	url = https://github.com/keebio/Keebio-Parts.pretty

@@ -163,7 +163,7 @@ U 1 1 5D9E6DF7
 P 4100 4700
 F 0 "K52" H 4100 5039 60  0000 C CNN
 F 1 "KEYSW" H 4100 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 4100 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 4100 4933 60  0000 C CNN
 F 3 "" H 4100 4700 60  0000 C CNN
 	1    4100 4700
 	-1   0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 5D9DF2CF
 P 2850 5300
 F 0 "K61" H 2850 5639 60  0000 C CNN
 F 1 "KEYSW" H 2850 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2850 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2850 5533 60  0000 C CNN
 F 3 "" H 2850 5300 60  0000 C CNN
 	1    2850 5300
 	-1   0    0    -1  
@@ -207,7 +207,7 @@ U 1 1 5D9DF2D9
 P 2850 5900
 F 0 "K71" H 2850 6239 60  0000 C CNN
 F 1 "KEYSW" H 2850 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2850 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2850 6133 60  0000 C CNN
 F 3 "" H 2850 5900 60  0000 C CNN
 	1    2850 5900
 	-1   0    0    -1  
@@ -218,7 +218,7 @@ U 1 1 5D9E6DED
 P 4100 4100
 F 0 "K42" H 4100 4439 60  0000 C CNN
 F 1 "KEYSW" H 4100 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 4100 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 4100 4333 60  0000 C CNN
 F 3 "" H 4100 4100 60  0000 C CNN
 	1    4100 4100
 	-1   0    0    -1  
@@ -229,7 +229,7 @@ U 1 1 5D9E6E01
 P 4100 5300
 F 0 "K62" H 4100 5639 60  0000 C CNN
 F 1 "KEYSW" H 4100 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 4100 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 4100 5533 60  0000 C CNN
 F 3 "" H 4100 5300 60  0000 C CNN
 	1    4100 5300
 	-1   0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5D9E6E0B
 P 4100 5900
 F 0 "K72" H 4100 6239 60  0000 C CNN
 F 1 "KEYSW" H 4100 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 4100 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 4100 6133 60  0000 C CNN
 F 3 "" H 4100 5900 60  0000 C CNN
 	1    4100 5900
 	-1   0    0    -1  
@@ -251,7 +251,7 @@ U 1 1 5D9E6E3D
 P 5300 4100
 F 0 "K43" H 5300 4439 60  0000 C CNN
 F 1 "KEYSW" H 5300 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5300 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5300 4333 60  0000 C CNN
 F 3 "" H 5300 4100 60  0000 C CNN
 	1    5300 4100
 	-1   0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 5D9E6E47
 P 5300 4700
 F 0 "K53" H 5300 5039 60  0000 C CNN
 F 1 "KEYSW" H 5300 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5300 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5300 4933 60  0000 C CNN
 F 3 "" H 5300 4700 60  0000 C CNN
 	1    5300 4700
 	-1   0    0    -1  
@@ -273,7 +273,7 @@ U 1 1 5D9E6E51
 P 5300 5300
 F 0 "K63" H 5300 5639 60  0000 C CNN
 F 1 "KEYSW" H 5300 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5300 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5300 5533 60  0000 C CNN
 F 3 "" H 5300 5300 60  0000 C CNN
 	1    5300 5300
 	-1   0    0    -1  
@@ -284,7 +284,7 @@ U 1 1 5D9E6E5B
 P 5300 5900
 F 0 "K73" H 5300 6239 60  0000 C CNN
 F 1 "KEYSW" H 5300 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5300 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5300 6133 60  0000 C CNN
 F 3 "" H 5300 5900 60  0000 C CNN
 	1    5300 5900
 	-1   0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 5D9EE171
 P 6550 4100
 F 0 "K44" H 6550 4439 60  0000 C CNN
 F 1 "KEYSW" H 6550 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6550 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6550 4333 60  0000 C CNN
 F 3 "" H 6550 4100 60  0000 C CNN
 	1    6550 4100
 	-1   0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 5D9EE17B
 P 6550 4700
 F 0 "K54" H 6550 5039 60  0000 C CNN
 F 1 "KEYSW" H 6550 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6550 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6550 4933 60  0000 C CNN
 F 3 "" H 6550 4700 60  0000 C CNN
 	1    6550 4700
 	-1   0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 5D9EE185
 P 6550 5300
 F 0 "K64" H 6550 5639 60  0000 C CNN
 F 1 "KEYSW" H 6550 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6550 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6550 5533 60  0000 C CNN
 F 3 "" H 6550 5300 60  0000 C CNN
 	1    6550 5300
 	-1   0    0    -1  
@@ -328,7 +328,7 @@ U 1 1 5D9EE18F
 P 6550 5900
 F 0 "K74" H 6550 6239 60  0000 C CNN
 F 1 "KEYSW" H 6550 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6550 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6550 6133 60  0000 C CNN
 F 3 "" H 6550 5900 60  0000 C CNN
 	1    6550 5900
 	-1   0    0    -1  
@@ -339,7 +339,7 @@ U 1 1 5D9EE1CB
 P 7800 4700
 F 0 "K55" H 7800 5039 60  0000 C CNN
 F 1 "KEYSW" H 7800 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7800 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7800 4933 60  0000 C CNN
 F 3 "" H 7800 4700 60  0000 C CNN
 	1    7800 4700
 	-1   0    0    -1  
@@ -350,7 +350,7 @@ U 1 1 5D9EE1D5
 P 7800 5300
 F 0 "K65" H 7800 5639 60  0000 C CNN
 F 1 "KEYSW" H 7800 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7800 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7800 5533 60  0000 C CNN
 F 3 "" H 7800 5300 60  0000 C CNN
 	1    7800 5300
 	-1   0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 5D9EE1DF
 P 7800 5900
 F 0 "K75" H 7800 6239 60  0000 C CNN
 F 1 "KEYSW" H 7800 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7800 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7800 6133 60  0000 C CNN
 F 3 "" H 7800 5900 60  0000 C CNN
 	1    7800 5900
 	-1   0    0    -1  
@@ -372,7 +372,7 @@ U 1 1 5D9EE261
 P 10300 4100
 F 0 "K47" H 10300 4439 60  0000 C CNN
 F 1 "KEYSW" H 10300 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 4333 60  0000 C CNN
 F 3 "" H 10300 4100 60  0000 C CNN
 	1    10300 4100
 	-1   0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 5D9EE26B
 P 10300 4700
 F 0 "K57" H 10300 5039 60  0000 C CNN
 F 1 "KEYSW" H 10300 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 4933 60  0000 C CNN
 F 3 "" H 10300 4700 60  0000 C CNN
 	1    10300 4700
 	-1   0    0    -1  
@@ -394,7 +394,7 @@ U 1 1 5D9EE275
 P 10300 5300
 F 0 "K67" H 10300 5639 60  0000 C CNN
 F 1 "KEYSW" H 10300 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 5533 60  0000 C CNN
 F 3 "" H 10300 5300 60  0000 C CNN
 	1    10300 5300
 	-1   0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 5D9EE27F
 P 10300 5900
 F 0 "K77" H 10300 6239 60  0000 C CNN
 F 1 "KEYSW" H 10300 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 6133 60  0000 C CNN
 F 3 "" H 10300 5900 60  0000 C CNN
 	1    10300 5900
 	-1   0    0    -1  
@@ -416,7 +416,7 @@ U 1 1 5D9DD599
 P 1600 5900
 F 0 "K70" H 1600 6239 60  0000 C CNN
 F 1 "KEYSW" H 1600 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1600 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1600 6133 60  0000 C CNN
 F 3 "" H 1600 5900 60  0000 C CNN
 	1    1600 5900
 	-1   0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 5D9DD58F
 P 1600 5300
 F 0 "K60" H 1600 5639 60  0000 C CNN
 F 1 "KEYSW" H 1600 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1600 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1600 5533 60  0000 C CNN
 F 3 "" H 1600 5300 60  0000 C CNN
 	1    1600 5300
 	-1   0    0    -1  
@@ -585,7 +585,7 @@ U 1 1 5D9EE211
 P 9050 4100
 F 0 "K46" H 9050 4439 60  0000 C CNN
 F 1 "KEYSW" H 9050 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 9050 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 9050 4333 60  0000 C CNN
 F 3 "" H 9050 4100 60  0000 C CNN
 	1    9050 4100
 	-1   0    0    -1  
@@ -596,7 +596,7 @@ U 1 1 5D9EE21B
 P 9050 4700
 F 0 "K56" H 9050 5039 60  0000 C CNN
 F 1 "KEYSW" H 9050 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 9050 4933 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 9050 4933 60  0000 C CNN
 F 3 "" H 9050 4700 60  0000 C CNN
 	1    9050 4700
 	-1   0    0    -1  
@@ -607,7 +607,7 @@ U 1 1 5D9EE225
 P 9050 5300
 F 0 "K66" H 9050 5639 60  0000 C CNN
 F 1 "KEYSW" H 9050 5200 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 9050 5533 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 9050 5533 60  0000 C CNN
 F 3 "" H 9050 5300 60  0000 C CNN
 	1    9050 5300
 	-1   0    0    -1  
@@ -618,7 +618,7 @@ U 1 1 5D9EE22F
 P 9050 5900
 F 0 "K76" H 9050 6239 60  0000 C CNN
 F 1 "KEYSW" H 9050 5800 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 9050 6133 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 9050 6133 60  0000 C CNN
 F 3 "" H 9050 5900 60  0000 C CNN
 	1    9050 5900
 	-1   0    0    -1  
@@ -659,7 +659,7 @@ U 1 1 5D9EE1C1
 P 7800 4100
 F 0 "K45" H 7800 4439 60  0000 C CNN
 F 1 "KEYSW" H 7800 4000 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7800 4333 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7800 4333 60  0000 C CNN
 F 3 "" H 7800 4100 60  0000 C CNN
 	1    7800 4100
 	-1   0    0    -1  
@@ -734,7 +734,7 @@ U 1 1 5D9DB0DF
 P 1400 1150
 F 0 "K00" H 1400 1489 60  0000 C CNN
 F 1 "KEYSW" H 1400 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1400 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1400 1383 60  0000 C CNN
 F 3 "" H 1400 1150 60  0000 C CNN
 	1    1400 1150
 	-1   0    0    -1  
@@ -745,7 +745,7 @@ U 1 1 5D9DB6D9
 P 1400 1750
 F 0 "K10" H 1400 2089 60  0000 C CNN
 F 1 "KEYSW" H 1400 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1400 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1400 1983 60  0000 C CNN
 F 3 "" H 1400 1750 60  0000 C CNN
 	1    1400 1750
 	-1   0    0    -1  
@@ -756,7 +756,7 @@ U 1 1 5D9DC901
 P 1400 2350
 F 0 "K20" H 1400 2689 60  0000 C CNN
 F 1 "KEYSW" H 1400 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1400 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1400 2583 60  0000 C CNN
 F 3 "" H 1400 2350 60  0000 C CNN
 	1    1400 2350
 	-1   0    0    -1  
@@ -767,7 +767,7 @@ U 1 1 5D9EE167
 P 6450 2950
 F 0 "K34" H 6450 3289 60  0000 C CNN
 F 1 "KEYSW" H 6450 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6450 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6450 3183 60  0000 C CNN
 F 3 "" H 6450 2950 60  0000 C CNN
 	1    6450 2950
 	-1   0    0    -1  
@@ -778,7 +778,7 @@ U 1 1 5D9EE15D
 P 6450 2350
 F 0 "K24" H 6450 2689 60  0000 C CNN
 F 1 "KEYSW" H 6450 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6450 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6450 2583 60  0000 C CNN
 F 3 "" H 6450 2350 60  0000 C CNN
 	1    6450 2350
 	-1   0    0    -1  
@@ -789,7 +789,7 @@ U 1 1 5D9EE153
 P 6450 1750
 F 0 "K14" H 6450 2089 60  0000 C CNN
 F 1 "KEYSW" H 6450 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6450 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6450 1983 60  0000 C CNN
 F 3 "" H 6450 1750 60  0000 C CNN
 	1    6450 1750
 	-1   0    0    -1  
@@ -800,7 +800,7 @@ U 1 1 5D9EE149
 P 6450 1150
 F 0 "K04" H 6450 1489 60  0000 C CNN
 F 1 "KEYSW" H 6450 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 6450 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 6450 1383 60  0000 C CNN
 F 3 "" H 6450 1150 60  0000 C CNN
 	1    6450 1150
 	-1   0    0    -1  
@@ -811,7 +811,7 @@ U 1 1 5D9E6E33
 P 5150 2950
 F 0 "K33" H 5150 3289 60  0000 C CNN
 F 1 "KEYSW" H 5150 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5150 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5150 3183 60  0000 C CNN
 F 3 "" H 5150 2950 60  0000 C CNN
 	1    5150 2950
 	-1   0    0    -1  
@@ -822,7 +822,7 @@ U 1 1 5D9E6E29
 P 5150 2350
 F 0 "K23" H 5150 2689 60  0000 C CNN
 F 1 "KEYSW" H 5150 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5150 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5150 2583 60  0000 C CNN
 F 3 "" H 5150 2350 60  0000 C CNN
 	1    5150 2350
 	-1   0    0    -1  
@@ -833,7 +833,7 @@ U 1 1 5D9E6E1F
 P 5150 1750
 F 0 "K13" H 5150 2089 60  0000 C CNN
 F 1 "KEYSW" H 5150 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5150 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5150 1983 60  0000 C CNN
 F 3 "" H 5150 1750 60  0000 C CNN
 	1    5150 1750
 	-1   0    0    -1  
@@ -844,7 +844,7 @@ U 1 1 5D9E6E15
 P 5150 1150
 F 0 "K03" H 5150 1489 60  0000 C CNN
 F 1 "KEYSW" H 5150 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 5150 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 5150 1383 60  0000 C CNN
 F 3 "" H 5150 1150 60  0000 C CNN
 	1    5150 1150
 	-1   0    0    -1  
@@ -855,7 +855,7 @@ U 1 1 5D9E6DE3
 P 3900 2950
 F 0 "K32" H 3900 3289 60  0000 C CNN
 F 1 "KEYSW" H 3900 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 3900 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 3900 3183 60  0000 C CNN
 F 3 "" H 3900 2950 60  0000 C CNN
 	1    3900 2950
 	-1   0    0    -1  
@@ -866,7 +866,7 @@ U 1 1 5D9E6DD9
 P 3900 2350
 F 0 "K22" H 3900 2689 60  0000 C CNN
 F 1 "KEYSW" H 3900 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 3900 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 3900 2583 60  0000 C CNN
 F 3 "" H 3900 2350 60  0000 C CNN
 	1    3900 2350
 	-1   0    0    -1  
@@ -877,7 +877,7 @@ U 1 1 5D9E6DCF
 P 3900 1750
 F 0 "K12" H 3900 2089 60  0000 C CNN
 F 1 "KEYSW" H 3900 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 3900 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 3900 1983 60  0000 C CNN
 F 3 "" H 3900 1750 60  0000 C CNN
 	1    3900 1750
 	-1   0    0    -1  
@@ -888,7 +888,7 @@ U 1 1 5D9E6DC5
 P 3900 1150
 F 0 "K02" H 3900 1489 60  0000 C CNN
 F 1 "KEYSW" H 3900 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 3900 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 3900 1383 60  0000 C CNN
 F 3 "" H 3900 1150 60  0000 C CNN
 	1    3900 1150
 	-1   0    0    -1  
@@ -899,7 +899,7 @@ U 1 1 5D9DF2B1
 P 2650 2950
 F 0 "K31" H 2650 3289 60  0000 C CNN
 F 1 "KEYSW" H 2650 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2650 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2650 3183 60  0000 C CNN
 F 3 "" H 2650 2950 60  0000 C CNN
 	1    2650 2950
 	-1   0    0    -1  
@@ -910,7 +910,7 @@ U 1 1 5D9DF2A7
 P 2650 2350
 F 0 "K21" H 2650 2689 60  0000 C CNN
 F 1 "KEYSW" H 2650 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2650 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2650 2583 60  0000 C CNN
 F 3 "" H 2650 2350 60  0000 C CNN
 	1    2650 2350
 	-1   0    0    -1  
@@ -921,7 +921,7 @@ U 1 1 5D9DF29D
 P 2650 1750
 F 0 "K11" H 2650 2089 60  0000 C CNN
 F 1 "KEYSW" H 2650 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2650 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2650 1983 60  0000 C CNN
 F 3 "" H 2650 1750 60  0000 C CNN
 	1    2650 1750
 	-1   0    0    -1  
@@ -932,7 +932,7 @@ U 1 1 5D9DF293
 P 2650 1150
 F 0 "K01" H 2650 1489 60  0000 C CNN
 F 1 "KEYSW" H 2650 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 2650 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 2650 1383 60  0000 C CNN
 F 3 "" H 2650 1150 60  0000 C CNN
 	1    2650 1150
 	-1   0    0    -1  
@@ -1193,7 +1193,7 @@ U 1 1 5D9EE257
 P 10300 2950
 F 0 "K37" H 10300 3289 60  0000 C CNN
 F 1 "KEYSW" H 10300 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 3183 60  0000 C CNN
 F 3 "" H 10300 2950 60  0000 C CNN
 	1    10300 2950
 	-1   0    0    -1  
@@ -1215,7 +1215,7 @@ U 1 1 5D9DC90B
 P 1400 2950
 F 0 "K30" H 1400 3289 60  0000 C CNN
 F 1 "KEYSW" H 1400 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 1400 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 1400 3183 60  0000 C CNN
 F 3 "" H 1400 2950 60  0000 C CNN
 	1    1400 2950
 	-1   0    0    -1  
@@ -1270,7 +1270,7 @@ U 1 1 5D9EE199
 P 7700 1150
 F 0 "K05" H 7700 1489 60  0000 C CNN
 F 1 "KEYSW" H 7700 1050 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7700 1383 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7700 1383 60  0000 C CNN
 F 3 "" H 7700 1150 60  0000 C CNN
 	1    7700 1150
 	-1   0    0    -1  
@@ -1281,7 +1281,7 @@ U 1 1 5D9EE1A3
 P 7700 1750
 F 0 "K15" H 7700 2089 60  0000 C CNN
 F 1 "KEYSW" H 7700 1650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7700 1983 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7700 1983 60  0000 C CNN
 F 3 "" H 7700 1750 60  0000 C CNN
 	1    7700 1750
 	-1   0    0    -1  
@@ -1292,7 +1292,7 @@ U 1 1 5D9EE1AD
 P 7700 2350
 F 0 "K25" H 7700 2689 60  0000 C CNN
 F 1 "KEYSW" H 7700 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7700 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7700 2583 60  0000 C CNN
 F 3 "" H 7700 2350 60  0000 C CNN
 	1    7700 2350
 	-1   0    0    -1  
@@ -1303,7 +1303,7 @@ U 1 1 5D9EE1B7
 P 7700 2950
 F 0 "K35" H 7700 3289 60  0000 C CNN
 F 1 "KEYSW" H 7700 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 7700 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 7700 3183 60  0000 C CNN
 F 3 "" H 7700 2950 60  0000 C CNN
 	1    7700 2950
 	-1   0    0    -1  
@@ -1314,7 +1314,7 @@ U 1 1 5D9EE1FD
 P 8950 2350
 F 0 "K26" H 8950 2689 60  0000 C CNN
 F 1 "KEYSW" H 8950 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 8950 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 8950 2583 60  0000 C CNN
 F 3 "" H 8950 2350 60  0000 C CNN
 	1    8950 2350
 	-1   0    0    -1  
@@ -1325,7 +1325,7 @@ U 1 1 5D9EE207
 P 8950 2950
 F 0 "K36" H 8950 3289 60  0000 C CNN
 F 1 "KEYSW" H 8950 2850 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 8950 3183 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 8950 3183 60  0000 C CNN
 F 3 "" H 8950 2950 60  0000 C CNN
 	1    8950 2950
 	-1   0    0    -1  
@@ -1349,7 +1349,7 @@ U 1 1 5D9EE24D
 P 10300 2350
 F 0 "K27" H 10300 2689 60  0000 C CNN
 F 1 "KEYSW" H 10300 2250 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_via_on_pin_one" H 10300 2583 60  0000 C CNN
+F 2 "SVastaCustomParts:Kailh_socket_via_on_pin_one" H 10300 2583 60  0000 C CNN
 F 3 "" H 10300 2350 60  0000 C CNN
 	1    10300 2350
 	-1   0    0    -1  
