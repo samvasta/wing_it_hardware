@@ -626,9 +626,9 @@ L SVastaCustomParts:CD74AC138E U2
 U 1 1 5D82335E
 P 1850 6200
 F 0 "U2" H 1400 5350 50  0000 C CNN
-F 1 "CD74AC138E" H 1350 5250 50  0000 C CNN
-F 2 "SVastaCustomParts:CD74AC151_DIP-16" H 1850 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74ac138.pdf" H 1850 6200 50  0001 C CNN
+F 1 "SN74HC138D‎" H 1350 5250 50  0000 C CNN
+F 2 "SVastaCustomParts:SN74HC_package_d_soic" H 1850 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc138.pdf" H 1850 6200 50  0001 C CNN
 	1    1850 6200
 	1    0    0    -1  
 $EndComp
@@ -680,11 +680,11 @@ F 3 "" H 4650 5900 60  0000 C CNN
 	1    4650 5900
 	-1   0    0    1   
 $EndComp
-Text GLabel 1300 6350 0    50   Input ~ 0
+Text GLabel 4850 7600 2    50   Input ~ 0
 ColSelectA
-Text GLabel 1300 6450 0    50   Input ~ 0
+Text GLabel 4850 7500 2    50   Input ~ 0
 ColSelectB
-Text GLabel 1300 6550 0    50   Input ~ 0
+Text GLabel 4850 7400 2    50   Input ~ 0
 ColSelectC
 Wire Wire Line
 	1500 6350 1300 6350
@@ -842,7 +842,7 @@ RST
 Text Label 9550 4500 0    50   ~ 0
 RST
 Text GLabel 6850 2650 2    50   Input ~ 0
-RowValue
+ColValue
 Text Label 9550 4350 0    50   ~ 0
 IRQ
 Text Label 4550 3450 2    50   ~ 0
@@ -854,11 +854,11 @@ Wire Wire Line
 	6700 3050 6850 3050
 Wire Wire Line
 	6850 2950 6700 2950
-Text GLabel 6850 2950 2    50   Input ~ 0
-ColSelectC
 Text GLabel 6850 3050 2    50   Input ~ 0
+ColSelectC
+Text GLabel 6850 2950 2    50   Input ~ 0
 ColSelectB
-Text GLabel 6850 3150 2    50   Input ~ 0
+Text GLabel 6850 2750 2    50   Input ~ 0
 ColSelectA
 Wire Wire Line
 	6700 2850 6850 2850
@@ -990,28 +990,6 @@ Wire Wire Line
 Connection ~ 1600 4200
 Wire Wire Line
 	1600 4200 1600 4500
-$Sheet
-S 2600 6300 750  850 
-U 5D9DA1AD
-F0 "SwitchMatrix" 50
-F1 "SwitchMatrix.sch" 50
-F2 "Row1" O R 3350 6950 50 
-F3 "Row2" O R 3350 6850 50 
-F4 "Row3" O R 3350 6750 50 
-F5 "Row7" O R 3350 6650 50 
-F6 "Row6" O R 3350 6550 50 
-F7 "Row5" O R 3350 6450 50 
-F8 "Row4" O R 3350 6350 50 
-F9 "Col0" I L 2600 6350 50 
-F10 "Col2" I L 2600 6550 50 
-F11 "Col1" I L 2600 6450 50 
-F12 "Col3" I L 2600 6650 50 
-F13 "Col4" I L 2600 6750 50 
-F14 "Col5" I L 2600 6850 50 
-F15 "Col6" I L 2600 6950 50 
-F16 "Col7" I L 2600 7050 50 
-F17 "Row0" O R 3350 7050 50 
-$EndSheet
 $Comp
 L Device:C_Small C8
 U 1 1 5DA00499
@@ -1091,7 +1069,7 @@ Wire Notes Line
 	700  5050 700  7750
 Wire Notes Line
 	5350 5200 5350 7750
-Text GLabel 1950 7600 0    50   Input ~ 0
+Text GLabel 4100 7600 0    50   Input ~ 0
 ColEnable
 $Comp
 L Keyboard_Parts:GND #PWR01
@@ -1119,7 +1097,7 @@ Wire Wire Line
 	1950 7600 2000 7600
 Wire Wire Line
 	2000 7600 2000 7350
-Text GLabel 4100 7600 0    50   Input ~ 0
+Text GLabel 1950 7600 0    50   Input ~ 0
 RowEnable
 Wire Wire Line
 	4100 7600 4150 7600
@@ -1162,9 +1140,9 @@ L SVastaCustomParts:CD74AC151E U3
 U 1 1 5D824156
 P 4300 6200
 F 0 "U3" H 4600 5400 50  0000 L CNN
-F 1 "CD74AC151E" H 4600 5300 50  0000 L CNN
-F 2 "SVastaCustomParts:CD74AC151_DIP-16" H 4300 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74ac151.pdf" H 4300 6200 50  0001 C CNN
+F 1 "SN74HC251" H 4600 5300 50  0000 L CNN
+F 2 "SVastaCustomParts:SN74HC_package_d_soic" H 4300 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc251.pdf" H 4300 6200 50  0001 C CNN
 	1    4300 6200
 	1    0    0    -1  
 $EndComp
@@ -1279,7 +1257,7 @@ F 3 "~" H 4250 5700 50  0001 C CNN
 	1    4250 5700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6850 2750 2    50   Input ~ 0
+Text GLabel 6850 3150 2    50   Input ~ 0
 RowEnable
 Text GLabel 6850 2850 2    50   Input ~ 0
 ColEnable
@@ -1437,14 +1415,14 @@ F 3 "~" H 10300 5750 50  0001 C CNN
 	1    10300 5750
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4850 7600 2    50   Input ~ 0
+Text GLabel 1300 6350 0    50   Input ~ 0
 RowSelectA
-Text GLabel 4850 7500 2    50   Input ~ 0
+Text GLabel 1300 6450 0    50   Input ~ 0
 RowSelectB
-Text GLabel 4850 7400 2    50   Input ~ 0
+Text GLabel 1300 6550 0    50   Input ~ 0
 RowSelectC
 Text GLabel 4850 6350 2    50   Input ~ 0
-RowValue
+ColValue
 Wire Wire Line
 	3700 4850 3800 4850
 $Comp
@@ -1503,4 +1481,26 @@ Wire Wire Line
 	6700 3950 7300 3950
 Wire Wire Line
 	7300 4050 6700 4050
+$Sheet
+S 2600 6300 750  850 
+U 5D9DA1AD
+F0 "SwitchMatrix" 50
+F1 "SwitchMatrix.sch" 50
+F2 "Row0" I L 2600 6350 50 
+F3 "Row7" I L 2600 7050 50 
+F4 "Row6" I L 2600 6950 50 
+F5 "Row5" I L 2600 6850 50 
+F6 "Row4" I L 2600 6750 50 
+F7 "Col7" O R 3350 7050 50 
+F8 "Row1" I L 2600 6450 50 
+F9 "Row2" I L 2600 6550 50 
+F10 "Row3" I L 2600 6650 50 
+F11 "Col0" O R 3350 6350 50 
+F12 "Col1" O R 3350 6450 50 
+F13 "Col2" O R 3350 6550 50 
+F14 "Col3" O R 3350 6650 50 
+F15 "Col4" O R 3350 6750 50 
+F16 "Col5" O R 3350 6850 50 
+F17 "Col6" O R 3350 6950 50 
+$EndSheet
 $EndSCHEMATC

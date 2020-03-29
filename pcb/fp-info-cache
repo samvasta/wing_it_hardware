@@ -1,4 +1,4 @@
-16809377705126601
+16814146930419176
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -68411,6 +68411,13 @@ SVastaCustomParts
 4
 4
 SVastaCustomParts
+400BWMSP1R2BLKSM6QE‎_rocker_switch
+SPDT On-On rocker switch - up to 3A
+
+0
+5
+3
+SVastaCustomParts
 ACSC04-7SegDisplay_Kingbright
 7 Segment Display by Kingbright
 
@@ -68536,6 +68543,13 @@ S201031MS02Q
 0
 2
 2
+SVastaCustomParts
+SN74HC_package_d_soic
+Texas Instruments Mux/Demux series SN74HC package D (SOIC)
+
+0
+16
+16
 SVastaCustomParts
 STC3100IST
 
@@ -75070,6 +75084,13 @@ MX,cherry,gateron,kailh,pg1511,socket
 keyswitches
 Kailh_socket_reversible
 MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_via_on_pin_one
+MX-style keyswitch with Kailh socket mount
 MX,cherry,gateron,kailh,pg1511,socket
 0
 4

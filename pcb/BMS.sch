@@ -618,8 +618,8 @@ U 1 1 5DAE2C2A
 P 4800 1100
 F 0 "SW2" H 4800 1385 50  0000 C CNN
 F 1 "SW_SPDT" H 4800 1294 50  0000 C CNN
-F 2 "SVastaCustomParts:E-Switch_Toggle_100SP1T1B4M2QE" H 4800 1100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/100SP1T1B4M2QE/EG2355-ND/378824/?itemSeq=306854737" H 4800 1100 50  0001 C CNN
+F 2 "SVastaCustomParts:400BWMSP1R2BLKSM6QE‎_rocker_switch" H 4800 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/400BWMSP1R2BLKSM6QE/EG4336CT-ND/668634/?itemSeq=322026415" H 4800 1100 50  0001 C CNN
 	1    4800 1100
 	1    0    0    -1  
 $EndComp
