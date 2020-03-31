@@ -493,7 +493,7 @@ U 1 1 5DAEE077
 P 3350 1950
 F 0 "D102" V 3304 2029 50  0000 L CNN
 F 1 "D" V 3395 2029 50  0000 L CNN
-F 2 "Keyboard_Parts:D_axial" H 3350 1950 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3350 1950 50  0001 C CNN
 F 3 "~" H 3350 1950 50  0001 C CNN
 	1    3350 1950
 	0    1    1    0   
@@ -508,7 +508,7 @@ U 1 1 5DAF9F52
 P 3700 1100
 F 0 "D101" H 3700 1316 50  0000 C CNN
 F 1 "D" H 3700 1225 50  0000 C CNN
-F 2 "Keyboard_Parts:D_axial" H 3700 1100 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3700 1100 50  0001 C CNN
 F 3 "~" H 3700 1100 50  0001 C CNN
 	1    3700 1100
 	1    0    0    -1  

@@ -1170,89 +1170,89 @@ Connection ~ 4850 5500
 Wire Wire Line
 	4400 5500 4250 5500
 $Comp
-L Device:D D504
+L Device:D D500
 U 1 1 5E87864C
 P 2500 5700
-F 0 "D504" V 2400 5700 50  0000 L CNN
+F 0 "D500" V 2400 5700 50  0000 L CNN
 F 1 "D" V 2500 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2500 5700 50  0001 C CNN
 F 3 "~" H 2500 5700 50  0001 C CNN
 	1    2500 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D505
+L Device:D D501
 U 1 1 5F0F89F1
 P 2750 5700
-F 0 "D505" V 2650 5700 50  0000 L CNN
+F 0 "D501" V 2650 5700 50  0000 L CNN
 F 1 "D" V 2750 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2750 5700 50  0001 C CNN
 F 3 "~" H 2750 5700 50  0001 C CNN
 	1    2750 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D506
+L Device:D D502
 U 1 1 5F111C81
 P 3000 5700
-F 0 "D506" V 2900 5700 50  0000 L CNN
+F 0 "D502" V 2900 5700 50  0000 L CNN
 F 1 "D" V 3000 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3000 5700 50  0001 C CNN
 F 3 "~" H 3000 5700 50  0001 C CNN
 	1    3000 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D507
+L Device:D D503
 U 1 1 5F12AF57
 P 3250 5700
-F 0 "D507" V 3150 5700 50  0000 L CNN
+F 0 "D503" V 3150 5700 50  0000 L CNN
 F 1 "D" V 3250 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3250 5700 50  0001 C CNN
 F 3 "~" H 3250 5700 50  0001 C CNN
 	1    3250 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D503
+L Device:D D504
 U 1 1 5F144174
 P 3500 5700
-F 0 "D503" V 3400 5700 50  0000 L CNN
+F 0 "D504" V 3400 5700 50  0000 L CNN
 F 1 "D" V 3500 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3500 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3500 5700 50  0001 C CNN
 F 3 "~" H 3500 5700 50  0001 C CNN
 	1    3500 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D502
+L Device:D D505
 U 1 1 5F15D38C
 P 3750 5700
-F 0 "D502" V 3650 5700 50  0000 L CNN
+F 0 "D505" V 3650 5700 50  0000 L CNN
 F 1 "D" V 3750 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3750 5700 50  0001 C CNN
 F 3 "~" H 3750 5700 50  0001 C CNN
 	1    3750 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D501
+L Device:D D506
 U 1 1 5F176621
 P 4000 5700
-F 0 "D501" V 3900 5700 50  0000 L CNN
+F 0 "D506" V 3900 5700 50  0000 L CNN
 F 1 "D" V 4000 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4000 5700 50  0001 C CNN
 F 3 "~" H 4000 5700 50  0001 C CNN
 	1    4000 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D500
+L Device:D D507
 U 1 1 5F18F99C
 P 4250 5700
-F 0 "D500" V 4150 5700 50  0000 L CNN
+F 0 "D507" V 4150 5700 50  0000 L CNN
 F 1 "D" V 4250 5750 50  0000 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5700 50  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4250 5700 50  0001 C CNN
 F 3 "~" H 4250 5700 50  0001 C CNN
 	1    4250 5700
 	0    -1   -1   0   

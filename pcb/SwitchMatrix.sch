@@ -20,7 +20,7 @@ U 1 1 5DC6E49C
 P 10850 5300
 F 0 "D67" V 11050 5300 60  0000 C CNN
 F 1 "D" V 11000 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 5300 60  0001 C CNN
 F 3 "" H 10850 5300 60  0000 C CNN
 	1    10850 5300
 	0    1    -1   0   
@@ -31,7 +31,7 @@ U 1 1 5DC6E493
 P 10850 4700
 F 0 "D57" V 11050 4700 60  0000 C CNN
 F 1 "D" V 11000 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 4700 60  0001 C CNN
 F 3 "" H 10850 4700 60  0000 C CNN
 	1    10850 4700
 	0    1    -1   0   
@@ -42,7 +42,7 @@ U 1 1 5DC6E48A
 P 10850 4100
 F 0 "D47" V 11050 4100 60  0000 C CNN
 F 1 "D" V 11000 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 4100 60  0001 C CNN
 F 3 "" H 10850 4100 60  0000 C CNN
 	1    10850 4100
 	0    1    -1   0   
@@ -53,7 +53,7 @@ U 1 1 5DC42349
 P 8350 5300
 F 0 "D65" V 8550 5300 60  0000 C CNN
 F 1 "D" V 8500 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8350 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8350 5300 60  0001 C CNN
 F 3 "" H 8350 5300 60  0000 C CNN
 	1    8350 5300
 	0    1    -1   0   
@@ -64,7 +64,7 @@ U 1 1 5DC42340
 P 8350 4700
 F 0 "D55" V 8550 4700 60  0000 C CNN
 F 1 "D" V 8500 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8350 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8350 4700 60  0001 C CNN
 F 3 "" H 8350 4700 60  0000 C CNN
 	1    8350 4700
 	0    1    -1   0   
@@ -75,7 +75,7 @@ U 1 1 5DC42337
 P 8350 4100
 F 0 "D45" V 8500 4100 60  0000 C CNN
 F 1 "D" V 8500 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8350 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8350 4100 60  0001 C CNN
 F 3 "" H 8350 4100 60  0000 C CNN
 	1    8350 4100
 	0    1    -1   0   
@@ -86,7 +86,7 @@ U 1 1 5DC2F61C
 P 7100 5300
 F 0 "D64" V 7300 5300 60  0000 C CNN
 F 1 "D" V 7250 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7100 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7100 5300 60  0001 C CNN
 F 3 "" H 7100 5300 60  0000 C CNN
 	1    7100 5300
 	0    1    -1   0   
@@ -97,7 +97,7 @@ U 1 1 5DC2F613
 P 7100 4700
 F 0 "D54" V 7300 4700 60  0000 C CNN
 F 1 "D" V 7250 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7100 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7100 4700 60  0001 C CNN
 F 3 "" H 7100 4700 60  0000 C CNN
 	1    7100 4700
 	0    1    -1   0   
@@ -108,7 +108,7 @@ U 1 1 5DC1E648
 P 5850 5300
 F 0 "D63" V 6050 5300 60  0000 C CNN
 F 1 "D" V 6000 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5850 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5850 5300 60  0001 C CNN
 F 3 "" H 5850 5300 60  0000 C CNN
 	1    5850 5300
 	0    1    -1   0   
@@ -119,7 +119,7 @@ U 1 1 5DC1E63F
 P 5850 4700
 F 0 "D53" V 6050 4700 60  0000 C CNN
 F 1 "D" V 6000 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5850 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5850 4700 60  0001 C CNN
 F 3 "" H 5850 4700 60  0000 C CNN
 	1    5850 4700
 	0    1    -1   0   
@@ -130,7 +130,7 @@ U 1 1 5DC1E636
 P 5850 4100
 F 0 "D43" V 6000 4100 60  0000 C CNN
 F 1 "D" V 6000 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5850 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5850 4100 60  0001 C CNN
 F 3 "" H 5850 4100 60  0000 C CNN
 	1    5850 4100
 	0    1    -1   0   
@@ -141,7 +141,7 @@ U 1 1 5DC0AF6C
 P 4650 5900
 F 0 "D72" V 4850 5900 60  0000 C CNN
 F 1 "D" V 4800 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4650 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4650 5900 60  0001 C CNN
 F 3 "" H 4650 5900 60  0000 C CNN
 	1    4650 5900
 	0    1    -1   0   
@@ -152,7 +152,7 @@ U 1 1 5DC0AF63
 P 4650 5300
 F 0 "D62" V 4850 5300 60  0000 C CNN
 F 1 "D" V 4800 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4650 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4650 5300 60  0001 C CNN
 F 3 "" H 4650 5300 60  0000 C CNN
 	1    4650 5300
 	0    1    -1   0   
@@ -174,7 +174,7 @@ U 1 1 5DAC1063
 P 3400 5300
 F 0 "D61" V 3600 5300 60  0000 C CNN
 F 1 "D" V 3550 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3400 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3400 5300 60  0001 C CNN
 F 3 "" H 3400 5300 60  0000 C CNN
 	1    3400 5300
 	0    1    -1   0   
@@ -185,7 +185,7 @@ U 1 1 5DA90A45
 P 3400 5900
 F 0 "D71" V 3600 5900 60  0000 C CNN
 F 1 "D" V 3550 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3400 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3400 5900 60  0001 C CNN
 F 3 "" H 3400 5900 60  0000 C CNN
 	1    3400 5900
 	0    1    -1   0   
@@ -462,7 +462,7 @@ U 1 1 5DC1E651
 P 5850 5900
 F 0 "D73" V 6050 5900 60  0000 C CNN
 F 1 "D" V 6000 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5850 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5850 5900 60  0001 C CNN
 F 3 "" H 5850 5900 60  0000 C CNN
 	1    5850 5900
 	0    1    -1   0   
@@ -473,7 +473,7 @@ U 1 1 5DC2F625
 P 7100 5900
 F 0 "D74" V 7300 5900 60  0000 C CNN
 F 1 "D" V 7250 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7100 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7100 5900 60  0001 C CNN
 F 3 "" H 7100 5900 60  0000 C CNN
 	1    7100 5900
 	0    1    -1   0   
@@ -484,7 +484,7 @@ U 1 1 5DC42352
 P 8350 5900
 F 0 "D75" V 8550 5900 60  0000 C CNN
 F 1 "D" V 8500 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8350 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8350 5900 60  0001 C CNN
 F 3 "" H 8350 5900 60  0000 C CNN
 	1    8350 5900
 	0    1    -1   0   
@@ -495,7 +495,7 @@ U 1 1 5DC6E4A5
 P 10850 5900
 F 0 "D77" V 11050 5900 60  0000 C CNN
 F 1 "D" V 11000 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 5900 60  0001 C CNN
 F 3 "" H 10850 5900 60  0000 C CNN
 	1    10850 5900
 	0    1    -1   0   
@@ -552,7 +552,7 @@ U 1 1 5DC56F50
 P 9600 5300
 F 0 "D66" V 9800 5300 60  0000 C CNN
 F 1 "D" V 9750 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9600 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9600 5300 60  0001 C CNN
 F 3 "" H 9600 5300 60  0000 C CNN
 	1    9600 5300
 	0    1    -1   0   
@@ -563,7 +563,7 @@ U 1 1 5DC56F47
 P 9600 4700
 F 0 "D56" V 9800 4700 60  0000 C CNN
 F 1 "D" V 9750 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9600 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9600 4700 60  0001 C CNN
 F 3 "" H 9600 4700 60  0000 C CNN
 	1    9600 4700
 	0    1    -1   0   
@@ -574,7 +574,7 @@ U 1 1 5DC56F3E
 P 9600 4100
 F 0 "D46" V 9750 4100 60  0000 C CNN
 F 1 "D" V 9750 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9600 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9600 4100 60  0001 C CNN
 F 3 "" H 9600 4100 60  0000 C CNN
 	1    9600 4100
 	0    1    -1   0   
@@ -629,7 +629,7 @@ U 1 1 5DC56F59
 P 9600 5900
 F 0 "D76" V 9800 5900 60  0000 C CNN
 F 1 "D" V 9750 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9600 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9600 5900 60  0001 C CNN
 F 3 "" H 9600 5900 60  0000 C CNN
 	1    9600 5900
 	0    1    -1   0   
@@ -648,7 +648,7 @@ U 1 1 5DC2F60A
 P 7100 4100
 F 0 "D44" V 7250 4100 60  0000 C CNN
 F 1 "D" V 7250 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7100 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7100 4100 60  0001 C CNN
 F 3 "" H 7100 4100 60  0000 C CNN
 	1    7100 4100
 	0    1    -1   0   
@@ -672,7 +672,7 @@ U 1 1 5DA83AFC
 P 2150 5300
 F 0 "D60" V 2350 5300 60  0000 C CNN
 F 1 "D" V 2300 5250 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 2150 5300 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2150 5300 60  0001 C CNN
 F 3 "" H 2150 5300 60  0000 C CNN
 	1    2150 5300
 	0    1    -1   0   
@@ -683,7 +683,7 @@ U 1 1 5DA8A0EA
 P 2150 5900
 F 0 "D70" V 2350 5900 60  0000 C CNN
 F 1 "D" V 2300 5850 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 2150 5900 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2150 5900 60  0001 C CNN
 F 3 "" H 2150 5900 60  0000 C CNN
 	1    2150 5900
 	0    1    -1   0   
@@ -694,7 +694,7 @@ U 1 1 5DC0AF5A
 P 4650 4700
 F 0 "D52" V 4850 4700 60  0000 C CNN
 F 1 "D" V 4800 4650 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4650 4700 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4650 4700 60  0001 C CNN
 F 3 "" H 4650 4700 60  0000 C CNN
 	1    4650 4700
 	0    1    -1   0   
@@ -709,7 +709,7 @@ U 1 1 5DC0AF51
 P 4650 4100
 F 0 "D42" V 4850 4100 60  0000 C CNN
 F 1 "D" V 4800 4050 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4650 4100 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4650 4100 60  0001 C CNN
 F 3 "" H 4650 4100 60  0000 C CNN
 	1    4650 4100
 	0    1    -1   0   
@@ -943,7 +943,7 @@ U 1 1 5DA4BB6B
 P 1950 1150
 F 0 "D00" V 1769 1100 60  0000 C CNN
 F 1 "D" V 2100 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 1950 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 1950 1150 60  0001 C CNN
 F 3 "" H 1950 1150 60  0000 C CNN
 	1    1950 1150
 	0    1    1    0   
@@ -954,7 +954,7 @@ U 1 1 5DA65568
 P 1950 1750
 F 0 "D10" V 1769 1700 60  0000 C CNN
 F 1 "D" V 2100 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 1950 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 1950 1750 60  0001 C CNN
 F 3 "" H 1950 1750 60  0000 C CNN
 	1    1950 1750
 	0    1    1    0   
@@ -965,7 +965,7 @@ U 1 1 5DA6B338
 P 1950 2350
 F 0 "D20" V 1769 2300 60  0000 C CNN
 F 1 "D" V 2100 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 1950 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 1950 2350 60  0001 C CNN
 F 3 "" H 1950 2350 60  0000 C CNN
 	1    1950 2350
 	0    1    1    0   
@@ -976,7 +976,7 @@ U 1 1 5DA9E14D
 P 3200 1750
 F 0 "D11" V 3019 1700 60  0000 C CNN
 F 1 "D" V 3350 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3200 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3200 1750 60  0001 C CNN
 F 3 "" H 3200 1750 60  0000 C CNN
 	1    3200 1750
 	0    1    1    0   
@@ -987,7 +987,7 @@ U 1 1 5DAA4CB5
 P 3200 2350
 F 0 "D21" V 3019 2300 60  0000 C CNN
 F 1 "D" V 3350 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3200 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3200 2350 60  0001 C CNN
 F 3 "" H 3200 2350 60  0000 C CNN
 	1    3200 2350
 	0    1    1    0   
@@ -998,7 +998,7 @@ U 1 1 5DAABA63
 P 3200 2950
 F 0 "D31" V 3019 2900 60  0000 C CNN
 F 1 "D" V 3350 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3200 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3200 2950 60  0001 C CNN
 F 3 "" H 3200 2950 60  0000 C CNN
 	1    3200 2950
 	0    1    1    0   
@@ -1009,7 +1009,7 @@ U 1 1 5DC0AF7E
 P 4450 1750
 F 0 "D12" V 4269 1700 60  0000 C CNN
 F 1 "D" V 4600 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4450 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4450 1750 60  0001 C CNN
 F 3 "" H 4450 1750 60  0000 C CNN
 	1    4450 1750
 	0    1    1    0   
@@ -1020,7 +1020,7 @@ U 1 1 5DC0AF87
 P 4450 2350
 F 0 "D22" V 4269 2300 60  0000 C CNN
 F 1 "D" V 4600 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4450 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4450 2350 60  0001 C CNN
 F 3 "" H 4450 2350 60  0000 C CNN
 	1    4450 2350
 	0    1    1    0   
@@ -1031,7 +1031,7 @@ U 1 1 5DC0AF90
 P 4450 2950
 F 0 "D32" V 4269 2900 60  0000 C CNN
 F 1 "D" V 4600 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4450 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4450 2950 60  0001 C CNN
 F 3 "" H 4450 2950 60  0000 C CNN
 	1    4450 2950
 	0    1    1    0   
@@ -1042,7 +1042,7 @@ U 1 1 5DC1E663
 P 5700 1750
 F 0 "D13" V 5519 1700 60  0000 C CNN
 F 1 "D" V 5850 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5700 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5700 1750 60  0001 C CNN
 F 3 "" H 5700 1750 60  0000 C CNN
 	1    5700 1750
 	0    1    1    0   
@@ -1053,7 +1053,7 @@ U 1 1 5DC1E66C
 P 5700 2350
 F 0 "D23" V 5519 2300 60  0000 C CNN
 F 1 "D" V 5850 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5700 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5700 2350 60  0001 C CNN
 F 3 "" H 5700 2350 60  0000 C CNN
 	1    5700 2350
 	0    1    1    0   
@@ -1064,7 +1064,7 @@ U 1 1 5DC1E675
 P 5700 2950
 F 0 "D33" V 5519 2900 60  0000 C CNN
 F 1 "D" V 5850 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5700 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5700 2950 60  0001 C CNN
 F 3 "" H 5700 2950 60  0000 C CNN
 	1    5700 2950
 	0    1    1    0   
@@ -1075,7 +1075,7 @@ U 1 1 5DC2F62E
 P 7000 1150
 F 0 "D04" V 6819 1100 60  0000 C CNN
 F 1 "D" V 7150 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7000 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7000 1150 60  0001 C CNN
 F 3 "" H 7000 1150 60  0000 C CNN
 	1    7000 1150
 	0    1    1    0   
@@ -1086,7 +1086,7 @@ U 1 1 5DC2F637
 P 7000 1750
 F 0 "D14" V 6819 1700 60  0000 C CNN
 F 1 "D" V 7150 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7000 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7000 1750 60  0001 C CNN
 F 3 "" H 7000 1750 60  0000 C CNN
 	1    7000 1750
 	0    1    1    0   
@@ -1097,7 +1097,7 @@ U 1 1 5DC2F640
 P 7000 2350
 F 0 "D24" V 6819 2300 60  0000 C CNN
 F 1 "D" V 7150 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7000 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7000 2350 60  0001 C CNN
 F 3 "" H 7000 2350 60  0000 C CNN
 	1    7000 2350
 	0    1    1    0   
@@ -1108,7 +1108,7 @@ U 1 1 5DC2F649
 P 7000 2950
 F 0 "D34" V 6819 2900 60  0000 C CNN
 F 1 "D" V 7150 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7000 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 7000 2950 60  0001 C CNN
 F 3 "" H 7000 2950 60  0000 C CNN
 	1    7000 2950
 	0    1    1    0   
@@ -1119,7 +1119,7 @@ U 1 1 5DC56F74
 P 9500 2350
 F 0 "D26" V 9319 2300 60  0000 C CNN
 F 1 "D" V 9650 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9500 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9500 2350 60  0001 C CNN
 F 3 "" H 9500 2350 60  0000 C CNN
 	1    9500 2350
 	0    1    1    0   
@@ -1130,7 +1130,7 @@ U 1 1 5DC56F7D
 P 9500 2950
 F 0 "D36" V 9319 2900 60  0000 C CNN
 F 1 "D" V 9650 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 9500 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 9500 2950 60  0001 C CNN
 F 3 "" H 9500 2950 60  0000 C CNN
 	1    9500 2950
 	0    1    1    0   
@@ -1141,7 +1141,7 @@ U 1 1 5DC1E65A
 P 5700 1150
 F 0 "D03" V 5519 1100 60  0000 C CNN
 F 1 "D" V 5850 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 5700 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5700 1150 60  0001 C CNN
 F 3 "" H 5700 1150 60  0000 C CNN
 	1    5700 1150
 	0    1    1    0   
@@ -1152,7 +1152,7 @@ U 1 1 5DC0AF75
 P 4450 1150
 F 0 "D02" V 4269 1100 60  0000 C CNN
 F 1 "D" V 4600 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 4450 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4450 1150 60  0001 C CNN
 F 3 "" H 4450 1150 60  0000 C CNN
 	1    4450 1150
 	0    1    1    0   
@@ -1163,7 +1163,7 @@ U 1 1 5DA97798
 P 3200 1150
 F 0 "D01" V 3019 1100 60  0000 C CNN
 F 1 "D" V 3350 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3200 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3200 1150 60  0001 C CNN
 F 3 "" H 3200 1150 60  0000 C CNN
 	1    3200 1150
 	0    1    1    0   
@@ -1182,7 +1182,7 @@ U 1 1 5DC6E4C9
 P 10850 2950
 F 0 "D37" V 10669 2900 60  0000 C CNN
 F 1 "D" V 11000 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 2950 60  0001 C CNN
 F 3 "" H 10850 2950 60  0000 C CNN
 	1    10850 2950
 	0    1    -1   0   
@@ -1204,7 +1204,7 @@ U 1 1 5DA711CC
 P 1950 2950
 F 0 "D30" V 1769 2900 60  0000 C CNN
 F 1 "D" V 2100 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 1950 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 1950 2950 60  0001 C CNN
 F 3 "" H 1950 2950 60  0000 C CNN
 	1    1950 2950
 	0    1    1    0   
@@ -1226,7 +1226,7 @@ U 1 1 5DC42376
 P 8250 2950
 F 0 "D35" V 8069 2900 60  0000 C CNN
 F 1 "D" V 8400 2900 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8250 2950 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8250 2950 60  0001 C CNN
 F 3 "" H 8250 2950 60  0000 C CNN
 	1    8250 2950
 	0    1    1    0   
@@ -1237,7 +1237,7 @@ U 1 1 5DC4236D
 P 8250 2350
 F 0 "D25" V 8069 2300 60  0000 C CNN
 F 1 "D" V 8400 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8250 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8250 2350 60  0001 C CNN
 F 3 "" H 8250 2350 60  0000 C CNN
 	1    8250 2350
 	0    1    1    0   
@@ -1248,7 +1248,7 @@ U 1 1 5DC42364
 P 8250 1750
 F 0 "D15" V 8069 1700 60  0000 C CNN
 F 1 "D" V 8400 1700 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8250 1750 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8250 1750 60  0001 C CNN
 F 3 "" H 8250 1750 60  0000 C CNN
 	1    8250 1750
 	0    1    1    0   
@@ -1259,7 +1259,7 @@ U 1 1 5DC4235B
 P 8250 1150
 F 0 "D05" V 8069 1100 60  0000 C CNN
 F 1 "D" V 8400 1100 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 8250 1150 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 8250 1150 60  0001 C CNN
 F 3 "" H 8250 1150 60  0000 C CNN
 	1    8250 1150
 	0    1    1    0   
@@ -1336,7 +1336,7 @@ U 1 1 5DC6E4C0
 P 10850 2350
 F 0 "D27" V 10669 2300 60  0000 C CNN
 F 1 "D" V 11000 2300 60  0001 C CNN
-F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 10850 2350 60  0001 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 10850 2350 60  0001 C CNN
 F 3 "" H 10850 2350 60  0000 C CNN
 	1    10850 2350
 	0    1    1    0   
