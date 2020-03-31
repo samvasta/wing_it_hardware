@@ -841,8 +841,6 @@ Text Label 4100 3550 0    50   ~ 0
 RST
 Text Label 9550 4500 0    50   ~ 0
 RST
-Text GLabel 6850 2650 2    50   Input ~ 0
-ColValue
 Text Label 9550 4350 0    50   ~ 0
 IRQ
 Text Label 4550 3450 2    50   ~ 0
@@ -850,27 +848,19 @@ IRQ
 NoConn ~ 4550 2350
 Wire Wire Line
 	6850 3150 6700 3150
-Wire Wire Line
-	6700 3050 6850 3050
-Wire Wire Line
-	6850 2950 6700 2950
-Text GLabel 6850 3050 2    50   Input ~ 0
+Text GLabel 6700 3850 2    50   Input ~ 0
 ColSelectC
-Text GLabel 6850 2950 2    50   Input ~ 0
+Text GLabel 6700 3750 2    50   Input ~ 0
 ColSelectB
-Text GLabel 6850 2750 2    50   Input ~ 0
-ColSelectA
-Wire Wire Line
-	6700 2850 6850 2850
 Wire Wire Line
 	6850 2750 6700 2750
 Wire Wire Line
 	6700 2650 6850 2650
-Text GLabel 6700 3550 2    50   Input ~ 0
+Text GLabel 6700 4050 2    50   Input ~ 0
 RowSelectC
-Text GLabel 6700 3650 2    50   Input ~ 0
+Text GLabel 6700 4150 2    50   Input ~ 0
 RowSelectB
-Text GLabel 6700 3850 2    50   Input ~ 0
+Text GLabel 6700 4250 2    50   Input ~ 0
 RowSelectA
 Text GLabel 9700 4200 0    50   BiDi ~ 0
 SS1
@@ -896,12 +886,12 @@ Wire Wire Line
 $Comp
 L Keyboard_Parts:GND #PWR0135
 U 1 1 5DA4D518
-P 3150 4850
-F 0 "#PWR0135" H 3150 4900 20  0001 C CNN
-F 1 "GND" V 3100 4800 30  0000 L CNN
-F 2 "" H 3150 4850 60  0000 C CNN
-F 3 "" H 3150 4850 60  0000 C CNN
-	1    3150 4850
+P 7700 6150
+F 0 "#PWR0135" H 7700 6200 20  0001 C CNN
+F 1 "GND" V 7650 6100 30  0000 L CNN
+F 2 "" H 7700 6150 60  0000 C CNN
+F 3 "" H 7700 6150 60  0000 C CNN
+	1    7700 6150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -954,10 +944,8 @@ Text Label 5850 1450 0    50   ~ 0
 VbatMonitor
 Wire Wire Line
 	5350 1450 6350 1450
-Text Label 7200 3750 0    50   ~ 0
+Text Label 7450 2850 0    50   ~ 0
 VbatMonitor
-Wire Wire Line
-	6700 3750 7700 3750
 Text Label 3950 1850 0    50   ~ 0
 UsbD-
 Text Label 3750 2050 0    50   ~ 0
@@ -1170,10 +1158,10 @@ Connection ~ 4850 5500
 Wire Wire Line
 	4400 5500 4250 5500
 $Comp
-L Device:D D500
+L Device:D D504
 U 1 1 5E87864C
 P 2500 5700
-F 0 "D500" V 2400 5700 50  0000 L CNN
+F 0 "D504" V 2400 5700 50  0000 L CNN
 F 1 "D" V 2500 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2500 5700 50  0001 C CNN
 F 3 "~" H 2500 5700 50  0001 C CNN
@@ -1181,10 +1169,10 @@ F 3 "~" H 2500 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D501
+L Device:D D505
 U 1 1 5F0F89F1
 P 2750 5700
-F 0 "D501" V 2650 5700 50  0000 L CNN
+F 0 "D505" V 2650 5700 50  0000 L CNN
 F 1 "D" V 2750 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 2750 5700 50  0001 C CNN
 F 3 "~" H 2750 5700 50  0001 C CNN
@@ -1192,10 +1180,10 @@ F 3 "~" H 2750 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D502
+L Device:D D506
 U 1 1 5F111C81
 P 3000 5700
-F 0 "D502" V 2900 5700 50  0000 L CNN
+F 0 "D506" V 2900 5700 50  0000 L CNN
 F 1 "D" V 3000 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3000 5700 50  0001 C CNN
 F 3 "~" H 3000 5700 50  0001 C CNN
@@ -1203,10 +1191,10 @@ F 3 "~" H 3000 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D503
+L Device:D D507
 U 1 1 5F12AF57
 P 3250 5700
-F 0 "D503" V 3150 5700 50  0000 L CNN
+F 0 "D507" V 3150 5700 50  0000 L CNN
 F 1 "D" V 3250 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3250 5700 50  0001 C CNN
 F 3 "~" H 3250 5700 50  0001 C CNN
@@ -1214,10 +1202,10 @@ F 3 "~" H 3250 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D504
+L Device:D D500
 U 1 1 5F144174
 P 3500 5700
-F 0 "D504" V 3400 5700 50  0000 L CNN
+F 0 "D500" V 3400 5700 50  0000 L CNN
 F 1 "D" V 3500 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3500 5700 50  0001 C CNN
 F 3 "~" H 3500 5700 50  0001 C CNN
@@ -1225,10 +1213,10 @@ F 3 "~" H 3500 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D505
+L Device:D D501
 U 1 1 5F15D38C
 P 3750 5700
-F 0 "D505" V 3650 5700 50  0000 L CNN
+F 0 "D501" V 3650 5700 50  0000 L CNN
 F 1 "D" V 3750 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3750 5700 50  0001 C CNN
 F 3 "~" H 3750 5700 50  0001 C CNN
@@ -1236,10 +1224,10 @@ F 3 "~" H 3750 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D506
+L Device:D D502
 U 1 1 5F176621
 P 4000 5700
-F 0 "D506" V 3900 5700 50  0000 L CNN
+F 0 "D502" V 3900 5700 50  0000 L CNN
 F 1 "D" V 4000 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4000 5700 50  0001 C CNN
 F 3 "~" H 4000 5700 50  0001 C CNN
@@ -1247,19 +1235,19 @@ F 3 "~" H 4000 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D507
+L Device:D D503
 U 1 1 5F18F99C
 P 4250 5700
-F 0 "D507" V 4150 5700 50  0000 L CNN
+F 0 "D503" V 4150 5700 50  0000 L CNN
 F 1 "D" V 4250 5750 50  0000 L CNN
 F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4250 5700 50  0001 C CNN
 F 3 "~" H 4250 5700 50  0001 C CNN
 	1    4250 5700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6850 3150 2    50   Input ~ 0
+Text GLabel 6700 3950 2    50   Input ~ 0
 RowEnable
-Text GLabel 6850 2850 2    50   Input ~ 0
+Text GLabel 6700 3650 2    50   Input ~ 0
 ColEnable
 Wire Wire Line
 	4250 6050 3800 6050
@@ -1424,44 +1412,40 @@ RowSelectC
 Text GLabel 4850 6350 2    50   Input ~ 0
 ColValue
 Wire Wire Line
-	3700 4850 3800 4850
+	8250 6150 8350 6150
 $Comp
 L Device:R R18
 U 1 1 5DACB6C1
-P 3550 4850
-F 0 "R18" V 3650 4850 50  0000 C CNN
-F 1 "220" V 3550 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3480 4850 50  0001 C CNN
-F 3 "~" H 3550 4850 50  0001 C CNN
-	1    3550 4850
+P 8100 6150
+F 0 "R18" V 8200 6150 50  0000 C CNN
+F 1 "220" V 8100 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8030 6150 50  0001 C CNN
+F 3 "~" H 8100 6150 50  0001 C CNN
+	1    8100 6150
 	0    1    1    0   
 $EndComp
-Text Notes 4150 4950 2    50   ~ 0
+Text Notes 8700 6250 2    50   ~ 0
 Red
 Wire Wire Line
-	3400 4850 3150 4850
+	7950 6150 7700 6150
 $Comp
 L Device:LED D?
 U 1 1 5DA415D4
-P 3950 4850
+P 8500 6150
 AR Path="/5DF457A9/5DA415D4" Ref="D?"  Part="1" 
 AR Path="/5DA415D4" Ref="D302"  Part="1" 
-F 0 "D302" H 3950 4600 50  0000 C CNN
-F 1 "Bat Low" H 3950 4700 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 4850 50  0001 C CNN
-F 3 "~" H 3950 4850 50  0001 C CNN
-	1    3950 4850
+F 0 "D302" H 8500 5900 50  0000 C CNN
+F 1 "Bat Low" H 8500 6000 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 6150 50  0001 C CNN
+F 3 "~" H 8500 6150 50  0001 C CNN
+	1    8500 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4250 4300 4250
-Wire Wire Line
-	4300 4250 4300 4850
-Wire Wire Line
-	4300 4850 4100 4850
-Text Label 7300 4050 0    50   ~ 0
+	8850 6150 8650 6150
+Text Label 7450 3050 0    50   ~ 0
 CapsLock
-Text Label 7300 3950 0    50   ~ 0
+Text Label 7450 2950 0    50   ~ 0
 NumLock
 Wire Wire Line
 	9350 1450 9800 1450
@@ -1477,10 +1461,20 @@ Wire Notes Line
 	11050 2000 9000 2000
 Wire Notes Line
 	9000 2000 9000 1150
+Text GLabel 6700 3550 2    50   Input ~ 0
+ColSelectA
+Text GLabel 6850 3150 2    50   Input ~ 0
+ColValue
 Wire Wire Line
-	6700 3950 7300 3950
+	6700 3050 7450 3050
 Wire Wire Line
-	7300 4050 6700 4050
+	6700 2950 7450 2950
+Wire Wire Line
+	6700 2850 7450 2850
+Text Label 8850 6150 0    50   ~ 0
+BatLow
+Text Label 6850 2750 0    50   ~ 0
+BatLow
 $Sheet
 S 2600 6300 750  850 
 U 5D9DA1AD
@@ -1491,16 +1485,16 @@ F3 "Row7" I L 2600 7050 50
 F4 "Row6" I L 2600 6950 50 
 F5 "Row5" I L 2600 6850 50 
 F6 "Row4" I L 2600 6750 50 
-F7 "Col7" O R 3350 7050 50 
+F7 "Col7" O R 3350 6650 50 
 F8 "Row1" I L 2600 6450 50 
 F9 "Row2" I L 2600 6550 50 
 F10 "Row3" I L 2600 6650 50 
-F11 "Col0" O R 3350 6350 50 
-F12 "Col1" O R 3350 6450 50 
-F13 "Col2" O R 3350 6550 50 
-F14 "Col3" O R 3350 6650 50 
-F15 "Col4" O R 3350 6750 50 
-F16 "Col5" O R 3350 6850 50 
-F17 "Col6" O R 3350 6950 50 
+F11 "Col0" O R 3350 6750 50 
+F12 "Col1" O R 3350 6850 50 
+F13 "Col2" O R 3350 6950 50 
+F14 "Col3" O R 3350 7050 50 
+F15 "Col4" O R 3350 6350 50 
+F16 "Col5" O R 3350 6450 50 
+F17 "Col6" O R 3350 6550 50 
 $EndSheet
 $EndSCHEMATC
