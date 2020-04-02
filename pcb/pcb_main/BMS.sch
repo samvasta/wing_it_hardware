@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ USB_V+
 Text HLabel 1950 6200 0    50   Input ~ 0
 USB_GND
 $Comp
-L Keyboard_Parts:GND #PWR0133
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0133
 U 1 1 5D83F92E
 P 2350 6550
 F 0 "#PWR0133" H 2350 6600 20  0001 C CNN
@@ -191,7 +191,7 @@ Connection ~ 2300 5650
 Wire Wire Line
 	3800 6000 3800 6150
 $Comp
-L Keyboard_Parts:GND #PWR0134
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0134
 U 1 1 5D8BCB19
 P 3800 6550
 F 0 "#PWR0134" H 3800 6600 20  0001 C CNN
@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5650 2100 5650
 $Comp
-L Keyboard_Parts:GND #PWR0140
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0140
 U 1 1 5D8CEEB4
 P 7600 6000
 F 0 "#PWR0140" H 7600 6050 20  0001 C CNN
@@ -329,7 +329,7 @@ Vcc
 Wire Wire Line
 	4300 1100 4300 1350
 $Comp
-L Keyboard_Parts:GND #PWR0154
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0154
 U 1 1 5DB1497F
 P 4300 2650
 F 0 "#PWR0154" H 4300 2700 20  0001 C CNN
@@ -388,7 +388,7 @@ $EndComp
 Wire Wire Line
 	10400 2850 10050 2850
 $Comp
-L Keyboard_Parts:GND #PWR0128
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0128
 U 1 1 5DA21149
 P 9650 2450
 F 0 "#PWR0128" H 9650 2500 20  0001 C CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	750  1100 3350 1100
 $Comp
-L Keyboard_Parts:GND #PWR0136
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0136
 U 1 1 5DB1A682
 P 9900 3700
 F 0 "#PWR0136" H 9900 3750 20  0001 C CNN
@@ -624,24 +624,20 @@ F 3 "https://www.digikey.com/product-detail/en/400BWMSP1R2BLKSM6QE/EG4336CT-ND/6
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 1000 5150 1000
+	5000 1200 5150 1200
 Wire Wire Line
-	5150 1000 5150 900 
+	5150 1200 5150 1300
 $Comp
-L Keyboard_Parts:GND #PWR0138
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0138
 U 1 1 5DAEF921
-P 5150 900
-F 0 "#PWR0138" H 5150 950 20  0001 C CNN
-F 1 "GND" H 5150 800 30  0000 C CNN
-F 2 "" H 5150 900 60  0000 C CNN
-F 3 "" H 5150 900 60  0000 C CNN
-	1    5150 900 
-	1    0    0    1   
+P 5150 1300
+F 0 "#PWR0138" H 5150 1350 20  0001 C CNN
+F 1 "GND" H 5150 1200 30  0000 C CNN
+F 2 "" H 5150 1300 60  0000 C CNN
+F 3 "" H 5150 1300 60  0000 C CNN
+	1    5150 1300
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 1200 5450 1200
-Wire Wire Line
-	5450 1200 5450 2750
 Connection ~ 6800 4700
 Wire Wire Line
 	6800 4700 6800 5100
@@ -665,4 +661,8 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6700 5300 50  000
 	1    6700 5300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5450 1000 5000 1000
+Wire Wire Line
+	5450 1000 5450 2750
 $EndSCHEMATC

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Keyboard_Parts:D D67
+L Keeb-rescue:D-Keyboard_Parts D67
 U 1 1 5DC6E49C
 P 10850 5300
 F 0 "D67" V 11050 5300 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 10850 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D57
+L Keeb-rescue:D-Keyboard_Parts D57
 U 1 1 5DC6E493
 P 10850 4700
 F 0 "D57" V 11050 4700 60  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 10850 4700 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D47
+L Keeb-rescue:D-Keyboard_Parts D47
 U 1 1 5DC6E48A
 P 10850 4100
 F 0 "D47" V 11050 4100 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 10850 4100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D65
+L Keeb-rescue:D-Keyboard_Parts D65
 U 1 1 5DC42349
 P 8350 5300
 F 0 "D65" V 8550 5300 60  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 8350 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D55
+L Keeb-rescue:D-Keyboard_Parts D55
 U 1 1 5DC42340
 P 8350 4700
 F 0 "D55" V 8550 4700 60  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 8350 4700 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D45
+L Keeb-rescue:D-Keyboard_Parts D45
 U 1 1 5DC42337
 P 8350 4100
 F 0 "D45" V 8500 4100 60  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 8350 4100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D64
+L Keeb-rescue:D-Keyboard_Parts D64
 U 1 1 5DC2F61C
 P 7100 5300
 F 0 "D64" V 7300 5300 60  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 7100 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D54
+L Keeb-rescue:D-Keyboard_Parts D54
 U 1 1 5DC2F613
 P 7100 4700
 F 0 "D54" V 7300 4700 60  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 7100 4700 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D63
+L Keeb-rescue:D-Keyboard_Parts D63
 U 1 1 5DC1E648
 P 5850 5300
 F 0 "D63" V 6050 5300 60  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 5850 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D53
+L Keeb-rescue:D-Keyboard_Parts D53
 U 1 1 5DC1E63F
 P 5850 4700
 F 0 "D53" V 6050 4700 60  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 5850 4700 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D43
+L Keeb-rescue:D-Keyboard_Parts D43
 U 1 1 5DC1E636
 P 5850 4100
 F 0 "D43" V 6000 4100 60  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 5850 4100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D72
+L Keeb-rescue:D-Keyboard_Parts D72
 U 1 1 5DC0AF6C
 P 4650 5900
 F 0 "D72" V 4850 5900 60  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 4650 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D62
+L Keeb-rescue:D-Keyboard_Parts D62
 U 1 1 5DC0AF63
 P 4650 5300
 F 0 "D62" V 4850 5300 60  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 4650 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K52
+L Keeb-rescue:KEYSW-Keyboard_Parts K52
 U 1 1 5D9E6DF7
 P 4100 4700
 F 0 "K52" H 4100 5039 60  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 4100 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D61
+L Keeb-rescue:D-Keyboard_Parts D61
 U 1 1 5DAC1063
 P 3400 5300
 F 0 "D61" V 3600 5300 60  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 3400 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D71
+L Keeb-rescue:D-Keyboard_Parts D71
 U 1 1 5DA90A45
 P 3400 5900
 F 0 "D71" V 3600 5900 60  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 3400 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K61
+L Keeb-rescue:KEYSW-Keyboard_Parts K61
 U 1 1 5D9DF2CF
 P 2850 5300
 F 0 "K61" H 2850 5639 60  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 2850 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K71
+L Keeb-rescue:KEYSW-Keyboard_Parts K71
 U 1 1 5D9DF2D9
 P 2850 5900
 F 0 "K71" H 2850 6239 60  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 2850 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K42
+L Keeb-rescue:KEYSW-Keyboard_Parts K42
 U 1 1 5D9E6DED
 P 4100 4100
 F 0 "K42" H 4100 4439 60  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 4100 4100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K62
+L Keeb-rescue:KEYSW-Keyboard_Parts K62
 U 1 1 5D9E6E01
 P 4100 5300
 F 0 "K62" H 4100 5639 60  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4100 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K72
+L Keeb-rescue:KEYSW-Keyboard_Parts K72
 U 1 1 5D9E6E0B
 P 4100 5900
 F 0 "K72" H 4100 6239 60  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4100 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K43
+L Keeb-rescue:KEYSW-Keyboard_Parts K43
 U 1 1 5D9E6E3D
 P 5300 4100
 F 0 "K43" H 5300 4439 60  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 5300 4100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K53
+L Keeb-rescue:KEYSW-Keyboard_Parts K53
 U 1 1 5D9E6E47
 P 5300 4700
 F 0 "K53" H 5300 5039 60  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 5300 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K63
+L Keeb-rescue:KEYSW-Keyboard_Parts K63
 U 1 1 5D9E6E51
 P 5300 5300
 F 0 "K63" H 5300 5639 60  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 5300 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K73
+L Keeb-rescue:KEYSW-Keyboard_Parts K73
 U 1 1 5D9E6E5B
 P 5300 5900
 F 0 "K73" H 5300 6239 60  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 5300 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K44
+L Keeb-rescue:KEYSW-Keyboard_Parts K44
 U 1 1 5D9EE171
 P 6550 4100
 F 0 "K44" H 6550 4439 60  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 6550 4100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K54
+L Keeb-rescue:KEYSW-Keyboard_Parts K54
 U 1 1 5D9EE17B
 P 6550 4700
 F 0 "K54" H 6550 5039 60  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 6550 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K64
+L Keeb-rescue:KEYSW-Keyboard_Parts K64
 U 1 1 5D9EE185
 P 6550 5300
 F 0 "K64" H 6550 5639 60  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 6550 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K74
+L Keeb-rescue:KEYSW-Keyboard_Parts K74
 U 1 1 5D9EE18F
 P 6550 5900
 F 0 "K74" H 6550 6239 60  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 6550 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K55
+L Keeb-rescue:KEYSW-Keyboard_Parts K55
 U 1 1 5D9EE1CB
 P 7800 4700
 F 0 "K55" H 7800 5039 60  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 7800 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K65
+L Keeb-rescue:KEYSW-Keyboard_Parts K65
 U 1 1 5D9EE1D5
 P 7800 5300
 F 0 "K65" H 7800 5639 60  0000 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 7800 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K75
+L Keeb-rescue:KEYSW-Keyboard_Parts K75
 U 1 1 5D9EE1DF
 P 7800 5900
 F 0 "K75" H 7800 6239 60  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 7800 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K47
+L Keeb-rescue:KEYSW-Keyboard_Parts K47
 U 1 1 5D9EE261
 P 10300 4100
 F 0 "K47" H 10300 4439 60  0000 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 10300 4100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K57
+L Keeb-rescue:KEYSW-Keyboard_Parts K57
 U 1 1 5D9EE26B
 P 10300 4700
 F 0 "K57" H 10300 5039 60  0000 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 10300 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K67
+L Keeb-rescue:KEYSW-Keyboard_Parts K67
 U 1 1 5D9EE275
 P 10300 5300
 F 0 "K67" H 10300 5639 60  0000 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 10300 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K77
+L Keeb-rescue:KEYSW-Keyboard_Parts K77
 U 1 1 5D9EE27F
 P 10300 5900
 F 0 "K77" H 10300 6239 60  0000 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 10300 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K70
+L Keeb-rescue:KEYSW-Keyboard_Parts K70
 U 1 1 5D9DD599
 P 1600 5900
 F 0 "K70" H 1600 6239 60  0000 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 1600 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K60
+L Keeb-rescue:KEYSW-Keyboard_Parts K60
 U 1 1 5D9DD58F
 P 1600 5300
 F 0 "K60" H 1600 5639 60  0000 C CNN
@@ -457,7 +457,7 @@ Left Hand
 Text Notes 500  3650 0    50   ~ 0
 Right Hand
 $Comp
-L Keyboard_Parts:D D73
+L Keeb-rescue:D-Keyboard_Parts D73
 U 1 1 5DC1E651
 P 5850 5900
 F 0 "D73" V 6050 5900 60  0000 C CNN
@@ -468,7 +468,7 @@ F 3 "" H 5850 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D74
+L Keeb-rescue:D-Keyboard_Parts D74
 U 1 1 5DC2F625
 P 7100 5900
 F 0 "D74" V 7300 5900 60  0000 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 7100 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D75
+L Keeb-rescue:D-Keyboard_Parts D75
 U 1 1 5DC42352
 P 8350 5900
 F 0 "D75" V 8550 5900 60  0000 C CNN
@@ -490,7 +490,7 @@ F 3 "" H 8350 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D77
+L Keeb-rescue:D-Keyboard_Parts D77
 U 1 1 5DC6E4A5
 P 10850 5900
 F 0 "D77" V 11050 5900 60  0000 C CNN
@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5900 1900 5900
 $Comp
-L Keyboard_Parts:D D66
+L Keeb-rescue:D-Keyboard_Parts D66
 U 1 1 5DC56F50
 P 9600 5300
 F 0 "D66" V 9800 5300 60  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 9600 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D56
+L Keeb-rescue:D-Keyboard_Parts D56
 U 1 1 5DC56F47
 P 9600 4700
 F 0 "D56" V 9800 4700 60  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 9600 4700 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D46
+L Keeb-rescue:D-Keyboard_Parts D46
 U 1 1 5DC56F3E
 P 9600 4100
 F 0 "D46" V 9750 4100 60  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 9600 4100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K46
+L Keeb-rescue:KEYSW-Keyboard_Parts K46
 U 1 1 5D9EE211
 P 9050 4100
 F 0 "K46" H 9050 4439 60  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 9050 4100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K56
+L Keeb-rescue:KEYSW-Keyboard_Parts K56
 U 1 1 5D9EE21B
 P 9050 4700
 F 0 "K56" H 9050 5039 60  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 9050 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K66
+L Keeb-rescue:KEYSW-Keyboard_Parts K66
 U 1 1 5D9EE225
 P 9050 5300
 F 0 "K66" H 9050 5639 60  0000 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 9050 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K76
+L Keeb-rescue:KEYSW-Keyboard_Parts K76
 U 1 1 5D9EE22F
 P 9050 5900
 F 0 "K76" H 9050 6239 60  0000 C CNN
@@ -624,7 +624,7 @@ F 3 "" H 9050 5900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D76
+L Keeb-rescue:D-Keyboard_Parts D76
 U 1 1 5DC56F59
 P 9600 5900
 F 0 "D76" V 9800 5900 60  0000 C CNN
@@ -643,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 4100 9350 4100
 $Comp
-L Keyboard_Parts:D D44
+L Keeb-rescue:D-Keyboard_Parts D44
 U 1 1 5DC2F60A
 P 7100 4100
 F 0 "D44" V 7250 4100 60  0000 C CNN
@@ -654,7 +654,7 @@ F 3 "" H 7100 4100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K45
+L Keeb-rescue:KEYSW-Keyboard_Parts K45
 U 1 1 5D9EE1C1
 P 7800 4100
 F 0 "K45" H 7800 4439 60  0000 C CNN
@@ -667,7 +667,7 @@ $EndComp
 Wire Wire Line
 	2000 5300 1900 5300
 $Comp
-L Keyboard_Parts:D D60
+L Keeb-rescue:D-Keyboard_Parts D60
 U 1 1 5DA83AFC
 P 2150 5300
 F 0 "D60" V 2350 5300 60  0000 C CNN
@@ -678,7 +678,7 @@ F 3 "" H 2150 5300 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D70
+L Keeb-rescue:D-Keyboard_Parts D70
 U 1 1 5DA8A0EA
 P 2150 5900
 F 0 "D70" V 2350 5900 60  0000 C CNN
@@ -689,7 +689,7 @@ F 3 "" H 2150 5900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D52
+L Keeb-rescue:D-Keyboard_Parts D52
 U 1 1 5DC0AF5A
 P 4650 4700
 F 0 "D52" V 4850 4700 60  0000 C CNN
@@ -704,7 +704,7 @@ Col4
 Text HLabel 8450 3300 3    50   Output ~ 0
 Col5
 $Comp
-L Keyboard_Parts:D D42
+L Keeb-rescue:D-Keyboard_Parts D42
 U 1 1 5DC0AF51
 P 4650 4100
 F 0 "D42" V 4850 4100 60  0000 C CNN
@@ -729,7 +729,7 @@ Row1
 Text HLabel 800  700  0    50   Input ~ 0
 Row0
 $Comp
-L Keyboard_Parts:KEYSW K00
+L Keeb-rescue:KEYSW-Keyboard_Parts K00
 U 1 1 5D9DB0DF
 P 1400 1150
 F 0 "K00" H 1400 1489 60  0000 C CNN
@@ -740,7 +740,7 @@ F 3 "" H 1400 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K10
+L Keeb-rescue:KEYSW-Keyboard_Parts K10
 U 1 1 5D9DB6D9
 P 1400 1750
 F 0 "K10" H 1400 2089 60  0000 C CNN
@@ -751,7 +751,7 @@ F 3 "" H 1400 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K20
+L Keeb-rescue:KEYSW-Keyboard_Parts K20
 U 1 1 5D9DC901
 P 1400 2350
 F 0 "K20" H 1400 2689 60  0000 C CNN
@@ -762,7 +762,7 @@ F 3 "" H 1400 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K34
+L Keeb-rescue:KEYSW-Keyboard_Parts K34
 U 1 1 5D9EE167
 P 6450 2950
 F 0 "K34" H 6450 3289 60  0000 C CNN
@@ -773,7 +773,7 @@ F 3 "" H 6450 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K24
+L Keeb-rescue:KEYSW-Keyboard_Parts K24
 U 1 1 5D9EE15D
 P 6450 2350
 F 0 "K24" H 6450 2689 60  0000 C CNN
@@ -784,7 +784,7 @@ F 3 "" H 6450 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K14
+L Keeb-rescue:KEYSW-Keyboard_Parts K14
 U 1 1 5D9EE153
 P 6450 1750
 F 0 "K14" H 6450 2089 60  0000 C CNN
@@ -795,7 +795,7 @@ F 3 "" H 6450 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K04
+L Keeb-rescue:KEYSW-Keyboard_Parts K04
 U 1 1 5D9EE149
 P 6450 1150
 F 0 "K04" H 6450 1489 60  0000 C CNN
@@ -806,7 +806,7 @@ F 3 "" H 6450 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K33
+L Keeb-rescue:KEYSW-Keyboard_Parts K33
 U 1 1 5D9E6E33
 P 5150 2950
 F 0 "K33" H 5150 3289 60  0000 C CNN
@@ -817,7 +817,7 @@ F 3 "" H 5150 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K23
+L Keeb-rescue:KEYSW-Keyboard_Parts K23
 U 1 1 5D9E6E29
 P 5150 2350
 F 0 "K23" H 5150 2689 60  0000 C CNN
@@ -828,7 +828,7 @@ F 3 "" H 5150 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K13
+L Keeb-rescue:KEYSW-Keyboard_Parts K13
 U 1 1 5D9E6E1F
 P 5150 1750
 F 0 "K13" H 5150 2089 60  0000 C CNN
@@ -839,7 +839,7 @@ F 3 "" H 5150 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K03
+L Keeb-rescue:KEYSW-Keyboard_Parts K03
 U 1 1 5D9E6E15
 P 5150 1150
 F 0 "K03" H 5150 1489 60  0000 C CNN
@@ -850,7 +850,7 @@ F 3 "" H 5150 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K32
+L Keeb-rescue:KEYSW-Keyboard_Parts K32
 U 1 1 5D9E6DE3
 P 3900 2950
 F 0 "K32" H 3900 3289 60  0000 C CNN
@@ -861,7 +861,7 @@ F 3 "" H 3900 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K22
+L Keeb-rescue:KEYSW-Keyboard_Parts K22
 U 1 1 5D9E6DD9
 P 3900 2350
 F 0 "K22" H 3900 2689 60  0000 C CNN
@@ -872,7 +872,7 @@ F 3 "" H 3900 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K12
+L Keeb-rescue:KEYSW-Keyboard_Parts K12
 U 1 1 5D9E6DCF
 P 3900 1750
 F 0 "K12" H 3900 2089 60  0000 C CNN
@@ -883,7 +883,7 @@ F 3 "" H 3900 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K02
+L Keeb-rescue:KEYSW-Keyboard_Parts K02
 U 1 1 5D9E6DC5
 P 3900 1150
 F 0 "K02" H 3900 1489 60  0000 C CNN
@@ -894,7 +894,7 @@ F 3 "" H 3900 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K31
+L Keeb-rescue:KEYSW-Keyboard_Parts K31
 U 1 1 5D9DF2B1
 P 2650 2950
 F 0 "K31" H 2650 3289 60  0000 C CNN
@@ -905,7 +905,7 @@ F 3 "" H 2650 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K21
+L Keeb-rescue:KEYSW-Keyboard_Parts K21
 U 1 1 5D9DF2A7
 P 2650 2350
 F 0 "K21" H 2650 2689 60  0000 C CNN
@@ -916,7 +916,7 @@ F 3 "" H 2650 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K11
+L Keeb-rescue:KEYSW-Keyboard_Parts K11
 U 1 1 5D9DF29D
 P 2650 1750
 F 0 "K11" H 2650 2089 60  0000 C CNN
@@ -927,7 +927,7 @@ F 3 "" H 2650 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K01
+L Keeb-rescue:KEYSW-Keyboard_Parts K01
 U 1 1 5D9DF293
 P 2650 1150
 F 0 "K01" H 2650 1489 60  0000 C CNN
@@ -938,7 +938,7 @@ F 3 "" H 2650 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D00
+L Keeb-rescue:D-Keyboard_Parts D00
 U 1 1 5DA4BB6B
 P 1950 1150
 F 0 "D00" V 1769 1100 60  0000 C CNN
@@ -949,7 +949,7 @@ F 3 "" H 1950 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D10
+L Keeb-rescue:D-Keyboard_Parts D10
 U 1 1 5DA65568
 P 1950 1750
 F 0 "D10" V 1769 1700 60  0000 C CNN
@@ -960,7 +960,7 @@ F 3 "" H 1950 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D20
+L Keeb-rescue:D-Keyboard_Parts D20
 U 1 1 5DA6B338
 P 1950 2350
 F 0 "D20" V 1769 2300 60  0000 C CNN
@@ -971,7 +971,7 @@ F 3 "" H 1950 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D11
+L Keeb-rescue:D-Keyboard_Parts D11
 U 1 1 5DA9E14D
 P 3200 1750
 F 0 "D11" V 3019 1700 60  0000 C CNN
@@ -982,7 +982,7 @@ F 3 "" H 3200 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D21
+L Keeb-rescue:D-Keyboard_Parts D21
 U 1 1 5DAA4CB5
 P 3200 2350
 F 0 "D21" V 3019 2300 60  0000 C CNN
@@ -993,7 +993,7 @@ F 3 "" H 3200 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D31
+L Keeb-rescue:D-Keyboard_Parts D31
 U 1 1 5DAABA63
 P 3200 2950
 F 0 "D31" V 3019 2900 60  0000 C CNN
@@ -1004,7 +1004,7 @@ F 3 "" H 3200 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D12
+L Keeb-rescue:D-Keyboard_Parts D12
 U 1 1 5DC0AF7E
 P 4450 1750
 F 0 "D12" V 4269 1700 60  0000 C CNN
@@ -1015,7 +1015,7 @@ F 3 "" H 4450 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D22
+L Keeb-rescue:D-Keyboard_Parts D22
 U 1 1 5DC0AF87
 P 4450 2350
 F 0 "D22" V 4269 2300 60  0000 C CNN
@@ -1026,7 +1026,7 @@ F 3 "" H 4450 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D32
+L Keeb-rescue:D-Keyboard_Parts D32
 U 1 1 5DC0AF90
 P 4450 2950
 F 0 "D32" V 4269 2900 60  0000 C CNN
@@ -1037,7 +1037,7 @@ F 3 "" H 4450 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D13
+L Keeb-rescue:D-Keyboard_Parts D13
 U 1 1 5DC1E663
 P 5700 1750
 F 0 "D13" V 5519 1700 60  0000 C CNN
@@ -1048,7 +1048,7 @@ F 3 "" H 5700 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D23
+L Keeb-rescue:D-Keyboard_Parts D23
 U 1 1 5DC1E66C
 P 5700 2350
 F 0 "D23" V 5519 2300 60  0000 C CNN
@@ -1059,7 +1059,7 @@ F 3 "" H 5700 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D33
+L Keeb-rescue:D-Keyboard_Parts D33
 U 1 1 5DC1E675
 P 5700 2950
 F 0 "D33" V 5519 2900 60  0000 C CNN
@@ -1070,7 +1070,7 @@ F 3 "" H 5700 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D04
+L Keeb-rescue:D-Keyboard_Parts D04
 U 1 1 5DC2F62E
 P 7000 1150
 F 0 "D04" V 6819 1100 60  0000 C CNN
@@ -1081,7 +1081,7 @@ F 3 "" H 7000 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D14
+L Keeb-rescue:D-Keyboard_Parts D14
 U 1 1 5DC2F637
 P 7000 1750
 F 0 "D14" V 6819 1700 60  0000 C CNN
@@ -1092,7 +1092,7 @@ F 3 "" H 7000 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D24
+L Keeb-rescue:D-Keyboard_Parts D24
 U 1 1 5DC2F640
 P 7000 2350
 F 0 "D24" V 6819 2300 60  0000 C CNN
@@ -1103,7 +1103,7 @@ F 3 "" H 7000 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D34
+L Keeb-rescue:D-Keyboard_Parts D34
 U 1 1 5DC2F649
 P 7000 2950
 F 0 "D34" V 6819 2900 60  0000 C CNN
@@ -1114,7 +1114,7 @@ F 3 "" H 7000 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D26
+L Keeb-rescue:D-Keyboard_Parts D26
 U 1 1 5DC56F74
 P 9500 2350
 F 0 "D26" V 9319 2300 60  0000 C CNN
@@ -1125,7 +1125,7 @@ F 3 "" H 9500 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D36
+L Keeb-rescue:D-Keyboard_Parts D36
 U 1 1 5DC56F7D
 P 9500 2950
 F 0 "D36" V 9319 2900 60  0000 C CNN
@@ -1136,7 +1136,7 @@ F 3 "" H 9500 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D03
+L Keeb-rescue:D-Keyboard_Parts D03
 U 1 1 5DC1E65A
 P 5700 1150
 F 0 "D03" V 5519 1100 60  0000 C CNN
@@ -1147,7 +1147,7 @@ F 3 "" H 5700 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D02
+L Keeb-rescue:D-Keyboard_Parts D02
 U 1 1 5DC0AF75
 P 4450 1150
 F 0 "D02" V 4269 1100 60  0000 C CNN
@@ -1158,7 +1158,7 @@ F 3 "" H 4450 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D01
+L Keeb-rescue:D-Keyboard_Parts D01
 U 1 1 5DA97798
 P 3200 1150
 F 0 "D01" V 3019 1100 60  0000 C CNN
@@ -1177,7 +1177,7 @@ Col2
 Text HLabel 5900 3300 3    50   Output ~ 0
 Col3
 $Comp
-L Keyboard_Parts:D D37
+L Keeb-rescue:D-Keyboard_Parts D37
 U 1 1 5DC6E4C9
 P 10850 2950
 F 0 "D37" V 10669 2900 60  0000 C CNN
@@ -1188,7 +1188,7 @@ F 3 "" H 10850 2950 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K37
+L Keeb-rescue:KEYSW-Keyboard_Parts K37
 U 1 1 5D9EE257
 P 10300 2950
 F 0 "K37" H 10300 3289 60  0000 C CNN
@@ -1199,7 +1199,7 @@ F 3 "" H 10300 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D30
+L Keeb-rescue:D-Keyboard_Parts D30
 U 1 1 5DA711CC
 P 1950 2950
 F 0 "D30" V 1769 2900 60  0000 C CNN
@@ -1210,7 +1210,7 @@ F 3 "" H 1950 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K30
+L Keeb-rescue:KEYSW-Keyboard_Parts K30
 U 1 1 5D9DC90B
 P 1400 2950
 F 0 "K30" H 1400 3289 60  0000 C CNN
@@ -1221,7 +1221,7 @@ F 3 "" H 1400 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D35
+L Keeb-rescue:D-Keyboard_Parts D35
 U 1 1 5DC42376
 P 8250 2950
 F 0 "D35" V 8069 2900 60  0000 C CNN
@@ -1232,7 +1232,7 @@ F 3 "" H 8250 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D25
+L Keeb-rescue:D-Keyboard_Parts D25
 U 1 1 5DC4236D
 P 8250 2350
 F 0 "D25" V 8069 2300 60  0000 C CNN
@@ -1243,7 +1243,7 @@ F 3 "" H 8250 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D15
+L Keeb-rescue:D-Keyboard_Parts D15
 U 1 1 5DC42364
 P 8250 1750
 F 0 "D15" V 8069 1700 60  0000 C CNN
@@ -1254,7 +1254,7 @@ F 3 "" H 8250 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:D D05
+L Keeb-rescue:D-Keyboard_Parts D05
 U 1 1 5DC4235B
 P 8250 1150
 F 0 "D05" V 8069 1100 60  0000 C CNN
@@ -1265,7 +1265,7 @@ F 3 "" H 8250 1150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K05
+L Keeb-rescue:KEYSW-Keyboard_Parts K05
 U 1 1 5D9EE199
 P 7700 1150
 F 0 "K05" H 7700 1489 60  0000 C CNN
@@ -1276,7 +1276,7 @@ F 3 "" H 7700 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K15
+L Keeb-rescue:KEYSW-Keyboard_Parts K15
 U 1 1 5D9EE1A3
 P 7700 1750
 F 0 "K15" H 7700 2089 60  0000 C CNN
@@ -1287,7 +1287,7 @@ F 3 "" H 7700 1750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K25
+L Keeb-rescue:KEYSW-Keyboard_Parts K25
 U 1 1 5D9EE1AD
 P 7700 2350
 F 0 "K25" H 7700 2689 60  0000 C CNN
@@ -1298,7 +1298,7 @@ F 3 "" H 7700 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K35
+L Keeb-rescue:KEYSW-Keyboard_Parts K35
 U 1 1 5D9EE1B7
 P 7700 2950
 F 0 "K35" H 7700 3289 60  0000 C CNN
@@ -1309,7 +1309,7 @@ F 3 "" H 7700 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K26
+L Keeb-rescue:KEYSW-Keyboard_Parts K26
 U 1 1 5D9EE1FD
 P 8950 2350
 F 0 "K26" H 8950 2689 60  0000 C CNN
@@ -1320,7 +1320,7 @@ F 3 "" H 8950 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:KEYSW K36
+L Keeb-rescue:KEYSW-Keyboard_Parts K36
 U 1 1 5D9EE207
 P 8950 2950
 F 0 "K36" H 8950 3289 60  0000 C CNN
@@ -1331,7 +1331,7 @@ F 3 "" H 8950 2950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Keyboard_Parts:D D27
+L Keeb-rescue:D-Keyboard_Parts D27
 U 1 1 5DC6E4C0
 P 10850 2350
 F 0 "D27" V 10669 2300 60  0000 C CNN
@@ -1344,7 +1344,7 @@ $EndComp
 Wire Wire Line
 	10600 2350 10700 2350
 $Comp
-L Keyboard_Parts:KEYSW K27
+L Keeb-rescue:KEYSW-Keyboard_Parts K27
 U 1 1 5D9EE24D
 P 10300 2350
 F 0 "K27" H 10300 2689 60  0000 C CNN

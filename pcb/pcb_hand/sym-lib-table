@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SVastaCustomParts)(type Legacy)(uri ${KIPRJMOD}/../kicad_resources/SVastaCustomParts.lib)(options "")(descr ""))
+  (lib (name Keeb-rescue)(type Legacy)(uri ${KIPRJMOD}/Keeb-rescue.lib)(options "")(descr ""))
+)

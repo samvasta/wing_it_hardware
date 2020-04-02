@@ -33,7 +33,7 @@ $EXTMAX
  10
 337.8847089426473
  20
-81.04660830996247
+95.80392455567254
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-Part Placement Guide
+PCB_Hand
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-173.1530343008996
+209.738837033175
  22
-46.83377308710047
+71.26261644370425
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-173.0430958664229
+254.9258142781602
  41
 1.97712833545108
  42
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 Construction
  70
-    5
+    4
  62
   216
 420
@@ -9899,86 +9899,6 @@ ByLayer
 100
 AcDbCircle
  10
-173.8825925357984
- 20
--7.577143728589287
- 40
-2.5
-100
-AcDbArc
- 50
-117.0000000000003
- 51
-207.0000000000002
-  0
-LINE
-  5
-155
-100
-AcDbEntity
-  8
-PCB_Hand
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-171.6550762253275
- 20
--8.712119977938162
- 11
-189.8600952648834
- 21
--44.44148159789171
-  0
-ARC
-  5
-156
-100
-AcDbEntity
-  8
-PCB_Hand
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-192.0876115753543
- 20
--43.30650534854283
- 40
-2.5
-100
-AcDbArc
- 50
-207.0000000000003
- 51
-296.9999999999999
-  0
-ARC
-  5
-157
-100
-AcDbEntity
-  8
-PCB_Hand
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
 255.6008499099846
  20
 -13.43638360512089
@@ -9993,7 +9913,7 @@ AcDbArc
   0
 LINE
   5
-158
+155
 100
 AcDbEntity
   8
@@ -10017,7 +9937,7 @@ AcDbLine
   0
 ARC
   5
-159
+156
 100
 AcDbEntity
   8
@@ -10045,7 +9965,7 @@ AcDbArc
   0
 LINE
   5
-15A
+157
 100
 AcDbEntity
   8
@@ -10069,7 +9989,7 @@ AcDbLine
   0
 ARC
   5
-15B
+158
 100
 AcDbEntity
   8
@@ -10097,7 +10017,7 @@ AcDbArc
   0
 LINE
   5
-15C
+159
 100
 AcDbEntity
   8
@@ -10121,7 +10041,7 @@ AcDbLine
   0
 ARC
   5
-15D
+15A
 100
 AcDbEntity
   8
@@ -10149,7 +10069,7 @@ AcDbArc
   0
 LINE
   5
-15E
+15B
 100
 AcDbEntity
   8
@@ -10173,7 +10093,7 @@ AcDbLine
   0
 ARC
   5
-15F
+15C
 100
 AcDbEntity
   8
@@ -10201,7 +10121,7 @@ AcDbArc
   0
 LINE
   5
-160
+15D
 100
 AcDbEntity
   8
@@ -10225,7 +10145,7 @@ AcDbLine
   0
 ARC
   5
-161
+15E
 100
 AcDbEntity
   8
@@ -10253,7 +10173,7 @@ AcDbArc
   0
 LINE
   5
-162
+15F
 100
 AcDbEntity
   8
@@ -10277,7 +10197,7 @@ AcDbLine
   0
 ARC
   5
-163
+160
 100
 AcDbEntity
   8
@@ -10305,7 +10225,7 @@ AcDbArc
   0
 LINE
   5
-164
+161
 100
 AcDbEntity
   8
@@ -10329,7 +10249,7 @@ AcDbLine
   0
 ARC
   5
-165
+162
 100
 AcDbEntity
   8
@@ -10357,7 +10277,7 @@ AcDbArc
   0
 LINE
   5
-166
+163
 100
 AcDbEntity
   8
@@ -10381,7 +10301,7 @@ AcDbLine
   0
 ARC
   5
-167
+164
 100
 AcDbEntity
   8
@@ -10409,7 +10329,7 @@ AcDbArc
   0
 LINE
   5
-168
+165
 100
 AcDbEntity
   8
@@ -10433,7 +10353,7 @@ AcDbLine
   0
 ARC
   5
-169
+166
 100
 AcDbEntity
   8
@@ -10461,7 +10381,7 @@ AcDbArc
   0
 LINE
   5
-16A
+167
 100
 AcDbEntity
   8
@@ -10485,7 +10405,7 @@ AcDbLine
   0
 ARC
   5
-16B
+168
 100
 AcDbEntity
   8
@@ -10513,7 +10433,7 @@ AcDbArc
   0
 LINE
   5
-16C
+169
 100
 AcDbEntity
   8
@@ -10537,7 +10457,7 @@ AcDbLine
   0
 ARC
   5
-16D
+16A
 100
 AcDbEntity
   8
@@ -10565,7 +10485,7 @@ AcDbArc
   0
 LINE
   5
-16E
+16B
 100
 AcDbEntity
   8
@@ -10589,7 +10509,7 @@ AcDbLine
   0
 ARC
   5
-16F
+16C
 100
 AcDbEntity
   8
@@ -10617,7 +10537,7 @@ AcDbArc
   0
 LINE
   5
-170
+16D
 100
 AcDbEntity
   8
@@ -10641,7 +10561,7 @@ AcDbLine
   0
 ARC
   5
-171
+16E
 100
 AcDbEntity
   8
@@ -10669,7 +10589,7 @@ AcDbArc
   0
 LINE
   5
-172
+16F
 100
 AcDbEntity
   8
@@ -10691,33 +10611,9 @@ AcDbLine
  21
 13.35410698856705
   0
-LINE
-  5
-173
-100
-AcDbEntity
-  8
-PCB_Hand
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-172.7476162864495
- 20
--5.349627418118367
- 11
-207.1963290164054
- 21
-12.20286842011686
-  0
 ARC
   5
-174
+170
 100
 AcDbEntity
   8
@@ -10743,33 +10639,9 @@ AcDbArc
  51
 334.4999999999998
   0
-LINE
-  5
-175
-100
-AcDbEntity
-  8
-PCB_Hand
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-193.2225878247031
- 20
--45.53402165901372
- 11
-232.6434552162139
- 21
--25.44808648189395
-  0
 ARC
   5
-176
+171
 100
 AcDbEntity
   8
@@ -10797,7 +10669,7 @@ AcDbArc
   0
 LINE
   5
-177
+172
 100
 AcDbEntity
   8
@@ -10821,7 +10693,7 @@ AcDbLine
   0
 LINE
   5
-178
+173
 100
 AcDbEntity
   8
@@ -10845,7 +10717,7 @@ AcDbLine
   0
 ARC
   5
-179
+174
 100
 AcDbEntity
   8
@@ -10873,7 +10745,7 @@ AcDbArc
   0
 LINE
   5
-17A
+175
 100
 AcDbEntity
   8
@@ -10897,7 +10769,7 @@ AcDbLine
   0
 LINE
   5
-17B
+176
 100
 AcDbEntity
   8
@@ -10921,7 +10793,7 @@ AcDbLine
   0
 LINE
   5
-17C
+177
 100
 AcDbEntity
   8
@@ -10945,7 +10817,7 @@ AcDbLine
   0
 LINE
   5
-17D
+178
 100
 AcDbEntity
   8
@@ -10969,7 +10841,7 @@ AcDbLine
   0
 MTEXT
   5
-17E
+179
 100
 AcDbEntity
   8
@@ -11015,7 +10887,7 @@ cursive
   0
 LINE
   5
-17F
+17A
 100
 AcDbEntity
   8
@@ -11039,29 +10911,7 @@ AcDbLine
   0
 CIRCLE
   5
-180
-100
-AcDbEntity
-  8
-Part Placement Guide
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-183.8480776812488
- 20
--3.621801668057932
- 40
-0.75
-  0
-CIRCLE
-  5
-181
+17B
 100
 AcDbEntity
   8
@@ -11083,7 +10933,7 @@ AcDbCircle
   0
 CIRCLE
   5
-182
+17C
 100
 AcDbEntity
   8
@@ -11105,7 +10955,7 @@ AcDbCircle
   0
 CIRCLE
   5
-183
+17D
 100
 AcDbEntity
   8
@@ -11127,7 +10977,7 @@ AcDbCircle
   0
 CIRCLE
   5
-184
+17E
 100
 AcDbEntity
   8
@@ -11149,7 +10999,7 @@ AcDbCircle
   0
 CIRCLE
   5
-185
+17F
 100
 AcDbEntity
   8
@@ -11171,7 +11021,7 @@ AcDbCircle
   0
 CIRCLE
   5
-186
+180
 100
 AcDbEntity
   8
@@ -11193,7 +11043,7 @@ AcDbCircle
   0
 CIRCLE
   5
-187
+181
 100
 AcDbEntity
   8
@@ -11215,7 +11065,7 @@ AcDbCircle
   0
 CIRCLE
   5
-188
+182
 100
 AcDbEntity
   8
@@ -11237,7 +11087,7 @@ AcDbCircle
   0
 CIRCLE
   5
-189
+183
 100
 AcDbEntity
   8
@@ -11259,7 +11109,7 @@ AcDbCircle
   0
 CIRCLE
   5
-18A
+184
 100
 AcDbEntity
   8
@@ -11281,7 +11131,7 @@ AcDbCircle
   0
 CIRCLE
   5
-18B
+185
 100
 AcDbEntity
   8
@@ -11303,7 +11153,7 @@ AcDbCircle
   0
 CIRCLE
   5
-18C
+186
 100
 AcDbEntity
   8
@@ -11322,6 +11172,134 @@ AcDbCircle
 10.21582876400346
  40
 0.75
+  0
+LINE
+  5
+187
+100
+AcDbEntity
+  8
+PCB_Hand
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+171.411106500167
+ 20
+-6.030613167727682
+ 11
+207.1963290164054
+ 21
+12.20286842011686
+  0
+ARC
+  5
+188
+100
+AcDbEntity
+  8
+PCB_Hand
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.5460827495158
+ 20
+-8.25812947819859
+ 40
+2.5
+100
+AcDbArc
+ 50
+116.9999999999998
+ 51
+207.0000000000001
+  0
+LINE
+  5
+189
+100
+AcDbEntity
+  8
+PCB_Hand
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+170.3185664390449
+ 20
+-9.393105727547459
+ 11
+188.5235854786008
+ 21
+-45.12246734750101
+  0
+LINE
+  5
+18A
+100
+AcDbEntity
+  8
+PCB_Hand
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+191.8860780384205
+ 20
+-46.21500740862304
+ 11
+232.6434552162139
+ 21
+-25.44808648189395
+  0
+ARC
+  5
+18B
+100
+AcDbEntity
+  8
+PCB_Hand
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+190.7511017890717
+ 20
+-43.98749109815213
+ 40
+2.5
+100
+AcDbArc
+ 50
+207.0000000000003
+ 51
+296.9999999999998
   0
 ENDSEC
   0

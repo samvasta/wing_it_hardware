@@ -10,8 +10,9 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../
 [eeschema/libraries]
+LibName1=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=empty.kicad_wks
