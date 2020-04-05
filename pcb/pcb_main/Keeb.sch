@@ -544,7 +544,7 @@ F 3 "" H 6850 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 4350 6850 4350
-Text GLabel 9350 1750 0    50   Input ~ 0
+Text GLabel 9350 1600 0    50   Input ~ 0
 SCL
 Text GLabel 3800 4150 0    50   Input ~ 0
 SDA
@@ -610,17 +610,6 @@ Wire Wire Line
 Connection ~ 3950 4750
 Wire Wire Line
 	3950 4750 3800 4750
-$Comp
-L SVastaCustomParts:TRRS_SJ1-42514 J1
-U 1 1 5D8C84D5
-P 10050 1300
-F 0 "J1" H 9822 1051 50  0000 R CNN
-F 1 "TRRS_SJ1-42514" H 9822 960 50  0000 R CNN
-F 2 "SVastaCustomParts:3.5mm_Cut_out" H 10050 700 50  0000 C CNN
-F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 10050 1300 50  0001 C CNN
-	1    10050 1300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L SVastaCustomParts:CD74AC138E U2
 U 1 1 5D82335E
@@ -762,17 +751,6 @@ F 3 "" H 5550 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 1150 5350 1150
-$Comp
-L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0130
-U 1 1 5E039B9B
-P 9350 1450
-F 0 "#PWR0130" H 9350 1500 20  0001 C CNN
-F 1 "GND" V 9350 1250 30  0000 L CNN
-F 2 "" H 9350 1450 60  0000 C CNN
-F 3 "" H 9350 1450 60  0000 C CNN
-	1    9350 1450
-	0    1    1    0   
-$EndComp
 Text GLabel 4150 3050 0    50   BiDi ~ 0
 SS1
 Text GLabel 4150 3150 0    50   BiDi ~ 0
@@ -1008,15 +986,15 @@ $EndComp
 $Comp
 L power:VCC #PWR0129
 U 1 1 5E03963C
-P 9350 1550
-F 0 "#PWR0129" H 9350 1400 50  0001 C CNN
-F 1 "VCC" V 9350 1700 50  0000 L CNN
-F 2 "" H 9350 1550 50  0001 C CNN
-F 3 "" H 9350 1550 50  0001 C CNN
-	1    9350 1550
+P 9350 1450
+F 0 "#PWR0129" H 9350 1300 50  0001 C CNN
+F 1 "VCC" V 9350 1600 50  0000 L CNN
+F 2 "" H 9350 1450 50  0001 C CNN
+F 3 "" H 9350 1450 50  0001 C CNN
+	1    9350 1450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 1650 0    50   Input ~ 0
+Text GLabel 9350 1750 0    50   Input ~ 0
 SDA
 Text Label 9950 5100 2    50   ~ 0
 CapsLock
@@ -1401,9 +1379,7 @@ NumLock
 Wire Wire Line
 	9350 1450 9800 1450
 Wire Wire Line
-	9350 1550 9800 1550
-Wire Wire Line
-	9350 1650 9800 1650
+	9350 1600 9800 1600
 Wire Wire Line
 	9350 1750 9800 1750
 Wire Notes Line
@@ -1857,4 +1833,37 @@ Text Label 2450 5900 0    50   ~ 0
 Row6
 Text Label 2450 6000 0    50   ~ 0
 Row7
+$Comp
+L Connector:Conn_01x01_Male Mod1
+U 1 1 5E9653F7
+P 10000 1450
+F 0 "Mod1" H 9200 1450 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9650 1450 50  0000 C CNN
+F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1450 50  0001 C CNN
+F 3 "~" H 10000 1450 50  0001 C CNN
+	1    10000 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male Mod2
+U 1 1 5E97AB3B
+P 10000 1600
+F 0 "Mod2" H 9200 1600 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9650 1600 50  0000 C CNN
+F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1600 50  0001 C CNN
+F 3 "~" H 10000 1600 50  0001 C CNN
+	1    10000 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male Mod3
+U 1 1 5E98FEDE
+P 10000 1750
+F 0 "Mod3" H 9200 1750 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9650 1750 50  0000 C CNN
+F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1750 50  0001 C CNN
+F 3 "~" H 10000 1750 50  0001 C CNN
+	1    10000 1750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

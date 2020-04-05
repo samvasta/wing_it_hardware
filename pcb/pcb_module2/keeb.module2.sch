@@ -162,10 +162,10 @@ SDA
 Text Label 7550 1600 0    50   ~ 0
 SCK
 $Comp
-L SVastaCustomParts:TRRS_SJ1-42514 J1
+L SVastaCustomParts:TRRS_SJ1-42514 J3
 U 1 1 5E8913E0
 P 5150 900
-F 0 "J1" V 5100 850 50  0000 L CNN
+F 0 "J3" V 5100 850 50  0000 L CNN
 F 1 "TRRS_SJ1-42514" V 5200 850 50  0000 L CNN
 F 2 "SVastaCustomParts:3.5mm_Cut_out" H 5150 900 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 5150 900 50  0001 C CNN
@@ -344,4 +344,30 @@ F 3 "" H 6400 2250 50  0001 C CNN
 	1    6400 2250
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5E8A5763
+P 4500 1800
+F 0 "J1" H 4528 1826 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4528 1735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4500 1800 50  0001 C CNN
+F 3 "~" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5E8A6B6B
+P 4300 1700
+F 0 "#PWR0104" H 4300 1550 50  0001 C CNN
+F 1 "VCC" V 4317 1828 50  0000 L CNN
+F 2 "" H 4300 1700 50  0001 C CNN
+F 3 "" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	0    -1   -1   0   
+$EndComp
+Text Label 4300 1800 2    50   ~ 0
+SDA_IN
+Text Label 4300 1900 2    50   ~ 0
+SCL_IN
 $EndSCHEMATC
