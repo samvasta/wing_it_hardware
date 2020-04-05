@@ -1,0 +1,347 @@
+EESchema Schematic File Version 4
+LIBS:keeb.module2-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SVastaCustomParts:PI6ULS5V9511AWEX_I2C_HotSwap U1
+U 1 1 5E8C5628
+P 8250 1300
+F 0 "U1" H 8200 1415 50  0000 C CNN
+F 1 "PI6ULS5V9511AWEX_I2C_HotSwap" H 8200 1324 50  0000 C CNN
+F 2 "SVastaCustomParts:PI6ULS5V9511A_I2C_HotSwap" H 8250 1300 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/PI6ULS5V9511A.pdf" H 8250 1300 50  0001 C CNN
+	1    8250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 5E8C9807
+P 8750 950
+F 0 "C101" H 8800 850 50  0000 L CNN
+F 1 "100nF" H 8500 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8788 800 50  0001 C CNN
+F 3 "~" H 8750 950 50  0001 C CNN
+	1    8750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R102
+U 1 1 5E8CAECE
+P 7350 1350
+F 0 "R102" V 7250 1350 50  0000 C CNN
+F 1 "10K" V 7350 1350 50  0000 C CNN
+F 2 "keebio:Resistor-Compact" V 7280 1350 50  0001 C CNN
+F 3 "~" H 7350 1350 50  0001 C CNN
+	1    7350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E8E4000
+P 7750 2000
+F 0 "#PWR0111" H 7750 1750 50  0001 C CNN
+F 1 "GND" H 7755 1827 50  0000 C CNN
+F 2 "" H 7750 2000 50  0001 C CNN
+F 3 "" H 7750 2000 50  0001 C CNN
+	1    7750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1900 7750 2000
+$Comp
+L power:GND #PWR0112
+U 1 1 5E8E5D69
+P 8750 700
+F 0 "#PWR0112" H 8750 450 50  0001 C CNN
+F 1 "GND" H 8755 527 50  0000 C CNN
+F 2 "" H 8750 700 50  0001 C CNN
+F 3 "" H 8750 700 50  0001 C CNN
+	1    8750 700 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1450 8750 1450
+$Comp
+L Device:R R103
+U 1 1 5E8E9AEB
+P 9400 1600
+F 0 "R103" V 9300 1600 50  0000 C CNN
+F 1 "10K" V 9400 1600 50  0000 C CNN
+F 2 "keebio:Resistor-Compact" V 9330 1600 50  0001 C CNN
+F 3 "~" H 9400 1600 50  0001 C CNN
+	1    9400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R104
+U 1 1 5E8ED20D
+P 9800 1600
+F 0 "R104" V 9700 1600 50  0000 C CNN
+F 1 "10K" V 9800 1600 50  0000 C CNN
+F 2 "keebio:Resistor-Compact" V 9730 1600 50  0001 C CNN
+F 3 "~" H 9800 1600 50  0001 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 9400 1450
+Wire Wire Line
+	9800 1750 9800 1900
+Wire Wire Line
+	9800 1900 9300 1900
+Wire Wire Line
+	9400 1450 9800 1450
+$Comp
+L Device:R R101
+U 1 1 5E8FED74
+P 7150 1350
+F 0 "R101" V 7050 1350 50  0000 C CNN
+F 1 "10K" V 7150 1350 50  0000 C CNN
+F 2 "keebio:Resistor-Compact" V 7080 1350 50  0001 C CNN
+F 3 "~" H 7150 1350 50  0001 C CNN
+	1    7150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1100 7350 1200
+Wire Wire Line
+	7350 1100 7150 1100
+Wire Wire Line
+	7150 1100 7150 1200
+Connection ~ 7350 1100
+Wire Wire Line
+	7350 1500 7550 1500
+Wire Wire Line
+	7550 1500 7550 1450
+Wire Wire Line
+	7550 1450 7750 1450
+Wire Wire Line
+	7750 1600 7150 1600
+Wire Wire Line
+	7150 1600 7150 1500
+$Comp
+L Device:C C102
+U 1 1 5E91078C
+P 7500 2000
+F 0 "C102" V 7250 1900 50  0000 L CNN
+F 1 "100nF" V 7350 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7538 1850 50  0001 C CNN
+F 3 "~" H 7500 2000 50  0001 C CNN
+	1    7500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 2000 7750 2000
+Connection ~ 7750 2000
+Wire Wire Line
+	7350 2000 7350 1500
+Connection ~ 7350 1500
+Wire Wire Line
+	8750 1100 8750 1450
+Connection ~ 8750 1450
+Wire Wire Line
+	8750 1450 9000 1450
+Connection ~ 8750 1100
+Wire Wire Line
+	7350 1100 8750 1100
+Wire Wire Line
+	8750 700  8750 800 
+Text Label 8900 1600 0    50   ~ 0
+SDA
+Text Label 7550 1600 0    50   ~ 0
+SCK
+$Comp
+L SVastaCustomParts:TRRS_SJ1-42514 J1
+U 1 1 5E8913E0
+P 5150 900
+F 0 "J1" V 5100 850 50  0000 L CNN
+F 1 "TRRS_SJ1-42514" V 5200 850 50  0000 L CNN
+F 2 "SVastaCustomParts:3.5mm_Cut_out" H 5150 900 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 5150 900 50  0001 C CNN
+	1    5150 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E89827D
+P 6200 1150
+F 0 "#PWR0113" H 6200 900 50  0001 C CNN
+F 1 "GND" V 6200 950 50  0000 C CNN
+F 2 "" H 6200 1150 50  0001 C CNN
+F 3 "" H 6200 1150 50  0001 C CNN
+	1    6200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5E8A6DB2
+P 6100 1150
+F 0 "#PWR0114" H 6100 1000 50  0001 C CNN
+F 1 "VCC" V 6117 1278 50  0000 L CNN
+F 2 "" H 6100 1150 50  0001 C CNN
+F 3 "" H 6100 1150 50  0001 C CNN
+	1    6100 1150
+	-1   0    0    1   
+$EndComp
+Text Label 5300 1450 0    50   ~ 0
+SDA_IN
+Text Label 5300 1550 0    50   ~ 0
+SCL_IN
+Wire Wire Line
+	4700 1450 5900 1450
+Wire Wire Line
+	4800 1550 6000 1550
+Wire Wire Line
+	9400 1750 9200 1750
+Wire Wire Line
+	9200 1750 9200 1600
+Wire Wire Line
+	8650 1600 9200 1600
+Text Label 8800 1750 0    50   ~ 0
+SDA_IN
+Text Label 7650 1750 2    50   ~ 0
+SCL_IN
+Wire Wire Line
+	8650 1750 8800 1750
+Wire Wire Line
+	7750 1750 7650 1750
+$Comp
+L power:GND #PWR0115
+U 1 1 5E8E7E77
+P 5000 1150
+F 0 "#PWR0115" H 5000 900 50  0001 C CNN
+F 1 "GND" V 5000 950 50  0000 C CNN
+F 2 "" H 5000 1150 50  0001 C CNN
+F 3 "" H 5000 1150 50  0001 C CNN
+	1    5000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 5E8E7E7D
+P 4900 1150
+F 0 "#PWR0116" H 4900 1000 50  0001 C CNN
+F 1 "VCC" V 4917 1278 50  0000 L CNN
+F 2 "" H 4900 1150 50  0001 C CNN
+F 3 "" H 4900 1150 50  0001 C CNN
+	1    4900 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 1150 5900 1450
+Wire Wire Line
+	6000 1150 6000 1550
+Wire Wire Line
+	4800 1150 4800 1550
+Wire Wire Line
+	4700 1150 4700 1450
+Connection ~ 9300 1900
+Wire Wire Line
+	9300 1900 8650 1900
+$Comp
+L Device:LED D101
+U 1 1 5EDB13CF
+P 9300 2350
+F 0 "D101" V 9339 2232 50  0000 R CNN
+F 1 "LED" V 9248 2232 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 2350 50  0001 C CNN
+F 3 "~" H 9300 2350 50  0001 C CNN
+	1    9300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5EDB1D2B
+P 9300 2500
+F 0 "#PWR0119" H 9300 2250 50  0001 C CNN
+F 1 "GND" H 9305 2327 50  0000 C CNN
+F 2 "" H 9300 2500 50  0001 C CNN
+F 3 "" H 9300 2500 50  0001 C CNN
+	1    9300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R105
+U 1 1 5EDB0407
+P 9300 2050
+F 0 "R105" H 9370 2096 50  0000 L CNN
+F 1 "470" V 9300 2000 50  0000 L CNN
+F 2 "keebio:Resistor-Compact" V 9230 2050 50  0001 C CNN
+F 3 "~" H 9300 2050 50  0001 C CNN
+	1    9300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EAA28E4
+P 9000 1450
+F 0 "#PWR0101" H 9000 1300 50  0001 C CNN
+F 1 "VCC" V 9017 1578 50  0000 L CNN
+F 2 "" H 9000 1450 50  0001 C CNN
+F 3 "" H 9000 1450 50  0001 C CNN
+	1    9000 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 1450
+Wire Wire Line
+	9000 1450 9400 1450
+$Comp
+L SVastaCustomParts:TRRS_SJ1-42514 J2
+U 1 1 5E869A87
+P 6350 900
+F 0 "J2" V 6300 850 50  0000 L CNN
+F 1 "TRRS_SJ1-42514" V 6400 850 50  0000 L CNN
+F 2 "SVastaCustomParts:3.5mm_Cut_out" H 6350 900 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 6350 900 50  0001 C CNN
+	1    6350 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L SVastaCustomParts:0.91"_128x64_i2c_OLED U2
+U 1 1 5E8C718D
+P 6100 2200
+F 0 "U2" H 6075 2665 50  0000 C CNN
+F 1 "0.91\"_128x64_i2c_OLED" H 6075 2574 50  0000 C CNN
+F 2 "SVastaCustomParts:128x64px_OLED_I2C" H 6100 2650 50  0001 C CNN
+F 3 "https://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-Yellow-Blue-IIC/dp/B076PDVFQD?th=1" H 6100 2650 50  0001 C CNN
+	1    6100 2200
+	1    0    0    -1  
+$EndComp
+Text Label 5750 1950 2    50   ~ 0
+SDA
+Text Label 5750 2050 2    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR0102
+U 1 1 5E8CBED2
+P 6400 2150
+F 0 "#PWR0102" H 6400 1900 50  0001 C CNN
+F 1 "GND" V 6400 1950 50  0000 C CNN
+F 2 "" H 6400 2150 50  0001 C CNN
+F 3 "" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5E8CBED8
+P 6400 2250
+F 0 "#PWR0103" H 6400 2100 50  0001 C CNN
+F 1 "VCC" V 6417 2378 50  0000 L CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
