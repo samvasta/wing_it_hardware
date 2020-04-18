@@ -487,32 +487,10 @@ F 3 "~" H 6150 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 5300 6000 5300
-$Comp
-L Device:D D102
-U 1 1 5DAEE077
-P 3350 1950
-F 0 "D102" V 3304 2029 50  0000 L CNN
-F 1 "D" V 3395 2029 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3350 1950 50  0001 C CNN
-F 3 "~" H 3350 1950 50  0001 C CNN
-	1    3350 1950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3350 2100 3350 3400
 Wire Wire Line
 	3350 1800 3350 1100
-$Comp
-L Device:D D101
-U 1 1 5DAF9F52
-P 3700 1100
-F 0 "D101" H 3700 1316 50  0000 C CNN
-F 1 "D" H 3700 1225 50  0000 C CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3700 1100 50  0001 C CNN
-F 3 "~" H 3700 1100 50  0001 C CNN
-	1    3700 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 1100 3350 1100
 Connection ~ 3350 1100
@@ -618,10 +596,10 @@ U 1 1 5DAE2C2A
 P 4800 1100
 F 0 "SW2" H 4800 1385 50  0000 C CNN
 F 1 "SW_SPDT" H 4800 1294 50  0000 C CNN
-F 2 "SVastaCustomParts:400BWMSP1R2BLKSM6QE‎_rocker_switch" H 4800 1100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/400BWMSP1R2BLKSM6QE/EG4336CT-ND/668634/?itemSeq=322026415" H 4800 1100 50  0001 C CNN
+F 2 "SVastaCustomParts:SW_Slide_C&K_JS102011SAQN" H 4800 1100 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf" H 4800 1100 50  0001 C CNN
 	1    4800 1100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5000 1200 5150 1200
@@ -665,4 +643,26 @@ Wire Wire Line
 	5450 1000 5000 1000
 Wire Wire Line
 	5450 1000 5450 2750
+$Comp
+L Device:D D102
+U 1 1 5DAEE077
+P 3350 1950
+F 0 "D102" V 3304 2029 50  0000 L CNN
+F 1 "D" V 3395 2029 50  0000 L CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3350 1950 50  0001 C CNN
+F 3 "~" H 3350 1950 50  0001 C CNN
+	1    3350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D101
+U 1 1 5DAF9F52
+P 3700 1100
+F 0 "D101" H 3700 1316 50  0000 C CNN
+F 1 "D" H 3700 1225 50  0000 C CNN
+F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3700 1100 50  0001 C CNN
+F 3 "~" H 3700 1100 50  0001 C CNN
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

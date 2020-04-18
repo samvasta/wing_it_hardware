@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name SVastaCustomParts)(type KiCad)(uri ${KIPRJMOD}/../kicad_resources/SVastaCustomParts.pretty)(options "")(descr ""))
   (lib (name Keebio)(type KiCad)(uri ${KIPRJMOD}/../keebio)(options "")(descr ""))
-  (lib (name Keyboard_Parts)(type KiCad)(uri ${KIPRJMOD}/kicad_lib_tmk)(options "")(descr ""))
+  (lib (name Keyboard_Parts)(type KiCad)(uri ${KIPRJMOD}/../kicad_lib_tmk)(options "")(descr ""))
 )

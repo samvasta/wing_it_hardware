@@ -544,8 +544,6 @@ F 3 "" H 6850 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 4350 6850 4350
-Text GLabel 9350 1600 0    50   Input ~ 0
-SCL
 Text GLabel 3800 4150 0    50   Input ~ 0
 SDA
 Text GLabel 3800 4050 0    50   Input ~ 0
@@ -767,49 +765,45 @@ Wire Wire Line
 	4550 3250 4150 3250
 Wire Wire Line
 	4150 3350 4550 3350
-Text GLabel 9700 3900 0    50   BiDi ~ 0
+Text GLabel 9800 5500 0    50   BiDi ~ 0
 SCK
-Text GLabel 9700 4100 0    50   BiDi ~ 0
+Text GLabel 9800 5700 0    50   BiDi ~ 0
 MOSI
-Text GLabel 9700 4000 0    50   BiDi ~ 0
+Text GLabel 9800 5600 0    50   BiDi ~ 0
 MISO
 $Comp
 L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0131
 U 1 1 5DAA6BD9
-P 9650 4600
-F 0 "#PWR0131" H 9650 4650 20  0001 C CNN
-F 1 "GND" V 9650 4400 30  0000 L CNN
-F 2 "" H 9650 4600 60  0000 C CNN
-F 3 "" H 9650 4600 60  0000 C CNN
-	1    9650 4600
+P 9750 6200
+F 0 "#PWR0131" H 9750 6250 20  0001 C CNN
+F 1 "GND" V 9750 6000 30  0000 L CNN
+F 2 "" H 9750 6200 60  0000 C CNN
+F 3 "" H 9750 6200 60  0000 C CNN
+	1    9750 6200
 	0    1    -1   0   
 $EndComp
 $Comp
 L power:VCC #PWR0132
 U 1 1 5DAA6BE3
-P 9650 4700
-F 0 "#PWR0132" H 9650 4550 50  0001 C CNN
-F 1 "VCC" V 9667 4828 50  0000 L CNN
-F 2 "" H 9650 4700 50  0001 C CNN
-F 3 "" H 9650 4700 50  0001 C CNN
-	1    9650 4700
+P 9750 6300
+F 0 "#PWR0132" H 9750 6150 50  0001 C CNN
+F 1 "VCC" V 9767 6428 50  0000 L CNN
+F 2 "" H 9750 6300 50  0001 C CNN
+F 3 "" H 9750 6300 50  0001 C CNN
+	1    9750 6300
 	0    -1   1    0   
 $EndComp
 Text Label 4100 3550 0    50   ~ 0
 RST
-Text Label 9550 4500 0    50   ~ 0
+Text Label 9650 6100 0    50   ~ 0
 RST
-Text Label 9550 4350 0    50   ~ 0
+Text Label 9650 5950 0    50   ~ 0
 IRQ
 Text Label 4550 3450 2    50   ~ 0
 IRQ
 NoConn ~ 4550 2350
 Wire Wire Line
 	6850 3150 6700 3150
-Text GLabel 6700 3650 2    50   Input ~ 0
-ColSelectC
-Text GLabel 6700 3750 2    50   Input ~ 0
-ColSelectB
 Wire Wire Line
 	6850 2750 6700 2750
 Wire Wire Line
@@ -820,16 +814,8 @@ Text GLabel 6700 4150 2    50   Input ~ 0
 RowSelectB
 Text GLabel 6700 4250 2    50   Input ~ 0
 RowSelectA
-Text GLabel 9700 4200 0    50   BiDi ~ 0
+Text GLabel 9800 5800 0    50   BiDi ~ 0
 SS1
-Text Notes 9050 1250 0    50   ~ 0
-I2C Module Connections
-Wire Notes Line
-	9000 1300 11050 1300
-Wire Notes Line
-	9000 1150 10050 1150
-Wire Notes Line
-	10050 1150 10050 1300
 Wire Notes Line
 	700  5050 1500 5050
 Wire Notes Line
@@ -844,59 +830,59 @@ Wire Wire Line
 $Comp
 L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0135
 U 1 1 5DA4D518
-P 7700 6150
-F 0 "#PWR0135" H 7700 6200 20  0001 C CNN
-F 1 "GND" V 7650 6100 30  0000 L CNN
-F 2 "" H 7700 6150 60  0000 C CNN
-F 3 "" H 7700 6150 60  0000 C CNN
-	1    7700 6150
+P 7300 6150
+F 0 "#PWR0135" H 7300 6200 20  0001 C CNN
+F 1 "GND" V 7250 6100 30  0000 L CNN
+F 2 "" H 7300 6150 60  0000 C CNN
+F 3 "" H 7300 6150 60  0000 C CNN
+	1    7300 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x09_Female JP1
 U 1 1 5D8CAFE9
-P 10350 4300
-F 0 "JP1" H 10428 4353 59  0000 L CNN
-F 1 "HEADER-1X9" H 10428 4248 59  0000 L CNN
-F 2 "SVastaCustomParts:Adafruit_BLE_SPI_wire_tht" H 10350 4300 50  0001 C CNN
-F 3 "" H 10350 4300 50  0001 C CNN
-	1    10350 4300
+P 10450 5900
+F 0 "JP1" H 10528 5953 59  0000 L CNN
+F 1 "HEADER-1X9" H 10528 5848 59  0000 L CNN
+F 2 "SVastaCustomParts:Adafruit_BLE_SPI_wire_tht" H 10450 5900 50  0001 C CNN
+F 3 "" H 10450 5900 50  0001 C CNN
+	1    10450 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 3900 10150 3900
+	9800 5500 10250 5500
 Wire Wire Line
-	10150 4000 9700 4000
+	10250 5600 9800 5600
 Wire Wire Line
-	9700 4100 10150 4100
+	9800 5700 10250 5700
 Wire Wire Line
-	10150 4200 9700 4200
+	10250 5800 9800 5800
 Wire Wire Line
-	9900 4350 9900 4300
+	10000 5950 10000 5900
 Wire Wire Line
-	9900 4300 10150 4300
+	10000 5900 10250 5900
 Wire Wire Line
-	9500 4350 9900 4350
+	9600 5950 10000 5950
 Wire Wire Line
-	9500 4500 10150 4500
+	9600 6100 10250 6100
 Wire Wire Line
-	9650 4600 10150 4600
+	9750 6200 10250 6200
 Wire Wire Line
-	10150 4700 9650 4700
-NoConn ~ 10150 4400
+	10250 6300 9750 6300
+NoConn ~ 10250 6000
 Wire Notes Line
-	9000 4850 11050 4850
+	9100 6450 11150 6450
 Wire Notes Line
-	11050 4850 11050 3700
+	11150 6450 11150 5300
 Wire Notes Line
-	11050 3700 9000 3700
+	11150 5300 9100 5300
 Wire Notes Line
-	9000 3550 9850 3550
+	9100 5150 9950 5150
 Wire Notes Line
-	9850 3550 9850 3700
+	9950 5150 9950 5300
 Wire Notes Line
-	9000 3550 9000 4850
-Text Notes 9050 3650 0    50   ~ 0
+	9100 5150 9100 6450
+Text Notes 9150 5250 0    50   ~ 0
 BLE Module
 Text Label 5850 1450 0    50   ~ 0
 VbatMonitor
@@ -983,22 +969,9 @@ F 3 "" H 5600 3400 60  0001 C CNN
 	1    5600 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0129
-U 1 1 5E03963C
-P 9350 1450
-F 0 "#PWR0129" H 9350 1300 50  0001 C CNN
-F 1 "VCC" V 9350 1600 50  0000 L CNN
-F 2 "" H 9350 1450 50  0001 C CNN
-F 3 "" H 9350 1450 50  0001 C CNN
-	1    9350 1450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9350 1750 0    50   Input ~ 0
-SDA
-Text Label 9950 5100 2    50   ~ 0
+Text Label 7450 4700 2    50   ~ 0
 CapsLock
-Text Label 9950 5750 2    50   ~ 0
+Text Label 7450 5350 2    50   ~ 0
 NumLock
 $Comp
 L Device:R R20
@@ -1006,7 +979,7 @@ U 1 1 5E878652
 P 6050 5500
 F 0 "R20" V 6150 5450 50  0000 L CNN
 F 1 "10k" V 6050 5500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5980 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 5500 50  0001 C CNN
 F 3 "~" H 6050 5500 50  0001 C CNN
 	1    6050 5500
 	0    -1   -1   0   
@@ -1047,24 +1020,17 @@ Wire Wire Line
 	5650 7600 5650 7350
 Wire Wire Line
 	5750 5550 5750 5500
-Connection ~ 5100 6650
 Wire Wire Line
 	5100 6650 5450 6650
 Wire Wire Line
-	4850 6350 4950 6350
-Connection ~ 5050 6550
-Wire Wire Line
 	5050 6550 5450 6550
-Connection ~ 5000 6450
 Wire Wire Line
 	5000 6450 5450 6450
 Connection ~ 4950 6350
 Wire Wire Line
 	4950 6350 5450 6350
-Connection ~ 5250 6950
 Wire Wire Line
 	5250 6950 5450 6950
-Connection ~ 5300 7050
 Wire Wire Line
 	5300 7050 5450 7050
 $Comp
@@ -1098,34 +1064,34 @@ Connection ~ 6350 5500
 Wire Wire Line
 	5900 5500 5750 5500
 $Comp
-L Device:D D503
+L Device:D D501
 U 1 1 5E87864C
 P 4250 5700
-F 0 "D503" V 4150 5700 50  0000 L CNN
+F 0 "D501" V 4150 5700 50  0000 L CNN
 F 1 "D" V 4250 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4250 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 5700 50  0001 C CNN
 F 3 "~" H 4250 5700 50  0001 C CNN
 	1    4250 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D502
+L Device:D D503
 U 1 1 5F0F89F1
 P 5000 5700
-F 0 "D502" V 4900 5700 50  0000 L CNN
+F 0 "D503" V 4900 5700 50  0000 L CNN
 F 1 "D" V 5000 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5000 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 5700 50  0001 C CNN
 F 3 "~" H 5000 5700 50  0001 C CNN
 	1    5000 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D501
+L Device:D D502
 U 1 1 5F111C81
 P 4500 5700
-F 0 "D501" V 4400 5700 50  0000 L CNN
+F 0 "D502" V 4400 5700 50  0000 L CNN
 F 1 "D" V 4500 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4500 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 5700 50  0001 C CNN
 F 3 "~" H 4500 5700 50  0001 C CNN
 	1    4500 5700
 	0    -1   -1   0   
@@ -1136,7 +1102,7 @@ U 1 1 5F12AF57
 P 4750 5700
 F 0 "D500" V 4650 5700 50  0000 L CNN
 F 1 "D" V 4750 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4750 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 5700 50  0001 C CNN
 F 3 "~" H 4750 5700 50  0001 C CNN
 	1    4750 5700
 	0    -1   -1   0   
@@ -1147,7 +1113,7 @@ U 1 1 5F144174
 P 5750 5700
 F 0 "D507" V 5650 5700 50  0000 L CNN
 F 1 "D" V 5750 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5750 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 5700 50  0001 C CNN
 F 3 "~" H 5750 5700 50  0001 C CNN
 	1    5750 5700
 	0    -1   -1   0   
@@ -1158,7 +1124,7 @@ U 1 1 5F15D38C
 P 5500 5700
 F 0 "D506" V 5400 5700 50  0000 L CNN
 F 1 "D" V 5500 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5500 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 5700 50  0001 C CNN
 F 3 "~" H 5500 5700 50  0001 C CNN
 	1    5500 5700
 	0    -1   -1   0   
@@ -1169,7 +1135,7 @@ U 1 1 5F176621
 P 4000 5700
 F 0 "D505" V 3900 5700 50  0000 L CNN
 F 1 "D" V 4000 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 4000 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 5700 50  0001 C CNN
 F 3 "~" H 4000 5700 50  0001 C CNN
 	1    4000 5700
 	0    -1   -1   0   
@@ -1180,25 +1146,21 @@ U 1 1 5F18F99C
 P 5250 5700
 F 0 "D504" V 5150 5700 50  0000 L CNN
 F 1 "D" V 5250 5750 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 5250 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 5700 50  0001 C CNN
 F 3 "~" H 5250 5700 50  0001 C CNN
 	1    5250 5700
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6700 3950 2    50   Input ~ 0
 RowEnable
-Text GLabel 6850 3150 2    50   Input ~ 0
-ColEnable
 Wire Wire Line
 	5750 6050 5300 6050
 Wire Wire Line
 	5200 6850 5450 6850
-Connection ~ 5200 6850
 Wire Wire Line
 	5200 5950 5200 6850
 Wire Wire Line
 	5150 6750 5450 6750
-Connection ~ 5150 6750
 Wire Wire Line
 	5150 5900 5150 6750
 Wire Wire Line
@@ -1275,499 +1237,139 @@ Wire Wire Line
 Connection ~ 5500 5500
 Wire Wire Line
 	5500 5500 5250 5500
-Connection ~ 10750 5750
+Connection ~ 8250 5350
 Wire Wire Line
-	10750 5100 10750 5750
+	8250 4700 8250 5350
 Wire Wire Line
-	10750 6050 10750 6250
+	8250 5650 8250 5850
 $Comp
 L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0145
 U 1 1 5DCEE1A2
-P 10750 6250
-F 0 "#PWR0145" H 10750 6300 20  0001 C CNN
-F 1 "GND" H 10750 6309 30  0000 C CNN
-F 2 "" H 10750 6250 60  0000 C CNN
-F 3 "" H 10750 6250 60  0000 C CNN
-	1    10750 6250
+P 8250 5850
+F 0 "#PWR0145" H 8250 5900 20  0001 C CNN
+F 1 "GND" H 8250 5909 30  0000 C CNN
+F 2 "" H 8250 5850 60  0000 C CNN
+F 3 "" H 8250 5850 60  0000 C CNN
+	1    8250 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 5100 10150 5100
+	7450 4700 7650 4700
 Wire Wire Line
-	9950 5750 10150 5750
+	7450 5350 7650 5350
 Wire Wire Line
-	10750 5100 10450 5100
+	8250 4700 7950 4700
 $Comp
 L Device:LED D?
 U 1 1 5DC75EFD
-P 10300 5100
+P 7800 4700
 AR Path="/5DF457A9/5DC75EFD" Ref="D?"  Part="1" 
 AR Path="/5DC75EFD" Ref="D401"  Part="1" 
-F 0 "D401" H 10300 5200 50  0000 C CNN
-F 1 "CAPS" H 10300 5300 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 5100 50  0001 C CNN
-F 3 "~" H 10300 5100 50  0001 C CNN
-	1    10300 5100
+F 0 "D401" H 7800 4800 50  0000 C CNN
+F 1 "CAPS" H 7800 4900 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4700 50  0001 C CNN
+F 3 "~" H 7800 4700 50  0001 C CNN
+	1    7800 4700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DC64F1A
-P 10750 5900
+P 8250 5500
 AR Path="/5DF457A9/5DC64F1A" Ref="R?"  Part="1" 
 AR Path="/5DC64F1A" Ref="R19"  Part="1" 
-F 0 "R19" H 10820 5946 50  0000 L CNN
-F 1 "470" V 10750 5800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10680 5900 50  0001 C CNN
-F 3 "~" H 10750 5900 50  0001 C CNN
-	1    10750 5900
+F 0 "R19" H 8320 5546 50  0000 L CNN
+F 1 "470" V 8250 5400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8180 5500 50  0001 C CNN
+F 3 "~" H 8250 5500 50  0001 C CNN
+	1    8250 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 5750 10450 5750
+	8250 5350 7950 5350
 $Comp
 L Device:LED D?
 U 1 1 5DC64F13
-P 10300 5750
+P 7800 5350
 AR Path="/5DF457A9/5DC64F13" Ref="D?"  Part="1" 
 AR Path="/5DC64F13" Ref="D402"  Part="1" 
-F 0 "D402" H 10300 5850 50  0000 C CNN
-F 1 "NUM" H 10300 5950 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 5750 50  0001 C CNN
-F 3 "~" H 10300 5750 50  0001 C CNN
-	1    10300 5750
+F 0 "D402" H 7800 5450 50  0000 C CNN
+F 1 "NUM" H 7800 5550 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 5350 50  0001 C CNN
+F 3 "~" H 7800 5350 50  0001 C CNN
+	1    7800 5350
 	-1   0    0    -1  
 $EndComp
 Text GLabel 6350 6350 2    50   Input ~ 0
 ColValue
 Wire Wire Line
-	8250 6150 8350 6150
+	7850 6150 7950 6150
 $Comp
 L Device:R R18
 U 1 1 5DACB6C1
-P 8100 6150
-F 0 "R18" V 8200 6150 50  0000 C CNN
-F 1 "220" V 8100 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8030 6150 50  0001 C CNN
-F 3 "~" H 8100 6150 50  0001 C CNN
-	1    8100 6150
+P 7700 6150
+F 0 "R18" V 7800 6150 50  0000 C CNN
+F 1 "220" V 7700 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7630 6150 50  0001 C CNN
+F 3 "~" H 7700 6150 50  0001 C CNN
+	1    7700 6150
 	0    1    1    0   
 $EndComp
-Text Notes 8700 6250 2    50   ~ 0
+Text Notes 8300 6250 2    50   ~ 0
 Red
 Wire Wire Line
-	7950 6150 7700 6150
+	7550 6150 7300 6150
 $Comp
 L Device:LED D?
 U 1 1 5DA415D4
-P 8500 6150
+P 8100 6150
 AR Path="/5DF457A9/5DA415D4" Ref="D?"  Part="1" 
 AR Path="/5DA415D4" Ref="D302"  Part="1" 
-F 0 "D302" H 8500 5900 50  0000 C CNN
-F 1 "Bat Low" H 8500 6000 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 6150 50  0001 C CNN
-F 3 "~" H 8500 6150 50  0001 C CNN
-	1    8500 6150
+F 0 "D302" H 8100 5900 50  0000 C CNN
+F 1 "Bat Low" H 8100 6000 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 6150 50  0001 C CNN
+F 3 "~" H 8100 6150 50  0001 C CNN
+	1    8100 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 6150 8650 6150
+	8450 6150 8250 6150
 Text Label 7450 3050 0    50   ~ 0
 CapsLock
 Text Label 7450 2950 0    50   ~ 0
 NumLock
-Wire Wire Line
-	9350 1450 9800 1450
-Wire Wire Line
-	9350 1600 9800 1600
-Wire Wire Line
-	9350 1750 9800 1750
-Wire Notes Line
-	11050 1300 11050 2000
-Wire Notes Line
-	11050 2000 9000 2000
-Wire Notes Line
-	9000 2000 9000 1150
-Text GLabel 6700 3850 2    50   Input ~ 0
+Text GLabel 6700 3750 2    50   Input ~ 0
 ColSelectA
-Text GLabel 6700 3550 2    50   Input ~ 0
-ColValue
 Wire Wire Line
 	6700 3050 7450 3050
 Wire Wire Line
 	6700 2950 7450 2950
 Wire Wire Line
 	6700 2850 7450 2850
-Text Label 8850 6150 0    50   ~ 0
+Text Label 8450 6150 0    50   ~ 0
 BatLow
 Text Label 6850 2750 0    50   ~ 0
 BatLow
-$Comp
-L Connector:Conn_01x01_Male Row0
-U 1 1 5E85EFBA
-P 2850 5300
-F 0 "Row0" H 2050 5300 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5300 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5300 50  0001 C CNN
-F 3 "~" H 2850 5300 50  0001 C CNN
-	1    2850 5300
-	-1   0    0    1   
-$EndComp
 Connection ~ 4500 5500
 Wire Notes Line
 	6850 7750 700  7750
 Wire Notes Line
 	700  5200 6850 5200
-$Comp
-L Connector:Conn_01x01_Male Row1
-U 1 1 5E961374
-P 2850 5400
-F 0 "Row1" H 2050 5400 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5400 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5400 50  0001 C CNN
-F 3 "~" H 2850 5400 50  0001 C CNN
-	1    2850 5400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row2
-U 1 1 5E970491
-P 2850 5500
-F 0 "Row2" H 2050 5500 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5500 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5500 50  0001 C CNN
-F 3 "~" H 2850 5500 50  0001 C CNN
-	1    2850 5500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row3
-U 1 1 5E97F51C
-P 2850 5600
-F 0 "Row3" H 2050 5600 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5600 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5600 50  0001 C CNN
-F 3 "~" H 2850 5600 50  0001 C CNN
-	1    2850 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row4
-U 1 1 5E98E704
-P 2850 5700
-F 0 "Row4" H 2050 5700 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5700 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5700 50  0001 C CNN
-F 3 "~" H 2850 5700 50  0001 C CNN
-	1    2850 5700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row5
-U 1 1 5E99D7A9
-P 2850 5800
-F 0 "Row5" H 2050 5800 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5800 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5800 50  0001 C CNN
-F 3 "~" H 2850 5800 50  0001 C CNN
-	1    2850 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row6
-U 1 1 5E9AC800
-P 2850 5900
-F 0 "Row6" H 2050 5900 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 5900 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 5900 50  0001 C CNN
-F 3 "~" H 2850 5900 50  0001 C CNN
-	1    2850 5900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male Row7
-U 1 1 5E9BB8CA
-P 2850 6000
-F 0 "Row7" H 2050 6000 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 2500 6000 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 2850 6000 50  0001 C CNN
-F 3 "~" H 2850 6000 50  0001 C CNN
-	1    2850 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR3
-U 1 1 5E9CC750
-P 4250 6450
-F 0 "ColR3" H 3450 6450 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6450 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6450 50  0001 C CNN
-F 3 "~" H 4250 6450 50  0001 C CNN
-	1    4250 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR2
-U 1 1 5E9DC1D3
-P 4250 7050
-F 0 "ColR2" H 3450 7050 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7050 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7050 50  0001 C CNN
-F 3 "~" H 4250 7050 50  0001 C CNN
-	1    4250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR1
-U 1 1 5E9EB27D
-P 4250 6650
-F 0 "ColR1" H 3450 6650 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6650 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6650 50  0001 C CNN
-F 3 "~" H 4250 6650 50  0001 C CNN
-	1    4250 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR0
-U 1 1 5E9FA2FE
-P 4250 6850
-F 0 "ColR0" H 3450 6850 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6850 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6850 50  0001 C CNN
-F 3 "~" H 4250 6850 50  0001 C CNN
-	1    4250 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR7
-U 1 1 5EA09355
-P 4250 7650
-F 0 "ColR7" H 3450 7650 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7650 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7650 50  0001 C CNN
-F 3 "~" H 4250 7650 50  0001 C CNN
-	1    4250 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR6
-U 1 1 5EA1830B
-P 4250 7450
-F 0 "ColR6" H 3450 7450 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7450 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7450 50  0001 C CNN
-F 3 "~" H 4250 7450 50  0001 C CNN
-	1    4250 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR5
-U 1 1 5EA27391
-P 4250 6250
-F 0 "ColR5" H 3450 6250 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6250 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6250 50  0001 C CNN
-F 3 "~" H 4250 6250 50  0001 C CNN
-	1    4250 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColR4
-U 1 1 5EA36485
-P 4250 7250
-F 0 "ColR4" H 3450 7250 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7250 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7250 50  0001 C CNN
-F 3 "~" H 4250 7250 50  0001 C CNN
-	1    4250 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL3
-U 1 1 5EB2EC8A
-P 4250 6350
-F 0 "ColL3" H 3450 6350 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6350 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6350 50  0001 C CNN
-F 3 "~" H 4250 6350 50  0001 C CNN
-	1    4250 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL2
-U 1 1 5EB2EC90
-P 4250 6950
-F 0 "ColL2" H 3450 6950 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6950 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6950 50  0001 C CNN
-F 3 "~" H 4250 6950 50  0001 C CNN
-	1    4250 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL1
-U 1 1 5EB2EC96
-P 4250 6550
-F 0 "ColL1" H 3450 6550 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6550 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6550 50  0001 C CNN
-F 3 "~" H 4250 6550 50  0001 C CNN
-	1    4250 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL0
-U 1 1 5EB2EC9C
-P 4250 6750
-F 0 "ColL0" H 3450 6750 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6750 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6750 50  0001 C CNN
-F 3 "~" H 4250 6750 50  0001 C CNN
-	1    4250 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL7
-U 1 1 5EB2ECA2
-P 4250 7550
-F 0 "ColL7" H 3450 7550 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7550 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7550 50  0001 C CNN
-F 3 "~" H 4250 7550 50  0001 C CNN
-	1    4250 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL6
-U 1 1 5EB2ECA8
-P 4250 7350
-F 0 "ColL6" H 3450 7350 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7350 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7350 50  0001 C CNN
-F 3 "~" H 4250 7350 50  0001 C CNN
-	1    4250 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL5
-U 1 1 5EB2ECAE
-P 4250 6150
-F 0 "ColL5" H 3450 6150 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 6150 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 6150 50  0001 C CNN
-F 3 "~" H 4250 6150 50  0001 C CNN
-	1    4250 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male ColL4
-U 1 1 5EB2ECB4
-P 4250 7150
-F 0 "ColL4" H 3450 7150 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 3900 7150 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4250 7150 50  0001 C CNN
-F 3 "~" H 4250 7150 50  0001 C CNN
-	1    4250 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 6350 4850 6250
-Wire Wire Line
-	4850 6250 4450 6250
-Wire Wire Line
-	4450 6150 4850 6150
-Wire Wire Line
-	4850 6150 4850 6250
-Connection ~ 4850 6250
-Wire Wire Line
-	4450 6350 4800 6350
-Wire Wire Line
-	4800 6350 4800 6450
-Wire Wire Line
-	4800 6450 5000 6450
-Wire Wire Line
-	4800 6450 4450 6450
-Connection ~ 4800 6450
-Wire Wire Line
-	4450 6550 4500 6550
-Wire Wire Line
-	4450 6650 4500 6650
-Wire Wire Line
-	4500 6650 4500 6550
-Connection ~ 4500 6550
-Wire Wire Line
-	4500 6550 5050 6550
-Wire Wire Line
-	4450 6750 4550 6750
-Wire Wire Line
-	4550 6750 4550 6650
-Wire Wire Line
-	4550 6650 5100 6650
-Wire Wire Line
-	4450 6850 4550 6850
-Wire Wire Line
-	4550 6850 4550 6750
-Connection ~ 4550 6750
-Wire Wire Line
-	4450 6950 4600 6950
-Wire Wire Line
-	4600 6950 4600 6750
-Wire Wire Line
-	4600 6750 5150 6750
-Wire Wire Line
-	4450 7050 4600 7050
-Wire Wire Line
-	4600 7050 4600 6950
-Connection ~ 4600 6950
-Wire Wire Line
-	4450 7150 4650 7150
-Wire Wire Line
-	4650 7150 4650 6850
-Wire Wire Line
-	4650 6850 5200 6850
-Wire Wire Line
-	4450 7250 4650 7250
-Wire Wire Line
-	4650 7250 4650 7150
-Connection ~ 4650 7150
-Wire Wire Line
-	4450 7350 4700 7350
-Wire Wire Line
-	4700 7350 4700 6950
-Wire Wire Line
-	4700 6950 5250 6950
-Wire Wire Line
-	4450 7450 4700 7450
-Wire Wire Line
-	4700 7450 4700 7350
-Connection ~ 4700 7350
-Wire Wire Line
-	4450 7550 4750 7550
-Wire Wire Line
-	4750 7550 4750 7050
-Wire Wire Line
-	4750 7050 5300 7050
-Wire Wire Line
-	4450 7650 4750 7650
-Wire Wire Line
-	4750 7650 4750 7550
-Connection ~ 4750 7550
-Text Label 4700 6850 0    50   ~ 0
+Text Label 4600 6850 0    50   ~ 0
 Col4
-Text Label 4650 6250 0    50   ~ 0
+Text Label 4600 6350 0    50   ~ 0
 Col5
-Text Label 4700 6950 0    50   ~ 0
+Text Label 4600 6950 0    50   ~ 0
 Col6
-Text Label 4750 7050 0    50   ~ 0
+Text Label 4600 7050 0    50   ~ 0
 Col7
 Text Label 4600 6650 0    50   ~ 0
 Col0
-Text Label 4600 6550 0    50   ~ 0
+Text Label 4600 6450 0    50   ~ 0
 Col1
-Text Label 4650 6750 0    50   ~ 0
+Text Label 4600 6550 0    50   ~ 0
 Col2
-Text Label 4650 6350 0    50   ~ 0
+Text Label 4600 6750 0    50   ~ 0
 Col3
 Text GLabel 1200 7250 0    50   Input ~ 0
 RowSelectC
@@ -1817,53 +1419,269 @@ Wire Wire Line
 	1300 6150 1300 5300
 Wire Wire Line
 	1300 5300 2650 5300
-Text Label 2450 5300 0    50   ~ 0
-Row0
-Text Label 2450 5400 0    50   ~ 0
-Row1
-Text Label 2450 5500 0    50   ~ 0
-Row2
-Text Label 2450 5600 0    50   ~ 0
-Row3
-Text Label 2450 5700 0    50   ~ 0
-Row4
-Text Label 2450 5800 0    50   ~ 0
-Row5
-Text Label 2450 5900 0    50   ~ 0
-Row6
 Text Label 2450 6000 0    50   ~ 0
+Row0
+Text Label 2450 5900 0    50   ~ 0
+Row1
+Text Label 2450 5800 0    50   ~ 0
+Row2
+Text Label 2450 5700 0    50   ~ 0
+Row3
+Text Label 2450 5600 0    50   ~ 0
+Row4
+Text Label 2450 5300 0    50   ~ 0
+Row5
+Text Label 2450 5400 0    50   ~ 0
+Row6
+Text Label 2450 5500 0    50   ~ 0
 Row7
+Text Label 10800 3700 2    50   ~ 0
+Col4
+Text Label 10800 3600 2    50   ~ 0
+Col5
+Text Label 10800 3500 2    50   ~ 0
+Col6
+Text Label 10800 3400 2    50   ~ 0
+Col7
+Text Label 10800 4100 2    50   ~ 0
+Col0
+Text Label 10800 4000 2    50   ~ 0
+Col1
+Text Label 10800 3900 2    50   ~ 0
+Col2
+Text Label 10800 3800 2    50   ~ 0
+Col3
+Text GLabel 9600 3200 0    50   Input ~ 0
+SCL
 $Comp
-L Connector:Conn_01x01_Male Mod1
-U 1 1 5E9653F7
-P 10000 1450
-F 0 "Mod1" H 9200 1450 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9650 1450 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1450 50  0001 C CNN
-F 3 "~" H 10000 1450 50  0001 C CNN
-	1    10000 1450
-	-1   0    0    1   
+L power:VCC #PWR0125
+U 1 1 5EA45C0E
+P 9600 3300
+F 0 "#PWR0125" H 9600 3150 50  0001 C CNN
+F 1 "VCC" V 9600 3450 50  0000 L CNN
+F 2 "" H 9600 3300 50  0001 C CNN
+F 3 "" H 9600 3300 50  0001 C CNN
+	1    9600 3300
+	0    -1   1    0   
+$EndComp
+Text GLabel 10800 3300 2    50   Input ~ 0
+SDA
+$Comp
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0126
+U 1 1 5EA5B06F
+P 10800 3200
+F 0 "#PWR0126" H 10800 3250 20  0001 C CNN
+F 1 "GND" V 10750 3150 30  0000 L CNN
+F 2 "" H 10800 3200 60  0000 C CNN
+F 3 "" H 10800 3200 60  0000 C CNN
+	1    10800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 3200 10800 3200
+Wire Wire Line
+	9950 3300 9600 3300
+Wire Wire Line
+	10450 3300 10800 3300
+Wire Wire Line
+	9600 3200 9950 3200
+Wire Wire Line
+	10450 3400 10800 3400
+Wire Wire Line
+	10450 3500 10800 3500
+Wire Wire Line
+	10450 3600 10800 3600
+Wire Wire Line
+	10800 3700 10450 3700
+Wire Wire Line
+	10450 3800 10800 3800
+Wire Wire Line
+	10450 3900 10800 3900
+Wire Wire Line
+	10450 4000 10800 4000
+Wire Wire Line
+	10800 4100 10450 4100
+Text Label 10800 2250 2    50   ~ 0
+Col4
+Text Label 10800 2350 2    50   ~ 0
+Col5
+Text Label 10800 2450 2    50   ~ 0
+Col6
+Text Label 10800 2550 2    50   ~ 0
+Col7
+Text Label 10800 1850 2    50   ~ 0
+Col0
+Text Label 10800 1950 2    50   ~ 0
+Col1
+Text Label 10800 2050 2    50   ~ 0
+Col2
+Text Label 10800 2150 2    50   ~ 0
+Col3
+$Comp
+L power:VCC #PWR0130
+U 1 1 5EDAF19A
+P 9600 2650
+F 0 "#PWR0130" H 9600 2500 50  0001 C CNN
+F 1 "VCC" V 9600 2800 50  0000 L CNN
+F 2 "" H 9600 2650 50  0001 C CNN
+F 3 "" H 9600 2650 50  0001 C CNN
+	1    9600 2650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10800 2650 2    50   Input ~ 0
+SDA
+$Comp
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0139
+U 1 1 5EDAF1A1
+P 10800 2750
+F 0 "#PWR0139" H 10800 2800 20  0001 C CNN
+F 1 "GND" V 10750 2700 30  0000 L CNN
+F 2 "" H 10800 2750 60  0000 C CNN
+F 3 "" H 10800 2750 60  0000 C CNN
+	1    10800 2750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10450 2750 10800 2750
+Wire Wire Line
+	9950 2650 9600 2650
+Wire Wire Line
+	10450 2650 10800 2650
+Wire Wire Line
+	10450 2550 10800 2550
+Wire Wire Line
+	10450 2450 10800 2450
+Wire Wire Line
+	10450 2350 10800 2350
+Wire Wire Line
+	10800 2250 10450 2250
+Wire Wire Line
+	10450 2150 10800 2150
+Wire Wire Line
+	10450 2050 10800 2050
+Wire Wire Line
+	10450 1950 10800 1950
+Wire Wire Line
+	10800 1850 10450 1850
+Wire Wire Line
+	4600 6350 4950 6350
+Wire Wire Line
+	5000 6450 4600 6450
+Connection ~ 5000 6450
+Wire Wire Line
+	4600 6550 5050 6550
+Connection ~ 5050 6550
+Wire Wire Line
+	5100 6650 4600 6650
+Connection ~ 5100 6650
+Wire Wire Line
+	4600 6750 5150 6750
+Connection ~ 5150 6750
+Wire Wire Line
+	5200 6850 4600 6850
+Connection ~ 5200 6850
+Wire Wire Line
+	4600 6950 5250 6950
+Connection ~ 5250 6950
+Wire Wire Line
+	5300 7050 4600 7050
+Connection ~ 5300 7050
+Text GLabel 6700 3650 2    50   Input ~ 0
+ColSelectB
+Text GLabel 6700 3850 2    50   Input ~ 0
+ColValue
+Text GLabel 6850 3150 2    50   Input ~ 0
+ColSelectC
+Text GLabel 6700 3550 2    50   Input ~ 0
+ColEnable
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J102
+U 1 1 5E9E0A57
+P 10150 3600
+F 0 "J102" H 10200 4217 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 10200 4126 50  0000 C CNN
+F 2 "SVastaCustomParts:Backplane_Connector_Hirose_PCN_20pos_Plug" H 10150 3600 50  0001 C CNN
+F 3 "~" H 10150 3600 50  0001 C CNN
+	1    10150 3600
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male Mod2
-U 1 1 5E97AB3B
-P 10000 1600
-F 0 "Mod2" H 9200 1600 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9650 1600 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1600 50  0001 C CNN
-F 3 "~" H 10000 1600 50  0001 C CNN
-	1    10000 1600
-	-1   0    0    1   
+L Connector_Generic:Conn_02x10_Counter_Clockwise J101
+U 1 1 5E9E3442
+P 10150 2250
+F 0 "J101" H 10200 2867 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 10200 2776 50  0000 C CNN
+F 2 "SVastaCustomParts:Backplane_Connector_Hirose_PCN_20pos_Plug" H 10150 2250 50  0001 C CNN
+F 3 "~" H 10150 2250 50  0001 C CNN
+	1    10150 2250
+	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male Mod3
-U 1 1 5E98FEDE
-P 10000 1750
-F 0 "Mod3" H 9200 1750 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 9650 1750 50  0000 C CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 10000 1750 50  0001 C CNN
-F 3 "~" H 10000 1750 50  0001 C CNN
-	1    10000 1750
-	-1   0    0    1   
-$EndComp
+Text Label 9600 3400 0    50   ~ 0
+Row0
+Text Label 9600 3500 0    50   ~ 0
+Row1
+Text Label 9600 3600 0    50   ~ 0
+Row2
+Text Label 9600 3700 0    50   ~ 0
+Row3
+Wire Wire Line
+	9950 3700 9600 3700
+Wire Wire Line
+	9950 3600 9600 3600
+Wire Wire Line
+	9950 3500 9600 3500
+Wire Wire Line
+	9600 3400 9950 3400
+Wire Wire Line
+	9600 3800 9950 3800
+Wire Wire Line
+	9950 3900 9600 3900
+Wire Wire Line
+	9950 4000 9600 4000
+Wire Wire Line
+	9950 4100 9600 4100
+Text Label 9600 4100 0    50   ~ 0
+Row7
+Text Label 9600 4000 0    50   ~ 0
+Row6
+Text Label 9600 3900 0    50   ~ 0
+Row5
+Text Label 9600 3800 0    50   ~ 0
+Row4
+Text GLabel 9600 2750 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	9600 2750 9950 2750
+Text Label 9600 2250 0    50   ~ 0
+Row4
+Text Label 9600 2350 0    50   ~ 0
+Row5
+Text Label 9600 2450 0    50   ~ 0
+Row6
+Text Label 9600 2550 0    50   ~ 0
+Row7
+Wire Wire Line
+	9950 2550 9600 2550
+Wire Wire Line
+	9950 2450 9600 2450
+Wire Wire Line
+	9950 2350 9600 2350
+Wire Wire Line
+	9600 2250 9950 2250
+Wire Wire Line
+	9600 1850 9950 1850
+Wire Wire Line
+	9950 1950 9600 1950
+Wire Wire Line
+	9950 2050 9600 2050
+Wire Wire Line
+	9950 2150 9600 2150
+Text Label 9600 2150 0    50   ~ 0
+Row3
+Text Label 9600 2050 0    50   ~ 0
+Row2
+Text Label 9600 1950 0    50   ~ 0
+Row1
+Text Label 9600 1850 0    50   ~ 0
+Row0
 $EndSCHEMATC
