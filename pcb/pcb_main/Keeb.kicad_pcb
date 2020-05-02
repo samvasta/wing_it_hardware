@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -434,7 +434,7 @@
       (net 6 SCL))
   )
 
-  (module SVastaCustomParts:Backplane_Connector_Hirose_PCN_20pos_Plug (layer F.Cu) (tedit 5E964769) (tstamp 5E9B6E9B)
+  (module SVastaCustomParts:Backplane_Connector_Hirose_PCN_20pos_Plug (layer F.Cu) (tedit 5E964769) (tstamp 5E9B97F2)
     (at 448.833715 206.85962 27)
     (path /5E9E3442)
     (fp_text reference J101 (at 1.27 0.5 27) (layer F.SilkS)

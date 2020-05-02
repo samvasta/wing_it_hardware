@@ -966,186 +966,6 @@ $EndComp
 Wire Wire Line
 	7200 2400 7400 2400
 $Comp
-L Connector:Conn_01x01_Female Col7
-U 1 1 5EA1A322
-P 4450 4700
-F 0 "Col7" H 4478 4726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 4635 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 4700 50  0001 C CNN
-F 3 "~" H 4450 4700 50  0001 C CNN
-	1    4450 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col6
-U 1 1 5EA1AD91
-P 4450 4900
-F 0 "Col6" H 4478 4926 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 4835 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 4900 50  0001 C CNN
-F 3 "~" H 4450 4900 50  0001 C CNN
-	1    4450 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col5
-U 1 1 5EA20660
-P 4450 5100
-F 0 "Col5" H 4478 5126 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 5035 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 5100 50  0001 C CNN
-F 3 "~" H 4450 5100 50  0001 C CNN
-	1    4450 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col4
-U 1 1 5EA25F59
-P 4450 5300
-F 0 "Col4" H 4478 5326 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 5235 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 5300 50  0001 C CNN
-F 3 "~" H 4450 5300 50  0001 C CNN
-	1    4450 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col3
-U 1 1 5EA2C943
-P 4450 5500
-F 0 "Col3" H 4478 5526 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 5435 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 5500 50  0001 C CNN
-F 3 "~" H 4450 5500 50  0001 C CNN
-	1    4450 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col2
-U 1 1 5EA2C949
-P 4450 5700
-F 0 "Col2" H 4478 5726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 5635 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 5700 50  0001 C CNN
-F 3 "~" H 4450 5700 50  0001 C CNN
-	1    4450 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col1
-U 1 1 5EA2C94F
-P 4450 5900
-F 0 "Col1" H 4478 5926 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 5835 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 5900 50  0001 C CNN
-F 3 "~" H 4450 5900 50  0001 C CNN
-	1    4450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Col0
-U 1 1 5EA2C955
-P 4450 6100
-F 0 "Col0" H 4478 6126 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 6035 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 6100 50  0001 C CNN
-F 3 "~" H 4450 6100 50  0001 C CNN
-	1    4450 6100
-	1    0    0    -1  
-$EndComp
-Text Label 3950 6100 0    50   ~ 0
-Col0
-Text Label 3950 6900 0    50   ~ 0
-Row0
-Text Label 3950 6700 0    50   ~ 0
-Row1
-Text Label 3950 6500 0    50   ~ 0
-Row2
-Text Label 3950 6300 0    50   ~ 0
-Row3
-$Comp
-L Connector:Conn_01x01_Female Row3
-U 1 1 5EA3F88F
-P 4450 6300
-F 0 "Row3" H 4478 6326 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 6235 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 6300 50  0001 C CNN
-F 3 "~" H 4450 6300 50  0001 C CNN
-	1    4450 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Row2
-U 1 1 5EA3F895
-P 4450 6500
-F 0 "Row2" H 4478 6526 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 6435 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 6500 50  0001 C CNN
-F 3 "~" H 4450 6500 50  0001 C CNN
-	1    4450 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Row1
-U 1 1 5EA3F89B
-P 4450 6700
-F 0 "Row1" H 4478 6726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 6635 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 6700 50  0001 C CNN
-F 3 "~" H 4450 6700 50  0001 C CNN
-	1    4450 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female Row0
-U 1 1 5EA3F8A1
-P 4450 6900
-F 0 "Row0" H 4478 6926 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4478 6835 50  0000 L CNN
-F 2 "SVastaCustomParts:Mill-Max_Pin_Socket_7305-0-15-15-47-27-10-0" H 4450 6900 50  0001 C CNN
-F 3 "~" H 4450 6900 50  0001 C CNN
-	1    4450 6900
-	1    0    0    -1  
-$EndComp
-Text Label 3950 5900 0    50   ~ 0
-Col1
-Text Label 3950 5700 0    50   ~ 0
-Col2
-Text Label 3950 5500 0    50   ~ 0
-Col3
-Text Label 3950 5300 0    50   ~ 0
-Col4
-Text Label 3950 5100 0    50   ~ 0
-Col5
-Text Label 3950 4900 0    50   ~ 0
-Col6
-Text Label 3950 4700 0    50   ~ 0
-Col7
-Wire Wire Line
-	3950 6100 4250 6100
-Wire Wire Line
-	4250 5900 3950 5900
-Wire Wire Line
-	3950 5700 4250 5700
-Wire Wire Line
-	4250 5500 3950 5500
-Wire Wire Line
-	3950 5300 4250 5300
-Wire Wire Line
-	4250 5100 3950 5100
-Wire Wire Line
-	3950 4900 4250 4900
-Wire Wire Line
-	4250 4700 3950 4700
-Wire Wire Line
-	3950 6300 4250 6300
-Wire Wire Line
-	4250 6500 3950 6500
-Wire Wire Line
-	3950 6700 4250 6700
-Wire Wire Line
-	4250 6900 3950 6900
-$Comp
 L Device:D D01
 U 1 1 5E9D0B40
 P 9200 1200
@@ -1158,4 +978,161 @@ F 3 "~" H 9200 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 1200 9500 1200
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
+U 1 1 5E9C28B2
+P 6600 4950
+F 0 "J1" H 6650 5567 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" H 6650 5476 50  0000 C CNN
+F 2 "SVastaCustomParts:Backplane_Connector_Hirose_PCN_20pos_Receptacle" H 6600 4950 50  0001 C CNN
+F 3 "~" H 6600 4950 50  0001 C CNN
+	1    6600 4950
+	1    0    0    -1  
+$EndComp
+Text Label 7200 4550 2    50   ~ 0
+Col0
+Text Label 6100 4550 0    50   ~ 0
+Row0
+Text Label 6100 4650 0    50   ~ 0
+Row1
+Text Label 6100 4750 0    50   ~ 0
+Row2
+Text Label 6100 4850 0    50   ~ 0
+Row3
+Text Label 7200 4650 2    50   ~ 0
+Col1
+Text Label 7200 4750 2    50   ~ 0
+Col2
+Text Label 7200 4850 2    50   ~ 0
+Col3
+Text Label 7200 4950 2    50   ~ 0
+Col4
+Text Label 7200 5050 2    50   ~ 0
+Col5
+Text Label 7200 5150 2    50   ~ 0
+Col6
+Text Label 7200 5250 2    50   ~ 0
+Col7
+Wire Wire Line
+	7200 4550 6900 4550
+Wire Wire Line
+	6900 4650 7200 4650
+Wire Wire Line
+	7200 4750 6900 4750
+Wire Wire Line
+	6900 4850 7200 4850
+Wire Wire Line
+	7200 4950 6900 4950
+Wire Wire Line
+	6900 5050 7200 5050
+Wire Wire Line
+	7200 5150 6900 5150
+Wire Wire Line
+	6900 5250 7200 5250
+Wire Wire Line
+	6100 4850 6400 4850
+Wire Wire Line
+	6400 4750 6100 4750
+Wire Wire Line
+	6100 4650 6400 4650
+Wire Wire Line
+	6400 4550 6100 4550
+Text Label 6100 4950 0    50   ~ 0
+Row4
+Text Label 6100 5050 0    50   ~ 0
+Row5
+Text Label 6100 5150 0    50   ~ 0
+Row6
+Text Label 6100 5250 0    50   ~ 0
+Row7
+Wire Wire Line
+	6100 5250 6400 5250
+Wire Wire Line
+	6400 5150 6100 5150
+Wire Wire Line
+	6100 5050 6400 5050
+Wire Wire Line
+	6400 4950 6100 4950
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EA68F77
+P 6400 5350
+F 0 "#PWR0101" H 6400 5200 50  0001 C CNN
+F 1 "VCC" V 6400 5550 50  0000 C CNN
+F 2 "" H 6400 5350 50  0001 C CNN
+F 3 "" H 6400 5350 50  0001 C CNN
+	1    6400 5350
+	0    -1   -1   0   
+$EndComp
+Text Label 7200 5350 2    50   ~ 0
+SDA
+Wire Wire Line
+	6900 5350 7200 5350
+Text Label 6100 5450 0    50   ~ 0
+SCL
+Wire Wire Line
+	6400 5450 6100 5450
+$Comp
+L SVastaCustomParts:TRRS_SJ1-42514 J2
+U 1 1 5EA88B85
+P 4250 4650
+F 0 "J2" H 4283 4725 50  0000 C CNN
+F 1 "TRRS_SJ1-42514" H 4283 4634 50  0000 C CNN
+F 2 "SVastaCustomParts:3.5mm_Cut_out" H 4250 4650 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/sj2-2577x-smt.pdf" H 4250 4650 50  0001 C CNN
+	1    4250 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4800 5000 2    50   ~ 0
+SDA
+Wire Wire Line
+	4500 5000 4800 5000
+$Comp
+L power:VCC #PWR0104
+U 1 1 5EA98B9C
+P 4500 4900
+F 0 "#PWR0104" H 4500 4750 50  0001 C CNN
+F 1 "VCC" V 4500 5100 50  0000 C CNN
+F 2 "" H 4500 4900 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	0    1    1    0   
+$EndComp
+Text Label 4800 5100 2    50   ~ 0
+SCL
+Wire Wire Line
+	4500 5100 4800 5100
+NoConn ~ 4500 4800
+NoConn ~ 6900 5450
+$Comp
+L SVastaCustomParts:TRRS_SJ1-42514 J3
+U 1 1 5E9FEA90
+P 3200 4650
+F 0 "J3" H 3233 4725 50  0000 C CNN
+F 1 "TRRS_SJ1-42514" H 3233 4634 50  0000 C CNN
+F 2 "SVastaCustomParts:3.5mm_Cut_out" H 3200 4650 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/sj2-2577x-smt.pdf" H 3200 4650 50  0001 C CNN
+	1    3200 4650
+	1    0    0    -1  
+$EndComp
+Text Label 3750 5000 2    50   ~ 0
+SDA
+Wire Wire Line
+	3450 5000 3750 5000
+$Comp
+L power:VCC #PWR?
+U 1 1 5E9FEA98
+P 3450 4900
+F 0 "#PWR?" H 3450 4750 50  0001 C CNN
+F 1 "VCC" V 3450 5100 50  0000 C CNN
+F 2 "" H 3450 4900 50  0001 C CNN
+F 3 "" H 3450 4900 50  0001 C CNN
+	1    3450 4900
+	0    1    1    0   
+$EndComp
+Text Label 3750 5100 2    50   ~ 0
+SCL
+Wire Wire Line
+	3450 5100 3750 5100
+NoConn ~ 3450 4800
 $EndSCHEMATC

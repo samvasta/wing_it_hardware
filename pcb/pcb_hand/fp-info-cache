@@ -1,4 +1,4 @@
-16367622930052546
+16378734786226835
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66459,6 +66459,13 @@ rotary encoder
 4
 SVastaCustomParts
 3.5mm_Cut_out
+CUI Devices SJ2-25774A-SMT-TR 4-pos SMD right-angle cut-out
+
+0
+4
+4
+SVastaCustomParts
+128x64px_OLED_I2C
 
 
 0
@@ -66506,6 +66513,20 @@ B3J-1100_Switch
 0
 4
 2
+SVastaCustomParts
+Backplane_Connector_Hirose_PCN_20pos_Plug
+
+
+0
+20
+20
+SVastaCustomParts
+Backplane_Connector_Hirose_PCN_20pos_Receptacle
+
+
+0
+20
+20
 SVastaCustomParts
 BatteryHolder_BHAA-3_1xAA
 
@@ -66654,12 +66675,33 @@ PEC12R-4xxxF-Sxxxx_Rotary_Encoder
 5
 5
 SVastaCustomParts
+PI6ULS5V9511A_I2C_HotSwap
+
+
+0
+8
+8
+SVastaCustomParts
 RKJXV1224_AnalogJoystick
 
 
 0
 10
-8
+10
+SVastaCustomParts
+RectConnector_Sullins_8x2_THT_RightAngle
+
+16 position THT Rectangular Receptacle Socket Sullins
+0
+16
+16
+SVastaCustomParts
+RectConnector_Sullins_8x2_THT_RightAngle_Plug
+
+16 position THT Rectangular Receptacle Socket Sullins
+0
+16
+16
 SVastaCustomParts
 S201031MS02Q
 
@@ -66681,6 +66723,13 @@ STC3100IST
 0
 8
 8
+SVastaCustomParts
+SW_Slide_C&K_JS102011SAQN
+
+
+0
+3
+3
 SVastaCustomParts
 SlidePot_PS45M
 
