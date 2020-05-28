@@ -14,21 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2000 5650 0    50   Input ~ 0
+Text HLabel 2850 5200 0    50   Input ~ 0
 USB_V+
-Text HLabel 1950 6200 0    50   Input ~ 0
-USB_GND
-$Comp
-L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0133
-U 1 1 5D83F92E
-P 2350 6550
-F 0 "#PWR0133" H 2350 6600 20  0001 C CNN
-F 1 "GND" H 2350 6450 30  0000 C CNN
-F 2 "" H 2350 6550 60  0000 C CNN
-F 3 "" H 2350 6550 60  0000 C CNN
-	1    2350 6550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5D843650
@@ -40,258 +27,17 @@ F 3 "~" V 7350 6060 50  0001 C CNN
 	1    7350 6000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2350 6400 2350 6550
-Wire Wire Line
-	1950 6200 2200 6200
-Wire Wire Line
-	2350 5950 2350 6400
-Connection ~ 2350 6400
-Wire Wire Line
-	2500 6350 2500 6400
-Wire Wire Line
-	2500 6400 2350 6400
-$Comp
-L Device:R R9
-U 1 1 5D86B816
-P 2500 6200
-F 0 "R9" V 2400 6200 50  0000 C CNN
-F 1 "1K" V 2500 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 6200 50  0001 C CNN
-F 3 "~" H 2500 6200 50  0001 C CNN
-	1    2500 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5D8719D9
-P 2650 6400
-F 0 "R10" V 2550 6400 50  0000 C CNN
-F 1 "10K" V 2650 6400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 6400 50  0001 C CNN
-F 3 "~" H 2650 6400 50  0001 C CNN
-	1    2650 6400
-	0    1    1    0   
-$EndComp
-Connection ~ 2500 6400
-Wire Wire Line
-	2200 5650 2200 5800
-Connection ~ 2200 5650
-Wire Wire Line
-	2200 5650 2300 5650
-Wire Wire Line
-	2200 6100 2200 6200
-Wire Wire Line
-	2200 6400 2350 6400
-$Comp
-L Device:LED D202
-U 1 1 5D877B00
-P 3200 4800
-F 0 "D202" H 3050 4900 50  0000 C CNN
-F 1 "Charge Complete" H 3600 4900 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 4800 50  0001 C CNN
-F 3 "~" H 3200 4800 50  0001 C CNN
-	1    3200 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D203
-U 1 1 5D87A546
-P 3200 5150
-F 0 "D203" H 3050 5250 50  0000 C CNN
-F 1 "Charging" H 3450 5250 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 5150 50  0001 C CNN
-F 3 "~" H 3200 5150 50  0001 C CNN
-	1    3200 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D201
-U 1 1 5D882FCF
-P 3200 4450
-F 0 "D201" H 3050 4550 50  0000 C CNN
-F 1 "Power Good" H 3500 4550 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 4450 50  0001 C CNN
-F 3 "~" H 3200 4450 50  0001 C CNN
-	1    3200 4450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 5650 3650 5650
-Wire Wire Line
-	3650 5150 3350 5150
-Wire Wire Line
-	3050 4450 2300 4450
-Wire Wire Line
-	2300 4450 2300 4800
-Wire Wire Line
-	3050 4800 2300 4800
-Connection ~ 2300 4800
-Wire Wire Line
-	2300 4800 2300 5150
-Wire Wire Line
-	3050 5150 2300 5150
-Connection ~ 2300 5150
-Wire Wire Line
-	2300 5150 2300 5650
-$Comp
-L Device:R R11
-U 1 1 5D88E9E2
-P 3650 5300
-F 0 "R11" H 3720 5346 50  0000 L CNN
-F 1 "470" V 3650 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 5300 50  0001 C CNN
-F 3 "~" H 3650 5300 50  0001 C CNN
-	1    3650 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5D891066
-P 3900 5300
-F 0 "R12" H 3970 5346 50  0000 L CNN
-F 1 "470" V 3900 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3830 5300 50  0001 C CNN
-F 3 "~" H 3900 5300 50  0001 C CNN
-	1    3900 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5D8914EF
-P 4150 5300
-F 0 "R13" H 4220 5346 50  0000 L CNN
-F 1 "470" V 4150 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 5300 50  0001 C CNN
-F 3 "~" H 4150 5300 50  0001 C CNN
-	1    4150 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5850 4150 5450
-Wire Wire Line
-	3550 5850 4150 5850
-Wire Wire Line
-	3900 5750 3900 5450
-Wire Wire Line
-	3550 5750 3900 5750
-Wire Wire Line
-	3650 5650 3650 5450
-Wire Wire Line
-	3900 5150 3900 4800
-Wire Wire Line
-	3350 4800 3900 4800
-Wire Wire Line
-	4150 4450 4150 5150
-Wire Wire Line
-	3350 4450 4150 4450
-Wire Wire Line
-	2700 5650 2600 5650
-Connection ~ 2300 5650
-Wire Wire Line
-	3800 6000 3800 6150
-$Comp
-L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0134
-U 1 1 5D8BCB19
-P 3800 6550
-F 0 "#PWR0134" H 3800 6600 20  0001 C CNN
-F 1 "GND" H 3800 6450 30  0000 C CNN
-F 2 "" H 3800 6550 60  0000 C CNN
-F 3 "" H 3800 6550 60  0000 C CNN
-	1    3800 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 6000 3700 6000
-Wire Wire Line
-	3800 6450 3800 6550
-Wire Notes Line
-	1300 6800 4700 6800
-Wire Notes Line
-	4700 6800 4700 4150
-Wire Notes Line
-	4700 4150 1300 4150
-Text Notes 1350 6750 0    50   ~ 0
-Typical Application from datasheet
-Wire Notes Line
-	1300 4000 2950 4000
-Wire Notes Line
-	2950 4000 2950 4150
-Wire Notes Line
-	1300 4000 1300 6800
-$Comp
-L SVastaCustomParts:MCP73833 U4
-U 1 1 5D862996
-P 3150 5550
-F 0 "U4" H 3175 5675 50  0000 C CNN
-F 1 "MCP73833" H 3175 5584 50  0000 C CNN
-F 2 "SVastaCustomParts:MCP73833T-AMI-UN" H 3150 5550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 3150 5550 50  0001 C CNN
-	1    3150 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5D842A9B
-P 3800 6300
-F 0 "C10" H 3915 6346 50  0000 L CNN
-F 1 "1uF" H 3915 6255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 6150 50  0001 C CNN
-F 3 "~" H 3800 6300 50  0001 C CNN
-	1    3800 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5D872E19
-P 2200 5950
-F 0 "C11" H 2000 6000 50  0000 L CNN
-F 1 "1uF" H 1950 5900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 5800 50  0001 C CNN
-F 3 "~" H 2200 5950 50  0001 C CNN
-	1    2200 5950
-	1    0    0    -1  
-$EndComp
-Text Notes 1350 4100 0    50   ~ 0
-Charger
-Wire Wire Line
-	2200 6200 2200 6400
-Connection ~ 2200 6200
-Wire Wire Line
-	2350 5950 2800 5950
-Wire Wire Line
-	2500 6050 2800 6050
-Wire Wire Line
-	2800 6400 2800 6150
-Wire Wire Line
-	2600 5650 2600 5800
-Wire Wire Line
-	2600 5800 2700 5800
-Connection ~ 2600 5650
-Wire Wire Line
-	2600 5650 2300 5650
-Wire Wire Line
-	3700 6000 3700 6150
-Wire Wire Line
-	3700 6150 3650 6150
-Connection ~ 3700 6000
-Wire Wire Line
-	3700 6000 3650 6000
-Wire Wire Line
-	2000 5650 2100 5650
 $Comp
 L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0140
 U 1 1 5D8CEEB4
-P 7600 6000
-F 0 "#PWR0140" H 7600 6050 20  0001 C CNN
-F 1 "GND" H 7600 5900 30  0000 C CNN
-F 2 "" H 7600 6000 60  0000 C CNN
-F 3 "" H 7600 6000 60  0000 C CNN
-	1    7600 6000
+P 8200 6000
+F 0 "#PWR0140" H 8200 6050 20  0001 C CNN
+F 1 "GND" H 8200 5900 30  0000 C CNN
+F 2 "" H 8200 6000 60  0000 C CNN
+F 3 "" H 8200 6000 60  0000 C CNN
+	1    8200 6000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7450 6000 7500 6000
 $Comp
 L SVastaCustomParts:LM8364-2.2 U5
 U 1 1 5D8C1811
@@ -326,54 +72,6 @@ Text Notes 7000 3750 0    50   ~ 0
 Low Voltage Cut-off
 Text HLabel 750  1100 0    50   Output ~ 0
 Vcc
-Wire Wire Line
-	4300 1100 4300 1350
-$Comp
-L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0154
-U 1 1 5DB1497F
-P 4300 2650
-F 0 "#PWR0154" H 4300 2700 20  0001 C CNN
-F 1 "GND" H 4300 2550 30  0000 C CNN
-F 2 "" H 4300 2650 60  0000 C CNN
-F 3 "" H 4300 2650 60  0000 C CNN
-	1    4300 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2300 4300 2650
-$Comp
-L Device:LED D301
-U 1 1 5D8D65B2
-P 4300 1500
-F 0 "D301" H 4450 1350 50  0000 R CNN
-F 1 "Power" H 4450 1250 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1500 50  0001 C CNN
-F 3 "~" H 4300 1500 50  0001 C CNN
-	1    4300 1500
-	0    -1   -1   0   
-$EndComp
-Text Notes 3400 4900 0    50   ~ 0
-Green
-Text Notes 3400 4550 0    50   ~ 0
-Red
-Text Notes 3200 5300 0    50   ~ 0
-Yellow
-Text Notes 4400 1700 3    50   ~ 0
-Blue
-Connection ~ 3800 6000
-$Comp
-L Device:R R16
-U 1 1 5D9AADB7
-P 4300 2150
-F 0 "R16" V 4400 2100 50  0000 L CNN
-F 1 "470" V 4300 2050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 2150 50  0001 C CNN
-F 3 "~" H 4300 2150 50  0001 C CNN
-	1    4300 2150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 1650 4300 2000
 $Comp
 L Regulator_Switching:LTC3525-5 U6
 U 1 1 5DA1925D
@@ -423,13 +121,6 @@ F 3 "~" H 9350 2450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2100 5650 2100 3400
-Wire Wire Line
-	2100 3400 3350 3400
-Connection ~ 2100 5650
-Wire Wire Line
-	2100 5650 2200 5650
-Wire Wire Line
 	9000 2750 9000 2450
 Wire Wire Line
 	9250 2950 8950 2950
@@ -455,16 +146,7 @@ Wire Notes Line
 	6950 3650 6950 5000
 Wire Notes Line
 	6950 3650 7850 3650
-Wire Wire Line
-	8050 4700 8050 5700
-Wire Wire Line
-	8050 5700 7500 5700
-Wire Wire Line
-	7500 5700 7500 6000
 Connection ~ 8050 4700
-Connection ~ 7500 6000
-Wire Wire Line
-	7500 6000 7600 6000
 Wire Wire Line
 	6800 4700 7250 4700
 Wire Wire Line
@@ -474,35 +156,8 @@ Wire Wire Line
 Wire Wire Line
 	6800 3550 9650 3550
 Connection ~ 9000 2750
-$Comp
-L Device:R R17
-U 1 1 5DAE691B
-P 6150 5300
-F 0 "R17" V 6250 5300 50  0000 C CNN
-F 1 "10K" V 6150 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 5300 50  0001 C CNN
-F 3 "~" H 6150 5300 50  0001 C CNN
-	1    6150 5300
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5800 5300 6000 5300
-Wire Wire Line
-	3350 2100 3350 3400
-Wire Wire Line
-	3350 1800 3350 1100
-Wire Wire Line
-	3550 1100 3350 1100
-Connection ~ 3350 1100
 Wire Wire Line
 	5450 2750 9000 2750
-Wire Wire Line
-	4600 1100 4300 1100
-Connection ~ 4300 1100
-Wire Wire Line
-	4300 1100 3850 1100
-Wire Wire Line
-	750  1100 3350 1100
 $Comp
 L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0136
 U 1 1 5DB1A682
@@ -573,22 +228,15 @@ F 3 "~" H 7400 4700 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	5800 5300 5800 3400
-Wire Wire Line
-	5800 3400 3350 3400
-Connection ~ 3350 3400
-Wire Wire Line
 	6800 3550 6800 3250
 Wire Wire Line
 	6800 3250 7200 3250
 Connection ~ 6800 3550
 Text HLabel 7200 3250 2    50   Output ~ 0
 Vbat
-Text Label 5650 6000 0    50   ~ 0
-Vcharge
 Text Label 6750 2750 0    50   ~ 0
 5Vbat
-Text GLabel 7500 5700 0    50   Input ~ 0
+Text GLabel 8050 5600 0    50   Input ~ 0
 GND
 $Comp
 L Switch:SW_SPDT SW2
@@ -602,67 +250,84 @@ F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5000 1200 5150 1200
-Wire Wire Line
-	5150 1200 5150 1300
+	5450 1000 5000 1000
 $Comp
-L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR0138
-U 1 1 5DAEF921
-P 5150 1300
-F 0 "#PWR0138" H 5150 1350 20  0001 C CNN
-F 1 "GND" H 5150 1200 30  0000 C CNN
-F 2 "" H 5150 1300 60  0000 C CNN
-F 3 "" H 5150 1300 60  0000 C CNN
-	1    5150 1300
+L SVastaCustomParts:TCK108AF U7
+U 1 1 5EAFC0FC
+P 6400 5100
+F 0 "U7" H 6400 5225 50  0000 C CNN
+F 1 "TCK108AF" H 6400 5134 50  0000 C CNN
+F 2 "" H 6400 5100 50  0001 C CNN
+F 3 "" H 6400 5100 50  0001 C CNN
+	1    6400 5100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 5300 6800 5300
+Wire Wire Line
+	6800 5300 6800 4700
 Connection ~ 6800 4700
 Wire Wire Line
-	6800 4700 6800 5100
+	6050 5300 6000 5300
 Wire Wire Line
-	6300 5300 6500 5300
+	6000 5300 6000 6000
 Wire Wire Line
-	6800 6000 7150 6000
-Wire Wire Line
-	3800 6000 6800 6000
-Connection ~ 6800 6000
-Wire Wire Line
-	6800 5500 6800 6000
+	6000 6000 7150 6000
 $Comp
-L Transistor_BJT:PZT3906 Q1
-U 1 1 5DAD6F57
-P 6700 5300
-F 0 "Q1" H 6890 5346 50  0000 L CNN
-F 1 "PZT3906" H 6890 5255 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 6900 5225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6700 5300 50  0001 L CNN
-	1    6700 5300
-	1    0    0    -1  
+L Keeb-rescue:GND-Keyboard_Parts-Keeb-rescue #PWR?
+U 1 1 5EB15FBE
+P 6850 5400
+F 0 "#PWR?" H 6850 5450 20  0001 C CNN
+F 1 "GND" H 6850 5300 30  0000 C CNN
+F 2 "" H 6850 5400 60  0000 C CNN
+F 3 "" H 6850 5400 60  0000 C CNN
+	1    6850 5400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5450 1000 5000 1000
+	6750 5400 6850 5400
+Wire Wire Line
+	2850 5200 5150 5200
+Wire Wire Line
+	5000 1200 5150 1200
+Wire Wire Line
+	5150 1200 5150 5200
+Connection ~ 5150 5200
+Wire Wire Line
+	5150 5200 6050 5200
+Wire Wire Line
+	750  1100 4600 1100
 Wire Wire Line
 	5450 1000 5450 2750
 $Comp
-L Device:D D102
-U 1 1 5DAEE077
-P 3350 1950
-F 0 "D102" V 3304 2029 50  0000 L CNN
-F 1 "D" V 3395 2029 50  0000 L CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3350 1950 50  0001 C CNN
-F 3 "~" H 3350 1950 50  0001 C CNN
-	1    3350 1950
-	0    1    1    0   
+L Device:R R16
+U 1 1 5D9AADB7
+P 3600 1600
+F 0 "R16" V 3700 1550 50  0000 L CNN
+F 1 "470" V 3600 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 1600 50  0001 C CNN
+F 3 "~" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	0    1    -1   0   
 $EndComp
 $Comp
-L Device:D D101
-U 1 1 5DAF9F52
-P 3700 1100
-F 0 "D101" H 3700 1316 50  0000 C CNN
-F 1 "D" H 3700 1225 50  0000 C CNN
-F 2 "SVastaCustomParts:D_MiniMELF_Handsoldering_Shorter_Pads" H 3700 1100 50  0001 C CNN
-F 3 "~" H 3700 1100 50  0001 C CNN
-	1    3700 1100
+L Device:LED D301
+U 1 1 5D8D65B2
+P 3900 1600
+F 0 "D301" H 4050 1450 50  0000 R CNN
+F 1 "Power" H 4050 1350 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 1600 50  0001 C CNN
+F 3 "~" H 3900 1600 50  0001 C CNN
+	1    3900 1600
 	1    0    0    -1  
 $EndComp
+Text Notes 4000 1500 2    50   ~ 0
+Blue
+Wire Wire Line
+	8050 6000 8200 6000
+Wire Wire Line
+	8050 6000 7450 6000
+Connection ~ 8050 6000
+Wire Wire Line
+	8050 4700 8050 6000
 $EndSCHEMATC
