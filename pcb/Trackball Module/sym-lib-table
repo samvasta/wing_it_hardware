@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SVastaCustomParts)(type Legacy)(uri ${KIPRJMOD}/../kicad_resources/SVastaCustomParts.lib)(options "")(descr ""))
+)

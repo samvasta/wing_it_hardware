@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name Tutorial-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Tutorial-eagle-import.lib)(options "")(descr ""))
+  (lib (name SVastaCustomParts)(type Legacy)(uri ${KIPRJMOD}/kicad_resources/SVastaCustomParts.lib)(options "")(descr ""))
+  (lib (name tmk)(type Legacy)(uri ${KIPRJMOD}/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name Keeb-rescue)(type Legacy)(uri ${KIPRJMOD}/Keeb-rescue.lib)(options "")(descr ""))
 )

@@ -7,3 +7,6 @@
 [submodule "pcb/keebio"]
 	path = pcb/keebio
 	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "pcb/keyboard_parts.pretty"]
+	path = pcb/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
