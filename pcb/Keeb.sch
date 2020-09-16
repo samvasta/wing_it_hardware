@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Keeb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -415,7 +414,7 @@ F 3 "" H 6850 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 4350 6850 4350
-Text GLabel 9350 1200 0    50   Input ~ 0
+Text GLabel 9350 1100 0    50   Input ~ 0
 SCL
 Text GLabel 3800 4150 0    50   Input ~ 0
 SDA
@@ -613,15 +612,15 @@ $EndComp
 $Comp
 L power:VCC #PWR0129
 U 1 1 5E03963C
-P 9350 1000
-F 0 "#PWR0129" H 9350 850 50  0001 C CNN
-F 1 "VCC" V 9350 1150 50  0000 L CNN
-F 2 "" H 9350 1000 50  0001 C CNN
-F 3 "" H 9350 1000 50  0001 C CNN
-	1    9350 1000
+P 9350 1200
+F 0 "#PWR0129" H 9350 1050 50  0001 C CNN
+F 1 "VCC" V 9350 1350 50  0000 L CNN
+F 2 "" H 9350 1200 50  0001 C CNN
+F 3 "" H 9350 1200 50  0001 C CNN
+	1    9350 1200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 1100 0    50   Input ~ 0
+Text GLabel 9350 1000 0    50   Input ~ 0
 SDA
 Text Label 10150 5950 2    50   ~ 0
 CapsLock
@@ -1100,7 +1099,7 @@ F 3 "~" H 10600 5600 50  0001 C CNN
 	1    10600 5600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 1800 0    50   Input ~ 0
+Text GLabel 9350 1700 0    50   Input ~ 0
 SCL
 $Comp
 L Keeb-rescue:TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue J2
@@ -1113,18 +1112,7 @@ F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 10050 1350 50 
 	1    10050 1350
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR010
-U 1 1 5F1C2196
-P 9350 1600
-F 0 "#PWR010" H 9350 1450 50  0001 C CNN
-F 1 "VCC" V 9350 1750 50  0000 L CNN
-F 2 "" H 9350 1600 50  0001 C CNN
-F 3 "" H 9350 1600 50  0001 C CNN
-	1    9350 1600
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9350 1700 0    50   Input ~ 0
+Text GLabel 9350 1600 0    50   Input ~ 0
 SDA
 Wire Wire Line
 	9350 1500 9800 1500
@@ -1132,8 +1120,6 @@ Wire Wire Line
 	9350 1600 9800 1600
 Wire Wire Line
 	9350 1700 9800 1700
-Wire Wire Line
-	9350 1800 9800 1800
 Wire Notes Line
 	11050 750  11050 2050
 Wire Notes Line
@@ -1485,31 +1471,72 @@ Wire Wire Line
 	6150 5750 6150 6200
 Wire Wire Line
 	6150 6200 5700 6200
-Text Label 1150 3000 0    50   ~ 0
+Text Label 1100 3500 0    50   ~ 0
 SCK
-Text Label 1150 2900 0    50   ~ 0
-SS
-Text Label 1150 3200 0    50   ~ 0
+Text Label 1100 3300 0    50   ~ 0
+SS1
+Text Label 1100 3700 0    50   ~ 0
 MISO
-Text Label 1150 3100 0    50   ~ 0
+Text Label 1100 3600 0    50   ~ 0
 MOSI
 $Comp
-L Connector_Generic:Conn_01x04 SPI1
+L Connector_Generic:Conn_01x08 SPI1
 U 1 1 5F321C3F
-P 950 3100
-F 0 "SPI1" H 868 2675 50  0000 C CNN
-F 1 "Conn_01x04" H 868 2766 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 3100 50  0001 C CNN
-F 3 "~" H 950 3100 50  0001 C CNN
-	1    950  3100
+P 900 3400
+F 0 "SPI1" H 900 2750 50  0000 C CNN
+F 1 "Conn_01x04" H 900 2850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 900 3400 50  0001 C CNN
+F 3 "~" H 900 3400 50  0001 C CNN
+	1    900  3400
 	-1   0    0    1   
 $EndComp
 Text Label 4550 3150 2    50   ~ 0
 SCK
 Text Label 4550 3050 2    50   ~ 0
-SS
+SS1
 Text Label 4550 3350 2    50   ~ 0
 MISO
 Text Label 4550 3250 2    50   ~ 0
 MOSI
+Text Label 4550 3450 2    50   ~ 0
+SS2
+Text Label 1100 3400 0    50   ~ 0
+SS2
+$Comp
+L power:VCC #PWR0122
+U 1 1 5F670E84
+P 1100 3100
+F 0 "#PWR0122" H 1100 2950 50  0001 C CNN
+F 1 "VCC" V 1118 3227 50  0000 L CNN
+F 2 "" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5F67C884
+P 1100 3000
+F 0 "#PWR0132" H 1100 2750 50  0001 C CNN
+F 1 "GND" H 1105 2827 50  0000 C CNN
+F 2 "" H 1100 3000 50  0001 C CNN
+F 3 "" H 1100 3000 50  0001 C CNN
+	1    1100 3000
+	0    -1   -1   0   
+$EndComp
+Text Label 1100 3200 0    50   ~ 0
+RST
+Wire Wire Line
+	9350 1800 9800 1800
+$Comp
+L power:VCC #PWR010
+U 1 1 5F1C2196
+P 9350 1800
+F 0 "#PWR010" H 9350 1650 50  0001 C CNN
+F 1 "VCC" V 9350 1950 50  0000 L CNN
+F 2 "" H 9350 1800 50  0001 C CNN
+F 3 "" H 9350 1800 50  0001 C CNN
+	1    9350 1800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
