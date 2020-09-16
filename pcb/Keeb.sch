@@ -676,17 +676,9 @@ U 5D9DA1AD
 F0 "SwitchMatrix" 50
 F1 "SwitchMatrix.sch" 50
 F2 "Row0" I L 4950 6200 50 
-F3 "Col7" O R 5700 6900 50 
-F4 "Row1" I L 4950 6300 50 
-F5 "Row2" I L 4950 6400 50 
-F6 "Row3" I L 4950 6500 50 
-F7 "Col0" O R 5700 6200 50 
-F8 "Col1" O R 5700 6300 50 
-F9 "Col2" O R 5700 6400 50 
-F10 "Col3" O R 5700 6500 50 
-F11 "Col4" O R 5700 6600 50 
-F12 "Col5" O R 5700 6700 50 
-F13 "Col6" O R 5700 6800 50 
+F3 "Row1" I L 4950 6300 50 
+F4 "Col0" O R 5700 6200 50 
+F5 "Col1" O R 5700 6300 50 
 $EndSheet
 $Comp
 L power:VCC #PWR06
@@ -834,24 +826,6 @@ Wire Notes Line
 Wire Notes Line
 	700  5200 6600 5200
 Wire Wire Line
-	3800 7350 6450 7350
-Wire Wire Line
-	6450 7350 6450 6900
-Wire Wire Line
-	5700 6900 6450 6900
-Wire Wire Line
-	5700 6800 6400 6800
-Wire Wire Line
-	6400 6800 6400 7250
-Wire Wire Line
-	6400 7250 3800 7250
-Wire Wire Line
-	3800 7150 6300 7150
-Wire Wire Line
-	6300 7150 6300 6700
-Wire Wire Line
-	6300 6700 5700 6700
-Wire Wire Line
 	3800 6650 4500 6650
 Wire Wire Line
 	4500 6650 4500 6200
@@ -863,18 +837,6 @@ Wire Wire Line
 	4600 6750 4600 6300
 Wire Wire Line
 	4600 6300 4950 6300
-Wire Wire Line
-	3800 6850 4700 6850
-Wire Wire Line
-	4700 6850 4700 6400
-Wire Wire Line
-	4700 6400 4950 6400
-Wire Wire Line
-	3800 6950 4800 6950
-Wire Wire Line
-	4800 6950 4800 6500
-Wire Wire Line
-	4800 6500 4950 6500
 Wire Wire Line
 	6700 3050 6850 3050
 Wire Wire Line
@@ -1099,27 +1061,6 @@ F 3 "~" H 10600 5600 50  0001 C CNN
 	1    10600 5600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 1700 0    50   Input ~ 0
-SCL
-$Comp
-L Keeb-rescue:TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue J2
-U 1 1 5F1C218A
-P 10050 1350
-F 0 "J2" H 9822 1101 50  0000 R CNN
-F 1 "TRRS_SJ1-42514" H 9822 1010 50  0000 R CNN
-F 2 "SVastaCustomParts:3.5mm_Cut_out" H 10050 750 50  0000 C CNN
-F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 10050 1350 50  0001 C CNN
-	1    10050 1350
-	-1   0    0    -1  
-$EndComp
-Text GLabel 9350 1600 0    50   Input ~ 0
-SDA
-Wire Wire Line
-	9350 1500 9800 1500
-Wire Wire Line
-	9350 1600 9800 1600
-Wire Wire Line
-	9350 1700 9800 1700
 Wire Notes Line
 	11050 750  11050 2050
 Wire Notes Line
@@ -1226,17 +1167,6 @@ F 1 "GND" H 9355 727 50  0000 C CNN
 F 2 "" H 9350 900 50  0001 C CNN
 F 3 "" H 9350 900 50  0001 C CNN
 	1    9350 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5F39B361
-P 9350 1500
-F 0 "#PWR0114" H 9350 1250 50  0001 C CNN
-F 1 "GND" H 9355 1327 50  0000 C CNN
-F 2 "" H 9350 1500 50  0001 C CNN
-F 3 "" H 9350 1500 50  0001 C CNN
-	1    9350 1500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1426,36 +1356,6 @@ Wire Notes Line
 Text Notes 7700 3800 0    50   ~ 0
 i2c hot-swap
 Wire Wire Line
-	3800 6150 4400 6150
-Wire Wire Line
-	4400 6150 4400 6000
-Wire Wire Line
-	4400 6000 6400 6000
-Wire Wire Line
-	6400 6000 6400 6600
-Wire Wire Line
-	6400 6600 5700 6600
-Wire Wire Line
-	3800 6050 4350 6050
-Wire Wire Line
-	4350 6050 4350 5950
-Wire Wire Line
-	4350 5950 6350 5950
-Wire Wire Line
-	6350 5950 6350 6500
-Wire Wire Line
-	6350 6500 5700 6500
-Wire Wire Line
-	3800 5950 4300 5950
-Wire Wire Line
-	4300 5950 4300 5850
-Wire Wire Line
-	4300 5850 6300 5850
-Wire Wire Line
-	6300 5850 6300 6400
-Wire Wire Line
-	6300 6400 5700 6400
-Wire Wire Line
 	3800 5850 4250 5850
 Wire Wire Line
 	4250 5850 4250 5800
@@ -1526,17 +1426,4 @@ F 3 "" H 1100 3000 50  0001 C CNN
 $EndComp
 Text Label 1100 3200 0    50   ~ 0
 RST
-Wire Wire Line
-	9350 1800 9800 1800
-$Comp
-L power:VCC #PWR010
-U 1 1 5F1C2196
-P 9350 1800
-F 0 "#PWR010" H 9350 1650 50  0001 C CNN
-F 1 "VCC" V 9350 1950 50  0000 L CNN
-F 2 "" H 9350 1800 50  0001 C CNN
-F 3 "" H 9350 1800 50  0001 C CNN
-	1    9350 1800
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC
