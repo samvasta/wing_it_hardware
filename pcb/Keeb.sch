@@ -671,22 +671,21 @@ Wire Wire Line
 Wire Notes Line
 	11050 2050 9000 2050
 $Sheet
-S 4950 6150 750  850 
+S 4350 6600 750  850 
 U 5D9DA1AD
 F0 "SwitchMatrix" 50
 F1 "SwitchMatrix.sch" 50
-F2 "Row0" I L 4950 6200 50 
-F3 "Col7" O R 5700 6900 50 
-F4 "Row1" I L 4950 6300 50 
-F5 "Row2" I L 4950 6400 50 
-F6 "Row3" I L 4950 6500 50 
-F7 "Col0" O R 5700 6200 50 
-F8 "Col1" O R 5700 6300 50 
-F9 "Col2" O R 5700 6400 50 
-F10 "Col3" O R 5700 6500 50 
-F11 "Col4" O R 5700 6600 50 
-F12 "Col5" O R 5700 6700 50 
-F13 "Col6" O R 5700 6800 50 
+F2 "Row0" I L 4350 6650 50 
+F3 "Row1" I L 4350 6750 50 
+F4 "Row2" I L 4350 6850 50 
+F5 "Row3" I L 4350 6950 50 
+F6 "Col0" O R 5100 6650 50 
+F7 "Col1" O R 5100 6750 50 
+F8 "Col2" O R 5100 6850 50 
+F9 "Col3" O R 5100 6950 50 
+F10 "Col4" O R 5100 7050 50 
+F11 "Col5" O R 5100 7150 50 
+F12 "Col6" O R 5100 7250 50 
 $EndSheet
 $Comp
 L power:VCC #PWR06
@@ -833,48 +832,6 @@ Wire Notes Line
 	6600 7750 700  7750
 Wire Notes Line
 	700  5200 6600 5200
-Wire Wire Line
-	3800 7350 6450 7350
-Wire Wire Line
-	6450 7350 6450 6900
-Wire Wire Line
-	5700 6900 6450 6900
-Wire Wire Line
-	5700 6800 6400 6800
-Wire Wire Line
-	6400 6800 6400 7250
-Wire Wire Line
-	6400 7250 3800 7250
-Wire Wire Line
-	3800 7150 6300 7150
-Wire Wire Line
-	6300 7150 6300 6700
-Wire Wire Line
-	6300 6700 5700 6700
-Wire Wire Line
-	3800 6650 4500 6650
-Wire Wire Line
-	4500 6650 4500 6200
-Wire Wire Line
-	4500 6200 4950 6200
-Wire Wire Line
-	3800 6750 4600 6750
-Wire Wire Line
-	4600 6750 4600 6300
-Wire Wire Line
-	4600 6300 4950 6300
-Wire Wire Line
-	3800 6850 4700 6850
-Wire Wire Line
-	4700 6850 4700 6400
-Wire Wire Line
-	4700 6400 4950 6400
-Wire Wire Line
-	3800 6950 4800 6950
-Wire Wire Line
-	4800 6950 4800 6500
-Wire Wire Line
-	4800 6500 4950 6500
 Wire Wire Line
 	6700 3050 6850 3050
 Wire Wire Line
@@ -1056,10 +1013,10 @@ F 3 "~" H 10300 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 4600 10200 4600
-Text Label 3950 6250 0    50   ~ 0
+Text Label 4150 7700 0    50   ~ 0
 IO_Connected
 Wire Wire Line
-	3800 6250 3950 6250
+	4000 7700 4150 7700
 $Comp
 L Device:LED D?
 U 1 1 5DC75EFD
@@ -1425,52 +1382,6 @@ Wire Notes Line
 	7650 3700 7650 5100
 Text Notes 7700 3800 0    50   ~ 0
 i2c hot-swap
-Wire Wire Line
-	3800 6150 4400 6150
-Wire Wire Line
-	4400 6150 4400 6000
-Wire Wire Line
-	4400 6000 6400 6000
-Wire Wire Line
-	6400 6000 6400 6600
-Wire Wire Line
-	6400 6600 5700 6600
-Wire Wire Line
-	3800 6050 4350 6050
-Wire Wire Line
-	4350 6050 4350 5950
-Wire Wire Line
-	4350 5950 6350 5950
-Wire Wire Line
-	6350 5950 6350 6500
-Wire Wire Line
-	6350 6500 5700 6500
-Wire Wire Line
-	3800 5950 4300 5950
-Wire Wire Line
-	4300 5950 4300 5850
-Wire Wire Line
-	4300 5850 6300 5850
-Wire Wire Line
-	6300 5850 6300 6400
-Wire Wire Line
-	6300 6400 5700 6400
-Wire Wire Line
-	3800 5850 4250 5850
-Wire Wire Line
-	4250 5850 4250 5800
-Wire Wire Line
-	4250 5800 6200 5800
-Wire Wire Line
-	6200 5800 6200 6300
-Wire Wire Line
-	6200 6300 5700 6300
-Wire Wire Line
-	3800 5750 6150 5750
-Wire Wire Line
-	6150 5750 6150 6200
-Wire Wire Line
-	6150 6200 5700 6200
 Text Label 1100 3500 0    50   ~ 0
 SCK
 Text Label 1100 3300 0    50   ~ 0
@@ -1539,4 +1450,79 @@ F 3 "" H 9350 1800 50  0001 C CNN
 	1    9350 1800
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	5400 6350 5400 7250
+Wire Wire Line
+	5400 7250 5100 7250
+Wire Wire Line
+	5500 6250 5500 7150
+Wire Wire Line
+	5500 7150 5100 7150
+Wire Wire Line
+	5600 6150 5600 7050
+Wire Wire Line
+	5600 7050 5100 7050
+Wire Wire Line
+	5700 6050 5700 6950
+Wire Wire Line
+	5700 6950 5100 6950
+Wire Wire Line
+	5800 5950 5800 6850
+Wire Wire Line
+	5800 6850 5100 6850
+Wire Wire Line
+	5900 5850 5900 6750
+Wire Wire Line
+	5900 6750 5100 6750
+Wire Wire Line
+	3800 6650 4350 6650
+Wire Wire Line
+	4350 6750 3800 6750
+Wire Wire Line
+	3800 6850 4350 6850
+Wire Wire Line
+	4350 6950 3800 6950
+Wire Wire Line
+	5400 6350 3800 6350
+Wire Wire Line
+	3800 6250 5500 6250
+Wire Wire Line
+	5600 6150 3800 6150
+Wire Wire Line
+	3800 6050 5700 6050
+Wire Wire Line
+	5800 5950 3800 5950
+Wire Wire Line
+	3800 5850 5900 5850
+Wire Wire Line
+	3800 5750 6000 5750
+Wire Wire Line
+	6000 5750 6000 6650
+Wire Wire Line
+	6000 6650 5100 6650
+Wire Wire Line
+	3800 7350 4000 7350
+Wire Wire Line
+	4000 7350 4000 7700
+NoConn ~ 3800 6450
+NoConn ~ 3800 7250
+NoConn ~ 3800 7150
+NoConn ~ 3800 7050
+NoConn ~ 2400 6450
+NoConn ~ 2400 6350
+NoConn ~ 6700 2650
+NoConn ~ 6700 2750
+NoConn ~ 6700 2850
+NoConn ~ 6700 2950
+NoConn ~ 4550 4250
+NoConn ~ 4550 4350
+NoConn ~ 4550 4450
+NoConn ~ 6700 4250
+NoConn ~ 6700 4150
+NoConn ~ 6700 4050
+NoConn ~ 6700 3950
+NoConn ~ 6700 3850
+NoConn ~ 6700 3750
+NoConn ~ 6700 3650
+NoConn ~ 6700 3550
 $EndSCHEMATC
