@@ -1,4 +1,4 @@
-17150352670528575
+17148747178540575
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -69454,6 +69454,13 @@ MCP73833T-AMI-UN
 10
 10
 SVastaCustomParts
+MCP231017-SOIC28-wide
+SOIC, 28 Pin (JEDEC MS-013AE, https://www.analog.com/media/en/package-pcb-resources/package/35833120341221rw_28.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+28
+28
+SVastaCustomParts
 MDBT40
 
 
@@ -69615,13 +69622,6 @@ i2cToSpiText
 0
 0
 SVastaCustomParts
-oled_128x64
-
-
-0
-8
-4
-SVastaCustomParts
 pigeon
 
 
@@ -69642,13 +69642,6 @@ stratus
 0
 0
 0
-SVastaCustomParts
-switch_off_board
-
-
-0
-2
-2
 SVastaCustomParts
 wing_it
 

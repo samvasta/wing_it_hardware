@@ -414,8 +414,6 @@ F 3 "" H 6850 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 4350 6850 4350
-Text GLabel 9350 1100 0    50   Input ~ 0
-SCL
 Text GLabel 3800 4150 0    50   Input ~ 0
 SDA
 Text GLabel 3800 4050 0    50   Input ~ 0
@@ -480,17 +478,6 @@ Wire Wire Line
 Connection ~ 3950 4750
 Wire Wire Line
 	3950 4750 3800 4750
-$Comp
-L Keeb-rescue:TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue J1
-U 1 1 5D8C84D5
-P 10050 750
-F 0 "J1" H 9822 501 50  0000 R CNN
-F 1 "TRRS_SJ1-42514" H 9822 410 50  0000 R CNN
-F 2 "SVastaCustomParts:3.5mm_Cut_out" H 10050 150 50  0000 C CNN
-F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 10050 750 50  0001 C CNN
-	1    10050 750 
-	-1   0    0    -1  
-$EndComp
 Text Notes 1250 5150 2    50   ~ 0
 Switch matrix
 Wire Wire Line
@@ -609,65 +596,14 @@ F 3 "" H 5600 3400 60  0001 C CNN
 	1    5600 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0129
-U 1 1 5E03963C
-P 9350 1200
-F 0 "#PWR0129" H 9350 1050 50  0001 C CNN
-F 1 "VCC" V 9350 1350 50  0000 L CNN
-F 2 "" H 9350 1200 50  0001 C CNN
-F 3 "" H 9350 1200 50  0001 C CNN
-	1    9350 1200
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9350 1000 0    50   Input ~ 0
-SDA
-Text Label 10150 5950 2    50   ~ 0
-CapsLock
-Text Label 10150 6300 2    50   ~ 0
-NumLock
 Wire Notes Line
 	700  5050 700  7750
 Wire Notes Line
 	6600 5200 6600 7750
-$Comp
-L Device:R R?
-U 1 1 5DC64F1A
-P 10600 6300
-AR Path="/5DF457A9/5DC64F1A" Ref="R?"  Part="1" 
-AR Path="/5DC64F1A" Ref="R402"  Part="1" 
-F 0 "R402" V 10700 6200 50  0000 L CNN
-F 1 "470" V 10600 6200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10530 6300 50  0001 C CNN
-F 3 "~" H 10600 6300 50  0001 C CNN
-	1    10600 6300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5DC64F13
-P 10300 6300
-AR Path="/5DF457A9/5DC64F13" Ref="D?"  Part="1" 
-AR Path="/5DC64F13" Ref="D402"  Part="1" 
-F 0 "D402" H 10300 6400 50  0000 C CNN
-F 1 "NUM" H 10300 6500 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 6300 50  0001 C CNN
-F 3 "~" H 10300 6300 50  0001 C CNN
-	1    10300 6300
-	-1   0    0    -1  
-$EndComp
 Text Label 6850 3050 0    50   ~ 0
 CapsLock
 Text Label 6850 3150 0    50   ~ 0
 NumLock
-Wire Wire Line
-	9350 900  9800 900 
-Wire Wire Line
-	9350 1000 9800 1000
-Wire Wire Line
-	9350 1100 9800 1100
-Wire Wire Line
-	9350 1200 9800 1200
 Wire Notes Line
 	11050 2050 9000 2050
 $Sheet
@@ -710,7 +646,7 @@ U 1 1 5EE80725
 P 3100 6550
 F 0 "U3" H 3100 7831 50  0000 C CNN
 F 1 "MCP23017_SO" H 3100 7740 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 3300 5550 50  0001 L CNN
+F 2 "SVastaCustomParts:MCP231017-SOIC28-wide" H 3300 5550 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3300 5450 50  0001 L CNN
 	1    3100 6550
 	1    0    0    -1  
@@ -840,8 +776,6 @@ Text Label 2150 6650 0    50   ~ 0
 RST
 Wire Wire Line
 	2400 6650 2150 6650
-Text Label 10150 5600 2    50   ~ 0
-IO_Connected
 $Comp
 L SVastaCustomParts:PI6ULS5V9511AWEX_I2C_HotSwap U2
 U 1 1 5ECFE0EF
@@ -998,64 +932,8 @@ Text GLabel 2250 5850 0    50   Input ~ 0
 SCL_Clean
 Text GLabel 2250 5750 0    50   Input ~ 0
 SDA_Clean
-$Comp
-L Device:LED D?
-U 1 1 5EFC2556
-P 10300 5600
-AR Path="/5DF457A9/5EFC2556" Ref="D?"  Part="1" 
-AR Path="/5EFC2556" Ref="D403"  Part="1" 
-F 0 "D403" H 10300 5700 50  0000 C CNN
-F 1 "CONN" H 10300 5800 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 5600 50  0001 C CNN
-F 3 "~" H 10300 5600 50  0001 C CNN
-	1    10300 5600
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9750 4600 10200 4600
-Text Label 4150 7700 0    50   ~ 0
-IO_Connected
-Wire Wire Line
-	4000 7700 4150 7700
-$Comp
-L Device:LED D?
-U 1 1 5DC75EFD
-P 10300 5950
-AR Path="/5DF457A9/5DC75EFD" Ref="D?"  Part="1" 
-AR Path="/5DC75EFD" Ref="D401"  Part="1" 
-F 0 "D401" H 10300 6050 50  0000 C CNN
-F 1 "CAPS" H 10300 6150 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10300 5950 50  0001 C CNN
-F 3 "~" H 10300 5950 50  0001 C CNN
-	1    10300 5950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F167B0A
-P 10600 5950
-AR Path="/5DF457A9/5F167B0A" Ref="R?"  Part="1" 
-AR Path="/5F167B0A" Ref="R401"  Part="1" 
-F 0 "R401" V 10700 5850 50  0000 L CNN
-F 1 "470" V 10600 5850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10530 5950 50  0001 C CNN
-F 3 "~" H 10600 5950 50  0001 C CNN
-	1    10600 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1742C1
-P 10600 5600
-AR Path="/5DF457A9/5F1742C1" Ref="R?"  Part="1" 
-AR Path="/5F1742C1" Ref="R403"  Part="1" 
-F 0 "R403" V 10700 5500 50  0000 L CNN
-F 1 "470" V 10600 5500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10530 5600 50  0001 C CNN
-F 3 "~" H 10600 5600 50  0001 C CNN
-	1    10600 5600
-	0    -1   -1   0   
-$EndComp
 Text GLabel 9350 1700 0    50   Input ~ 0
 SCL
 $Comp
@@ -1175,17 +1053,6 @@ F 3 "" H 7300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
-U 1 1 5F38EF97
-P 9350 900
-F 0 "#PWR0113" H 9350 650 50  0001 C CNN
-F 1 "GND" H 9355 727 50  0000 C CNN
-F 2 "" H 9350 900 50  0001 C CNN
-F 3 "" H 9350 900 50  0001 C CNN
-	1    9350 900 
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0114
 U 1 1 5F39B361
 P 9350 1500
@@ -1208,39 +1075,6 @@ F 3 "" H 8850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8850 4850
-$Comp
-L power:GND #PWR0123
-U 1 1 5F408FED
-P 10750 5600
-F 0 "#PWR0123" H 10750 5350 50  0001 C CNN
-F 1 "GND" H 10755 5427 50  0000 C CNN
-F 2 "" H 10750 5600 50  0001 C CNN
-F 3 "" H 10750 5600 50  0001 C CNN
-	1    10750 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5F415395
-P 10750 5950
-F 0 "#PWR0124" H 10750 5700 50  0001 C CNN
-F 1 "GND" H 10755 5777 50  0000 C CNN
-F 2 "" H 10750 5950 50  0001 C CNN
-F 3 "" H 10750 5950 50  0001 C CNN
-	1    10750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 5F42168B
-P 10750 6300
-F 0 "#PWR0125" H 10750 6050 50  0001 C CNN
-F 1 "GND" H 10755 6127 50  0000 C CNN
-F 2 "" H 10750 6300 50  0001 C CNN
-F 3 "" H 10750 6300 50  0001 C CNN
-	1    10750 6300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6700 4450 6900 4450
 $Comp
@@ -1363,7 +1197,7 @@ U 1 1 5ED38A19
 P 7950 5600
 F 0 "OLED1" H 8030 5592 50  0000 L CNN
 F 1 "Conn_01x04" H 8030 5501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7950 5600 50  0001 C CNN
+F 2 "SVastaCustomParts:128x64px_OLED_I2C" H 7950 5600 50  0001 C CNN
 F 3 "~" H 7950 5600 50  0001 C CNN
 	1    7950 5600
 	1    0    0    -1  
@@ -1500,10 +1334,6 @@ Wire Wire Line
 	6000 5750 6000 6650
 Wire Wire Line
 	6000 6650 5100 6650
-Wire Wire Line
-	3800 7350 4000 7350
-Wire Wire Line
-	4000 7350 4000 7700
 NoConn ~ 3800 6450
 NoConn ~ 3800 7250
 NoConn ~ 3800 7150
@@ -1525,4 +1355,5 @@ NoConn ~ 6700 3850
 NoConn ~ 6700 3750
 NoConn ~ 6700 3650
 NoConn ~ 6700 3550
+NoConn ~ 3800 7350
 $EndSCHEMATC
