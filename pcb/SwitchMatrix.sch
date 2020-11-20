@@ -511,7 +511,7 @@ U 1 1 5D9EE1FD
 P 9250 2350
 F 0 "K26" H 9250 2650 60  0000 C CNN
 F 1 "KEYSW" H 9250 2250 60  0001 C CNN
-F 2 "SVastaCustomParts:Kailh_socket_reversible" H 9250 2583 60  0001 C CNN
+F 2 "SVastaCustomParts:switch_off_board" H 9250 2583 60  0001 C CNN
 F 3 "" H 9250 2350 60  0000 C CNN
 	1    9250 2350
 	1    0    0    -1  
@@ -522,7 +522,7 @@ U 1 1 5D9EE207
 P 9250 2950
 F 0 "K36" H 9250 3289 60  0000 C CNN
 F 1 "KEYSW" H 9250 2850 60  0001 C CNN
-F 2 "SVastaCustomParts:Kailh_socket_reversible" H 9250 3183 60  0001 C CNN
+F 2 "SVastaCustomParts:switch_off_board" H 9250 3183 60  0001 C CNN
 F 3 "" H 9250 2950 60  0000 C CNN
 	1    9250 2950
 	1    0    0    -1  
