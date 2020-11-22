@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name SVastaCustomParts)(type KiCad)(uri ${KIPRJMOD}/../kicad_resources/SVastaCustomParts.pretty)(options "")(descr ""))
-)
