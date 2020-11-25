@@ -56,7 +56,7 @@ U 1 1 5EE80725
 P 3050 2150
 F 0 "U3" H 3050 3431 50  0000 C CNN
 F 1 "MCP23017_SO" H 3050 3340 50  0000 C CNN
-F 2 "SVastaCustomParts:MCP231017-SOIC28-wide" H 3250 1150 50  0001 L CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 3250 1150 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3250 1050 50  0001 L CNN
 	1    3050 2150
 	1    0    0    -1  
@@ -462,13 +462,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 2350 5050 2350
 Wire Wire Line
-	3750 2250 4300 2250
-Wire Wire Line
-	4300 2350 3750 2350
-Wire Wire Line
-	3750 2450 4300 2450
-Wire Wire Line
-	4300 2550 3750 2550
+	4300 2550 4000 2550
 Wire Wire Line
 	5350 1950 3750 1950
 Wire Wire Line
@@ -539,4 +533,84 @@ F 3 "" H 1250 5900 50  0001 C CNN
 	1    1250 5900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x12_Female J3
+U 1 1 5FBDE2F6
+P 6500 1850
+F 0 "J3" H 6528 1826 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 6528 1735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6500 1850 50  0001 C CNN
+F 3 "~" H 6500 1850 50  0001 C CNN
+	1    6500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1350 6300 1350
+Connection ~ 5950 1350
+Wire Wire Line
+	6300 1450 5850 1450
+Connection ~ 5850 1450
+Wire Wire Line
+	5750 1550 6300 1550
+Connection ~ 5750 1550
+Wire Wire Line
+	6300 1650 5650 1650
+Connection ~ 5650 1650
+Wire Wire Line
+	5550 1750 6300 1750
+Connection ~ 5550 1750
+Wire Wire Line
+	5450 1850 6300 1850
+Connection ~ 5450 1850
+Wire Wire Line
+	5350 1950 6300 1950
+Connection ~ 5350 1950
+Wire Wire Line
+	3750 2450 4050 2450
+Wire Wire Line
+	4300 2350 4100 2350
+Wire Wire Line
+	3750 2250 4150 2250
+Wire Wire Line
+	6300 2150 6150 2150
+Wire Wire Line
+	6150 2150 6150 3150
+Wire Wire Line
+	6150 3150 4150 3150
+Wire Wire Line
+	4150 3150 4150 2250
+Connection ~ 4150 2250
+Wire Wire Line
+	4150 2250 4300 2250
+Wire Wire Line
+	4100 2350 4100 3200
+Wire Wire Line
+	4100 3200 6200 3200
+Wire Wire Line
+	6200 3200 6200 2250
+Wire Wire Line
+	6200 2250 6300 2250
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 3750 2350
+Wire Wire Line
+	6300 2350 6250 2350
+Wire Wire Line
+	6250 2350 6250 3250
+Wire Wire Line
+	6250 3250 4050 3250
+Wire Wire Line
+	4050 3250 4050 2450
+Connection ~ 4050 2450
+Wire Wire Line
+	4050 2450 4300 2450
+Wire Wire Line
+	4000 2550 4000 3300
+Wire Wire Line
+	4000 3300 6300 3300
+Wire Wire Line
+	6300 3300 6300 2450
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 3750 2550
 $EndSCHEMATC
