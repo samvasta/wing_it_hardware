@@ -178,10 +178,6 @@ Wire Notes Line
 	6550 3350 650  3350
 Wire Notes Line
 	650  800  6550 800 
-Text Label 2100 2250 0    50   ~ 0
-RST
-Wire Wire Line
-	2350 2250 2100 2250
 $Comp
 L SVastaCustomParts:PI6ULS5V9511AWEX_I2C_HotSwap U2
 U 1 1 5ECFE0EF
@@ -340,42 +336,10 @@ Text GLabel 2200 1350 0    50   Input ~ 0
 SDA_Clean
 Wire Wire Line
 	2750 4500 3200 4500
-Text GLabel 1000 6350 0    50   Input ~ 0
-SCL
-$Comp
-L Keeb-rescue:TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue J2
-U 1 1 5F1C218A
-P 1700 6000
-F 0 "J2" H 1472 5751 50  0000 R CNN
-F 1 "TRRS_SJ1-42514" H 1472 5660 50  0000 R CNN
-F 2 "SVastaCustomParts:3.5mm_Cut_out" H 1700 5400 50  0000 C CNN
-F 3 "https://www.cui.com/product/resource/sj1-4251x-series.pdf" H 1700 6000 50  0001 C CNN
-	1    1700 6000
-	-1   0    0    -1  
-$EndComp
-Text GLabel 1000 6250 0    50   Input ~ 0
-SDA
-Wire Wire Line
-	1000 6150 1450 6150
-Wire Wire Line
-	1000 6250 1450 6250
-Wire Wire Line
-	1000 6350 1450 6350
 Wire Notes Line
 	2700 5400 2700 6700
 Wire Notes Line
 	650  6700 650  5250
-$Comp
-L power:GND #PWR0114
-U 1 1 5F39B361
-P 1000 6150
-F 0 "#PWR0114" H 1000 5900 50  0001 C CNN
-F 1 "GND" H 1005 5977 50  0000 C CNN
-F 2 "" H 1000 6150 50  0001 C CNN
-F 3 "" H 1000 6150 50  0001 C CNN
-	1    1000 6150
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 5F3A7741
@@ -424,19 +388,6 @@ Wire Notes Line
 	650  3600 650  5000
 Text Notes 700  3700 0    50   ~ 0
 i2c hot-swap
-Wire Wire Line
-	1000 6450 1450 6450
-$Comp
-L power:VCC #PWR010
-U 1 1 5F1C2196
-P 1000 6450
-F 0 "#PWR010" H 1000 6300 50  0001 C CNN
-F 1 "VCC" V 1000 6600 50  0000 L CNN
-F 2 "" H 1000 6450 50  0001 C CNN
-F 3 "" H 1000 6450 50  0001 C CNN
-	1    1000 6450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5350 1950 5350 2850
 Wire Wire Line
@@ -613,4 +564,15 @@ Wire Wire Line
 Connection ~ 4000 2550
 Wire Wire Line
 	4000 2550 3750 2550
+Wire Wire Line
+	2350 2250 2000 2250
+Wire Wire Line
+	2000 2250 2000 1600
+Wire Wire Line
+	2000 1600 1150 1600
+Wire Wire Line
+	1150 1600 1150 2300
+Wire Wire Line
+	1150 2300 1400 2300
+NoConn ~ 6300 2050
 $EndSCHEMATC

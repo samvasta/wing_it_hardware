@@ -213,27 +213,6 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Keeb-rescue_TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue
-#
-DEF Keeb-rescue_TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue J 0 40 Y Y 1 F N
-F0 "J" 0 0 50 H V C CNN
-F1 "Keeb-rescue_TRRS_SJ1-42514-SVastaCustomParts-Keeb-rescue" 0 0 50 H V C CNN
-F2 "SVastaCustomParts:TRRS_SJ1-42514" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 -200 -150 -400 0 1 0 F
-S -200 -100 150 -500 0 1 0 f
-P 3 0 1 0 150 -150 -150 -150 -150 -250 N
-P 4 0 1 0 150 -450 100 -450 50 -400 0 -450 N
-P 4 0 1 0 150 -350 50 -350 0 -400 -50 -350 N
-P 4 0 1 0 150 -250 0 -250 -50 -300 -100 -250 N
-X ~ 1 250 -150 100 L 50 50 1 1 B
-X ~ 2 250 -450 100 L 50 50 1 1 B
-X ~ 3 250 -350 100 L 50 50 1 1 B
-X ~ 4 250 -250 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # SVastaCustomParts_PI6ULS5V9511AWEX_I2C_HotSwap
 #
 DEF SVastaCustomParts_PI6ULS5V9511AWEX_I2C_HotSwap U 0 40 Y Y 1 F N
